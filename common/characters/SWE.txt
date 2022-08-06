@@ -1,0 +1,166 @@
+characters = {
+	SWE_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	SWE_lars_ohly = {
+		name = "Lars Ohly"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Lars_Ohly.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWE_LARS_OHLY_DESC
+		}
+	}
+	SWE_ingela_thalen = {
+		name = "Ingela Thalén"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Ingela_Thalen.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWE_INGELA_THALEN_DESC
+		}
+	}
+	SWE_gudrun_schyman = {
+		name = "Gudrun Schyman"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Gudrun_Schyman.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWE_GUDRUN_SCHYMAN_DESC
+		}
+	}
+	SWE_goran_persson = {
+		name = "Göran Persson"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Goran_Persson.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_corporatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWE_GORAN_PERSSON_DESC
+		}
+	}
+	SWE_maud_olofsson = {
+		name = "Maud Olofsson"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Maud_Olofsson.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWE_MAUD_OLOFSSON_DESC
+		}
+	}
+	SWE_fredrik_reinfeldt = {
+		name = "Fredrik Reinfeldt"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Fredrik_Reinfeldt.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWE_FREDRIK_REINFELDT_DESC
+		}
+	}
+	SWE_goran_hagglund = {
+		name = "Göran Hägglund"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Goran_Hagglund.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWE_GORAN_HAGGLUND_DESC
+		}
+	}
+	SWE_jorgen_ericsson = {
+		name = "Jörgen Ericsson"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Jorgen_Ericsson.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWE_JORGEN_ERICSSON_DESC
+		}
+	}
+	SWE_king_carl_xvi_gustaf = {
+		name = "King Carl XVI Gustaf"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_King_Carl_XVI_Gustaf.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWE_KING_CARL_XVI_GUSTAF_DESC
+		}
+	}
+	SWE_jimmie_akesson = {
+		name = "Jimmie Åkesson"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Jimmie_Akesson.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWE_JIMMIE_AKESSON_DESC
+		}
+	}
+}

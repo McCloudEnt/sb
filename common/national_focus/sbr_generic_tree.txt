@@ -1,0 +1,1001 @@
+focus_tree = {
+	id = sbr_generic_tree
+	continuous_focus_position = { x = 25 y = 1700 } 
+	country = {
+		factor = 100
+	}
+	#GEN_liberalise_economy
+	focus = {
+		id = GEN_gen_liberalise_economy
+		icon = low_company_tax
+		x = 3
+		y = 5
+		cost = 10
+		prerequisite = { focus = GEN_gen_side_conservative  }
+	}
+
+	#GEN_promote_equality
+	focus = {
+		id = GEN_gen_promote_equality
+		icon = improve_relations
+		x = 6
+		y = 3
+		cost = 10
+		prerequisite = { focus = GEN_gen_social_policies  }
+	}
+
+	#GEN_social_programs
+	focus = {
+		id = GEN_gen_social_programs
+		icon = concessions
+		x = 7
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_promote_equality  } prerequisite = { focus = GEN_gen_moderate_intervention  }
+	}
+
+	#GEN_centralization
+	focus = {
+		id = GEN_gen_centralization
+		icon = forceful_treaty
+		x = 5
+		y = 5
+		cost = 10
+		prerequisite = { focus = GEN_gen_side_social  }
+	}
+
+	#GEN_patriotic_education
+	focus = {
+		id = GEN_gen_patriotic_education
+		icon = patriotic_education
+		x = 18
+		y = 3
+		cost = 10
+		prerequisite = { focus = GEN_gen_strong_government  }
+	}
+
+	#GEN_political_focus
+	focus = {
+		id = GEN_gen_political_focus
+		icon = demand_territory
+		x = 13
+		y = 0
+		cost = 10
+	}
+
+	#GEN_infrastructure_focus
+	focus = {
+		id = GEN_gen_infrastructure_focus
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
+		y = 8
+		cost = 10
+		prerequisite = { focus = GEN_gen_economy_focus  }
+	}
+
+	#GEN_economy_focus
+	focus = {
+		id = GEN_gen_economy_focus
+		icon = GFX_goal_generic_consumer_goods
+		x = 5
+		y = 7
+		cost = 10
+	}
+
+	#GEN_liberty
+	focus = {
+		id = GEN_gen_liberty
+		icon = democracy
+		x = 4
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_gen_political_focus  }
+		available = { OR = { has_government = conservative_democracy has_government = liberal_democracy has_government = social_democracy } }
+		mutually_exclusive = { focus = GEN_gen_equality  } mutually_exclusive = { focus = GEN_gen_fraternity  }
+	}
+
+	#GEN_equality
+	focus = {
+		id = GEN_gen_equality
+		icon = communism_3
+		x = 13
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_gen_political_focus  }
+		available = { OR = { has_government = revisionist_socialism has_government = marxism_leninism has_government = libertarian_socialism } }
+		mutually_exclusive = { focus = GEN_gen_liberty  } mutually_exclusive = { focus = GEN_gen_fraternity  }
+	}
+
+	#GEN_fraternity
+	focus = {
+		id = GEN_gen_fraternity
+		icon = fascism_2
+		x = 22
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_gen_political_focus }
+		available = { OR = { has_government = classical_authoritarianism has_government = despotism has_government = ultranationalism } }
+		mutually_exclusive = { focus = GEN_gen_liberty  } mutually_exclusive = { focus = GEN_gen_equality  }
+	}
+
+	#GEN_conservative_policies
+	focus = {
+		id = GEN_gen_conservative_policies
+		icon = focus_ideology_conservative_democracy
+		x = 1
+		y = 2
+		cost = 10
+		prerequisite = { focus = GEN_gen_liberty  }
+		available = { has_government = conservative_democracy }
+		mutually_exclusive = { focus = GEN_gen_liberal_policies  } mutually_exclusive = { focus = GEN_gen_social_policies  }
+	}
+
+	#GEN_liberal_policies
+	focus = {
+		id = GEN_gen_liberal_policies
+		icon = focus_ideology_liberal_democracy
+		x = 4
+		y = 2
+		cost = 10
+		prerequisite = { focus = GEN_gen_liberty  }
+		available = { has_government = liberal_democracy }
+		mutually_exclusive = { focus = GEN_gen_conservative_policies  } mutually_exclusive = { focus = GEN_gen_social_policies  }
+	}
+
+	#GEN_social_policies
+	focus = {
+		id = GEN_gen_social_policies
+		icon = focus_ideology_social_democracy
+		x = 7
+		y = 2
+		cost = 10
+		prerequisite = { focus = GEN_gen_liberty  }
+		available = { has_government = social_democracy }
+		mutually_exclusive = { focus = GEN_gen_conservative_policies  } mutually_exclusive = { focus = GEN_gen_liberal_policies  }
+	}
+
+	#GEN_orthodox_centre
+	focus = {
+		id = GEN_gen_orthodox_centre
+		icon = focus_ideology_marxism_leninism
+		x = 13
+		y = 2
+		cost = 10
+		prerequisite = { focus = GEN_gen_equality  }
+		available = { has_government = marxism_leninism }
+		mutually_exclusive = { focus = GEN_gen_revisionist_left  } mutually_exclusive = { focus = GEN_gen_libertarian_right  }
+	}
+
+	#GEN_moderate_intervention
+	focus = {
+		id = GEN_gen_moderate_intervention
+		icon = agrarian_socialism
+		x = 8
+		y = 3
+		cost = 10
+		prerequisite = { focus = GEN_gen_social_policies  }
+	}
+
+	#GEN_revisionist_left
+	focus = {
+		id = GEN_gen_revisionist_left
+		icon = focus_ideology_revisionist_socialism
+		x = 10
+		y = 2
+		cost = 10
+		prerequisite = { focus = GEN_gen_equality  }
+		available = { has_government = revisionist_socialism }
+		mutually_exclusive = { focus = GEN_gen_orthodox_centre  } mutually_exclusive = { focus = GEN_gen_libertarian_right  }
+	}
+
+	#GEN_libertarian_right
+	focus = {
+		id = GEN_gen_libertarian_right
+		icon = focus_ideology_libertarian_socialism
+		x = 16
+		y = 2
+		cost = 10
+		prerequisite = { focus = GEN_gen_equality  }
+		available = { has_government = libertarian_socialism }
+		mutually_exclusive = { focus = GEN_gen_orthodox_centre  } mutually_exclusive = { focus = GEN_gen_revisionist_left  }
+	}
+
+	#GEN_welfare_state
+	focus = {
+		id = GEN_gen_welfare_state
+		icon = focus_socialist_propaganda
+		x = 7
+		y = 5
+		cost = 10
+		prerequisite = { focus = GEN_gen_social_programs  }
+	}
+
+	#GEN_side_conservative
+	focus = {
+		id = GEN_gen_side_conservative
+		icon = focus_ideology_conservative_democracy
+		x = 3
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_liberal_policies  }
+		mutually_exclusive = { focus = GEN_gen_side_social  }
+	}
+
+	#GEN_corporate_welfare
+	focus = {
+		id = GEN_gen_corporate_welfare
+		icon = focus_tax_rebate
+		x = 1
+		y = 5
+		cost = 10
+		prerequisite = { focus = GEN_gen_fiscal_conservatism  }
+	}
+
+	#GEN_uphold_values
+	focus = {
+		id = GEN_gen_uphold_values
+		icon = traditional_values
+		x = 0
+		y = 3
+		cost = 10
+		prerequisite = { focus = GEN_gen_conservative_policies  }
+	}
+
+	#GEN_mild_militarism
+	focus = {
+		id = GEN_gen_mild_militarism
+		icon = generic_marching
+		x = 2
+		y = 3
+		cost = 10
+		prerequisite = { focus = GEN_gen_conservative_policies  }
+	}
+
+	#GEN_fiscal_conservatism
+	focus = {
+		id = GEN_gen_fiscal_conservatism
+		icon = focus_ford
+		x = 1
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_uphold_values  } prerequisite = { focus = GEN_gen_mild_militarism  }
+	}
+
+	#GEN_strong_leader
+	focus = {
+		id = GEN_gen_strong_leader
+		icon = focus_ideology_despotism
+		x = 22
+		y = 2
+		cost = 10
+		prerequisite = { focus = GEN_gen_fraternity  }
+		available = { has_government = despotism }
+		mutually_exclusive = { focus = GEN_gen_strong_government  } mutually_exclusive = { focus = GEN_gen_strong_nation  }
+	}
+
+	#GEN_strong_nation
+	focus = {
+		id = GEN_gen_strong_nation
+		icon = focus_ideology_ultranationalism
+		x = 25
+		y = 2
+		cost = 10
+		prerequisite = { focus = GEN_gen_fraternity  }
+		available = { has_government = ultranationalism }
+		mutually_exclusive = { focus = GEN_gen_strong_government  } mutually_exclusive = { focus = GEN_gen_strong_leader  }
+	}
+
+	#GEN_strong_government
+	focus = {
+		id = GEN_gen_strong_government
+		icon = focus_ideology_classical_authoritarianism
+		x = 19
+		y = 2
+		cost = 10
+		prerequisite = { focus = GEN_gen_fraternity  }
+		available = { has_government = classical_authoritarianism }
+		mutually_exclusive = { focus = GEN_gen_strong_leader  } mutually_exclusive = { focus = GEN_gen_strong_nation  }
+	}
+
+	#GEN_national_purity
+	focus = {
+		id = GEN_gen_national_purity
+		icon = dangerous_deal
+		x = 26
+		y = 3
+		cost = 10
+		prerequisite = { focus = GEN_gen_strong_nation  }
+	}
+
+	#GEN_high_militarism
+	focus = {
+		id = GEN_gen_high_militarism
+		icon = army_reform
+		x = 25
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_kill_leftism  } prerequisite = { focus = GEN_gen_national_purity  }
+	}
+
+	#GEN_new_glory
+	focus = {
+		id = GEN_gen_new_glory
+		icon = political_pressure
+		x = 25
+		y = 5
+		cost = 10
+		prerequisite = { focus = GEN_gen_high_militarism  }
+	}
+
+	#GEN_decentralized_socialism
+	focus = {
+		id = GEN_gen_decentralized_socialism
+		icon = focus_reorganise_trade_councils
+		x = 15
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_libertarian_right  }
+	}
+
+	#GEN_direct_democracy
+	focus = {
+		id = GEN_gen_direct_democracy
+		icon = focus_direct_democracy
+		x = 17
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_libertarian_right  }
+	}
+
+	#GEN_fair_government
+	focus = {
+		id = GEN_gen_fair_government
+		icon = national_unity
+		x = 4
+		y = 6
+		cost = 10
+		prerequisite = { focus = GEN_gen_liberalise_economy  focus = GEN_gen_centralization  }
+	}
+
+	#GEN_moderate_militarism
+	focus = {
+		id = GEN_gen_moderate_militarism
+		icon = military_drill
+		x = 20
+		y = 3
+		cost = 10
+		prerequisite = { focus = GEN_gen_strong_government  }
+	}
+
+	#GEN_side_social
+	focus = {
+		id = GEN_gen_side_social
+		icon = focus_ideology_social_democracy
+		x = 5
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_liberal_policies  }
+		mutually_exclusive = { focus = GEN_gen_side_conservative  }
+	}
+
+	#GEN_work_for_leader
+	focus = {
+		id = GEN_gen_work_for_leader
+		icon = generic_construction_2
+		x = 22
+		y = 5
+		cost = 10
+		prerequisite = { focus = GEN_gen_leaders_army  } prerequisite = { focus = GEN_gen_enforce_leader  }
+	}
+
+	#GEN_kill_leftism
+	focus = {
+		id = GEN_gen_kill_leftism
+		icon = broken_star
+		x = 24
+		y = 3
+		cost = 10
+		prerequisite = { focus = GEN_gen_strong_nation  }
+	}
+
+	#GEN_enforce_leader
+	focus = {
+		id = GEN_gen_enforce_leader
+		icon = generic_ideology
+		x = 23
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_personalism  }
+	}
+
+	#GEN_leaders_army
+	focus = {
+		id = GEN_gen_leaders_army
+		icon = axis_helmet
+		x = 21
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_personalism  }
+	}
+
+	#GEN_jingoism
+	focus = {
+		id = GEN_gen_jingoism
+		icon = major_war
+		x = 19
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_patriotic_education  } prerequisite = { focus = GEN_gen_moderate_militarism  }
+	}
+
+	#GEN_serve_the_nation
+	focus = {
+		id = GEN_gen_serve_the_nation
+		icon = generic_strike
+		x = 19
+		y = 5
+		cost = 10
+		prerequisite = { focus = GEN_gen_jingoism  }
+	}
+
+	#GEN_personalism
+	focus = {
+		id = GEN_gen_personalism
+		icon = mussolini_bust
+		x = 22
+		y = 3
+		cost = 10
+		prerequisite = { focus = GEN_gen_strong_leader  }
+	}
+
+	#GEN_a_place_for_religion
+	focus = {
+		id = GEN_gen_a_place_for_religion
+		icon = secular_america
+		x = 16
+		y = 5
+		cost = 10
+		prerequisite = { focus = GEN_gen_decentralized_socialism  } prerequisite = { focus = GEN_gen_direct_democracy  }
+	}
+
+	#GEN_marxism_redeemed
+	focus = {
+		id = GEN_gen_marxism_redeemed
+		icon = cooperate_with_some_communists
+		x = 16
+		y = 6
+		cost = 10
+		prerequisite = { focus = GEN_gen_a_place_for_religion  }
+	}
+
+	#GEN_exhalt_state
+	focus = {
+		id = GEN_gen_exhalt_state
+		icon = communism_2
+		x = 12
+		y = 3
+		cost = 10
+		prerequisite = { focus = GEN_gen_orthodox_centre  }
+	}
+
+	#GEN_strict_quotas
+	focus = {
+		id = GEN_gen_strict_quotas
+		icon = roads
+		x = 14
+		y = 3
+		cost = 10
+		prerequisite = { focus = GEN_gen_orthodox_centre  }
+	}
+
+	#GEN_red_army
+	focus = {
+		id = GEN_gen_red_army
+		icon = army_marching_red
+		x = 13
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_exhalt_state  } prerequisite = { focus = GEN_gen_strict_quotas  }
+	}
+
+	#GEN_red_science
+	focus = {
+		id = GEN_gen_red_science
+		icon = socialist_science
+		x = 13
+		y = 5
+		cost = 10
+		prerequisite = { focus = GEN_gen_red_army  }
+	}
+
+	#GEN_radical_nationalization
+	focus = {
+		id = GEN_gen_radical_nationalization
+		icon = industry_paper
+		x = 11
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_revisionist_left  }
+	}
+
+	#GEN_strong_unions
+	focus = {
+		id = GEN_gen_strong_unions
+		icon = work_for_the_tsar
+		x = 9
+		y = 4
+		cost = 10
+		prerequisite = { focus = GEN_gen_revisionist_left  }
+	}
+
+	#GEN_enshrine_socialism
+	focus = {
+		id = GEN_gen_enshrine_socialism
+		icon = communist_star
+		x = 10
+		y = 5
+		cost = 10
+		prerequisite = { focus = GEN_gen_strong_unions  } prerequisite = { focus = GEN_gen_radical_nationalization  }
+	}
+
+	#GEN_strict_neutrality
+	focus = {
+		id = GEN_gen_strict_neutrality
+		icon = neutrality
+		x = 10
+		y = 6
+		cost = 10
+		prerequisite = { focus = GEN_gen_enshrine_socialism  }
+	}
+
+	#GEN_civ_program
+	focus = {
+		id = GEN_gen_civ_program
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 8
+		y = 11
+		cost = 10
+		prerequisite = { focus = GEN_gen_civ_factories  }
+		mutually_exclusive = { focus = GEN_gen_mil_program  }
+	}
+
+	#GEN_industry_focus
+	focus = {
+		id = GEN_gen_industry_focus
+		icon = GFX_focus_research
+		x = 5
+		y = 8
+		cost = 10
+		prerequisite = { focus = GEN_gen_economy_focus  }
+	}
+
+	#GEN_industry_plan
+	focus = {
+		id = GEN_gen_industry_plan
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 9
+		y = 8
+		cost = 10
+		prerequisite = { focus = GEN_gen_economy_focus  }
+	}
+
+	#GEN_civ_infrastructure
+	focus = {
+		id = GEN_gen_civ_infrastructure
+		icon = GFX_goal_generic_production
+		x = 0
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_infrastructure_focus  }
+		mutually_exclusive = { focus = GEN_gen_mil_infrastructure  }
+	}
+
+	#GEN_mil_infrastructure
+	focus = {
+		id = GEN_gen_mil_infrastructure
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_infrastructure_focus  }
+		mutually_exclusive = { focus = GEN_gen_civ_infrastructure  }
+	}
+
+	#GEN_border_defense
+	focus = {
+		id = GEN_gen_border_defense
+		icon = GFX_goal_generic_fortify_city
+		x = 2
+		y = 10
+		cost = 10
+		prerequisite = { focus = GEN_gen_mil_infrastructure  }
+	}
+
+	#GEN_corporate_aid
+	focus = {
+		id = GEN_gen_corporate_aid
+		icon = GFX_goal_generic_improve_relations
+		x = 4
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_industry_focus  }
+		mutually_exclusive = { focus = GEN_gen_government_alone  }
+	}
+
+	#GEN_government_alone
+	focus = {
+		id = GEN_gen_government_alone
+		icon = GFX_goal_generic_neutrality_focus
+		x = 6
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_industry_focus  }
+		mutually_exclusive = { focus = GEN_gen_corporate_aid  }
+	}
+
+	#GEN_construction_subsidies
+	focus = {
+		id = GEN_gen_construction_subsidies
+		icon = GFX_goal_generic_construction
+		x = 4
+		y = 10
+		cost = 10
+		prerequisite = { focus = GEN_gen_corporate_aid  }
+	}
+
+	#GEN_government_initiative
+	focus = {
+		id = GEN_gen_government_initiative
+		icon = GFX_goal_generic_alliance
+		x = 6
+		y = 10
+		cost = 10
+		prerequisite = { focus = GEN_gen_government_alone  }
+	}
+
+	#GEN_research_grant
+	focus = {
+		id = GEN_gen_research_grant
+		icon = GFX_goal_continuous_research
+		x = 4
+		y = 11
+		cost = 10
+		prerequisite = { focus = GEN_gen_construction_subsidies  }
+	}
+
+	#GEN_output_focus
+	focus = {
+		id = GEN_gen_output_focus
+		icon = GFX_goal_generic_production2
+		x = 6
+		y = 11
+		cost = 10
+		prerequisite = { focus = GEN_gen_government_initiative  }
+	}
+
+	#GEN_construction_tech
+	focus = {
+		id = GEN_gen_construction_tech
+		icon = GFX_goal_generic_construction2
+		x = 3
+		y = 12
+		cost = 10
+		prerequisite = { focus = GEN_gen_research_grant  focus = GEN_gen_output_focus  }
+		mutually_exclusive = { focus = GEN_gen_engineering_tech  } mutually_exclusive = { focus = GEN_gen_industry_tech  }
+	}
+
+	#GEN_engineering_tech
+	focus = {
+		id = GEN_gen_engineering_tech
+		icon = GFX_focus_research
+		x = 5
+		y = 12
+		cost = 10
+		prerequisite = { focus = GEN_gen_research_grant  focus = GEN_gen_output_focus  }
+		mutually_exclusive = { focus = GEN_gen_construction_tech  } mutually_exclusive = { focus = GEN_gen_industry_tech  }
+	}
+
+	#GEN_industry_tech
+	focus = {
+		id = GEN_gen_industry_tech
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 7
+		y = 12
+		cost = 10
+		prerequisite = { focus = GEN_gen_research_grant  focus = GEN_gen_output_focus  }
+		mutually_exclusive = { focus = GEN_gen_construction_tech  } mutually_exclusive = { focus = GEN_gen_engineering_tech  }
+	}
+
+	#GEN_consumer_goods
+	focus = {
+		id = GEN_gen_consumer_goods
+		icon = GFX_goal_generic_consumer_goods
+		x = 9
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_industry_plan  }
+	}
+
+	#GEN_civ_factories
+	focus = {
+		id = GEN_gen_civ_factories
+		icon = GFX_goal_generic_construct_civilian
+		x = 8
+		y = 10
+		cost = 10
+		prerequisite = { focus = GEN_gen_consumer_goods  }
+	}
+
+	#GEN_mil_factories
+	focus = {
+		id = GEN_gen_mil_factories
+		icon = GFX_goal_generic_army_tanks
+		x = 10
+		y = 10
+		cost = 10
+		prerequisite = { focus = GEN_gen_consumer_goods  }
+	}
+
+	#GEN_mil_industry_ii
+	focus = {
+		id = GEN_gen_mil_industry_ii
+		icon = GFX_goal_generic_small_arms
+		x = 10
+		y = 13
+		cost = 10
+		prerequisite = { focus = GEN_gen_mil_program  }
+	}
+
+	#GEN_mil_program
+	focus = {
+		id = GEN_gen_mil_program
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 10
+		y = 11
+		cost = 10
+		prerequisite = { focus = GEN_gen_mil_factories  }
+		mutually_exclusive = { focus = GEN_gen_civ_program  }
+	}
+
+	#GEN_civ_industry_ii
+	focus = {
+		id = GEN_gen_civ_industry_ii
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 8
+		y = 13
+		cost = 10
+		prerequisite = { focus = GEN_gen_civ_program  }
+	}
+
+	#GEN_civ_industry_iiI
+	focus = {
+		id = GEN_gen_civ_industry_iii
+		icon = GFX_focus_generic_industry_3
+		x = 8
+		y = 14
+		cost = 10
+		prerequisite = { focus = GEN_gen_civ_industry_ii  }
+	}
+
+	#GEN_mil_industry_iii
+	focus = {
+		id = GEN_gen_mil_industry_iii
+		icon = GFX_focus_generic_tank_production
+		x = 10
+		y = 14
+		cost = 10
+		prerequisite = { focus = GEN_gen_mil_industry_ii  }
+	}
+
+	#GEN_military_focus
+	focus = {
+		id = GEN_gen_military_focus
+		icon = GFX_goal_generic_small_arms
+		x = 19
+		y = 7
+		cost = 10
+	}
+
+	#GEN_army_focus
+	focus = {
+		id = GEN_gen_army_focus
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 17
+		y = 8
+		cost = 10
+		prerequisite = { focus = GEN_gen_military_focus  }
+	}
+
+	#GEN_naval_focus
+	focus = {
+		id = GEN_gen_naval_focus
+		icon = GFX_GEN_gen_naval_focus-411
+		x = 19
+		y = 8
+		cost = 10
+		prerequisite = { focus = GEN_gen_military_focus  }
+	}
+
+	#GEN_air_focus
+	focus = {
+		id = GEN_gen_air_focus
+		icon = GFX_focus_generic_air_defense
+		x = 21
+		y = 8
+		cost = 10
+		prerequisite = { focus = GEN_gen_military_focus  }
+	}
+
+	#GEN_command_structure
+	focus = {
+		id = GEN_gen_command_structure
+		icon = GFX_focus_generic_little_entente
+		x = 12
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_army_focus  }
+	}
+
+	#GEN_reformed_structure
+	focus = {
+		id = GEN_gen_reformed_structure
+		icon = GFX_goal_generic_army_doctrines
+		x = 12
+		y = 10
+		cost = 10
+		prerequisite = { focus = GEN_gen_command_structure  }
+	}
+
+	#GEN_army_armor
+	focus = {
+		id = GEN_gen_army_armor
+		icon = GFX_goal_generic_build_tank
+		x = 14
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_army_focus  }
+	}
+
+	#GEN_army_force
+	focus = {
+		id = GEN_gen_army_force
+		icon = GFX_goal_generic_army_artillery2
+		x = 16
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_army_focus  }
+	}
+
+	#GEN_heavy_armor
+	focus = {
+		id = GEN_gen_heavy_armor
+		icon = GFX_goal_generic_army_tanks
+		x = 13
+		y = 12
+		cost = 10
+		prerequisite = { focus = GEN_gen_army_armor  } prerequisite = { focus = GEN_gen_army_force  }
+		mutually_exclusive = { focus = GEN_gen_light_armor  }
+	}
+
+	#GEN_motorised
+	focus = {
+		id = GEN_gen_motorised
+		icon = GFX_goal_generic_army_motorized
+		x = 15
+		y = 10
+		cost = 10
+		prerequisite = { focus = GEN_gen_army_armor  } prerequisite = { focus = GEN_gen_army_force  }
+	}
+
+	#GEN_special_forces
+	focus = {
+		id = GEN_gen_special_forces
+		icon = GFX_goal_generic_special_forces
+		x = 15
+		y = 11
+		cost = 10
+		prerequisite = { focus = GEN_gen_motorised  }
+	}
+
+	#GEN_light_armor
+	focus = {
+		id = GEN_gen_light_armor
+		icon = GFX_goal_generic_cavalry
+		x = 15
+		y = 12
+		cost = 10
+		prerequisite = { focus = GEN_gen_special_forces  }
+		mutually_exclusive = { focus = GEN_gen_heavy_armor  }
+	}
+
+	#GEN_naval_doctrine
+	focus = {
+		id = GEN_gen_naval_doctrine
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 18
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_naval_focus  }
+	}
+
+	#GEN_dockyard_project
+	focus = {
+		id = GEN_gen_dockyard_project
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 18
+		y = 10
+		cost = 10
+		prerequisite = { focus = GEN_gen_naval_doctrine  }
+	}
+
+	#GEN_naval_research
+	focus = {
+		id = GEN_gen_naval_research
+		icon = GFX_GEN_gen_naval_research-377
+		x = 20
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_naval_focus  }
+	}
+
+	#GEN_naval_research_ii
+	focus = {
+		id = GEN_gen_naval_research_ii
+		icon = GFX_GEN_gen_naval_research_ii-404
+		x = 20
+		y = 10
+		cost = 10
+		prerequisite = { focus = GEN_gen_naval_research  }
+	}
+
+	#GEN_air_bases
+	focus = {
+		id = GEN_gen_air_bases
+		icon = GFX_goal_generic_build_airforce
+		x = 22
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_air_focus  }
+	}
+
+	#GEN_aerial_visionary
+	focus = {
+		id = GEN_gen_aerial_visionary
+		icon = GFX_goal_generic_air_doctrine
+		x = 22
+		y = 10
+		cost = 10
+		prerequisite = { focus = GEN_gen_air_bases  }
+	}
+
+	#GEN_bombers
+	focus = {
+		id = GEN_gen_bombers
+		icon = GFX_goal_generic_air_bomber
+		x = 24
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_air_focus  }
+	}
+
+	#GEN_fighters
+	focus = {
+		id = GEN_gen_fighters
+		icon = GFX_goal_generic_air_fighter
+		x = 26
+		y = 9
+		cost = 10
+		prerequisite = { focus = GEN_gen_air_focus  }
+	}
+
+	#GEN_reformed_air
+	focus = {
+		id = GEN_gen_reformed_air
+		icon = GFX_goal_generic_CAS
+		x = 24
+		y = 11
+		cost = 10
+		prerequisite = { focus = GEN_gen_aerial_visionary  } prerequisite = { focus = GEN_gen_bombers  } prerequisite = { focus = GEN_gen_fighters  }
+	}
+
+}

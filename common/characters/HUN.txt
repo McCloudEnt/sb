@@ -1,0 +1,196 @@
+characters = {
+	HUN_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	HUN_gyula_thurmer = {
+		name = "Gyula Thürmer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/HUN_Gyula_Thurmer.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HUN_GYULA_THURMER_DESC
+		}
+	}
+	HUN_tibor_szanyi = {
+		name = "Tibor Szanyi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/HUN_Tibor_Szanyi.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HUN_TIBOR_SZANYI_DESC
+		}
+	}
+	HUN_attila_vajnai = {
+		name = "Attila Vajnai"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/HUN_Attila_Vajnai.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HUN_ATTILA_VAJNAI_DESC
+		}
+	}
+	HUN_istvan_hiller = {
+		name = "István Hiller"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/HUN_Istvan_Hiller.dds"
+			}
+		}
+		country_leader = {
+			ideology = neocommunism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HUN_ISTVAN_HILLER_DESC
+		}
+	}
+	HUN_laszlo_kovacs = {
+		name = "László Kovács"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/HUN_Laszlo_Kovacs.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HUN_LASZLO_KOVACS_DESC
+		}
+	}
+	HUN_jozsef_torgyan = {
+		name = "József Torgyán"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/HUN_Jozsef_Torgyan.dds"
+			}
+		}
+		country_leader = {
+			ideology = syndicalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HUN_JOZSEF_TORGYAN_DESC
+		}
+	}
+	HUN_laszlo_kapolyi = {
+		name = "László Kapolyi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/HUN_Laszlo_Kapolyi.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HUN_LASZLO_KAPOLYI_DESC
+		}
+	}
+	HUN_ferenc_gyurcsany = {
+		name = "Ferenc Gyurcsány"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/HUN_Ferenc_Gyurcsany.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HUN_FERENC_GYURCSANY_DESC
+		}
+	}
+	HUN_gabor_vona = {
+		name = "Gábor Vona"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/HUN_Gabor_Vona.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HUN_GABOR_VONA_DESC
+		}
+	}
+	HUN_viktor_orban = {
+		name = "Viktor Orbán"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/HUN_Viktor_Orban.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HUN_VIKTOR_ORBAN_DESC
+		}
+	}
+	HUN_istvan_csurka = {
+		name = "István Csurka"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/HUN_Istvan_Csurka.dds"
+			}
+		}
+		country_leader = {
+			ideology = republican_autocracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HUN_ISTVAN_CSURKA_DESC
+		}
+	}
+	HUN_laszlo_toroczkai = {
+		name = "László Toroczkai"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/HUN_Laszlo_Toroczkai.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_position
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HUN_LASZLO_TOROCZKAI_DESC
+		}
+	}
+}

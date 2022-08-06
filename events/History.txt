@@ -1,0 +1,396 @@
+﻿add_namespace = CAN_history
+add_namespace = USA_history
+
+##CAN
+
+#The War of 1812
+country_event = {
+	id = CAN_history.1
+	title = CAN_history.1.t
+	desc = CAN_history.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CAN_history.1.o1
+	}
+}
+
+#Rebellion of 1837
+country_event = {
+	id = CAN_history.2
+	title = CAN_history.2.t
+	desc = CAN_history.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CAN_history.2.o1
+	}
+}
+
+#Commonwealth Act of 1837
+country_event = {
+	id = CAN_history.3
+	title = CAN_history.3.t
+	desc = CAN_history.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CAN_history.3.o1
+	}
+}
+
+#Reciprocity
+country_event = {
+	id = CAN_history.4
+	title = CAN_history.4.t
+	desc = CAN_history.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CAN_history.4.o1
+	}
+}
+
+#Commonwealth Act of 1967
+country_event = {
+	id = CAN_history.5
+	title = CAN_history.5.t
+	desc = CAN_history.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CAN_history.5.o1
+	}
+}
+
+#Canadian Independence Party Established
+country_event = {
+	id = CAN_history.6
+	title = CAN_history.6.t
+	desc = CAN_history.6.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CAN_history.6.o1
+	}
+}
+
+##USA
+
+#The War of 1812
+country_event = {
+	id = USA_history.1
+	title = USA_history.1.t
+	desc = USA_history.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.1.o1
+	}
+}
+
+#Death of FDR
+country_event = {
+	id = USA_history.2
+	title = USA_history.2.t
+	desc = USA_history.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.2.o1
+	}
+}
+
+#1944 Election
+country_event = {
+	id = USA_history.3
+	title = USA_history.3.t
+	desc = USA_history.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.3.o1
+	}
+}
+
+#1948 Election
+country_event = {
+	id = USA_history.4
+	title = USA_history.4.t
+	desc = USA_history.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.4.o1
+	}
+}
+
+#1952 Election
+country_event = {
+	id = USA_history.5
+	title = USA_history.5.t
+	desc = USA_history.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.5.o1
+	}
+}
+
+#1960 Election
+country_event = {
+	id = USA_history.6
+	title = USA_history.6.t
+	desc = USA_history.6.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.6.o1
+	}
+}
+
+#Resignation of Nixon
+country_event = {
+	id = USA_history.7
+	title = USA_history.7.t
+	desc = USA_history.7.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.7.o1
+	}
+}
+
+#Civil Rights Act
+country_event = {
+	id = USA_history.8
+	title = USA_history.8.t
+	desc = USA_history.8.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.8.o1
+	}
+}
+
+#1964 Election
+country_event = {
+	id = USA_history.9
+	title = USA_history.9.t
+	desc = USA_history.9.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.9.o1
+	}
+}
+
+#1968 Election
+country_event = {
+	id = USA_history.10
+	title = USA_history.10.t
+	desc = USA_history.10.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.10.o1
+	}
+}
+
+#Apollo VI Disaster
+country_event = {
+	id = USA_history.11
+	title = USA_history.11.t
+	desc = USA_history.11.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.11.o1
+	}
+}
+
+#Death of Wallace
+country_event = {
+	id = USA_history.12
+	title = USA_history.12.t
+	desc = USA_history.12.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.12.o1
+	}
+}
+
+#1972 Election
+country_event = {
+	id = USA_history.13
+	title = USA_history.13.t
+	desc = USA_history.13.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.13.o1
+	}
+}
+
+#1976 Election
+country_event = {
+	id = USA_history.14
+	title = USA_history.14.t
+	desc = USA_history.14.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.14.o1
+	}
+}
+
+#1980 Election
+country_event = {
+	id = USA_history.15
+	title = USA_history.15.t
+	desc = USA_history.15.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.15.o1
+	}
+}
+
+#Death of Reagan
+country_event = {
+	id = USA_history.16
+	title = USA_history.16.t
+	desc = USA_history.16.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.16.o1
+	}
+}
+
+#Reform Party
+country_event = {
+	id = USA_history.17
+	title = USA_history.17.t
+	desc = USA_history.17.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.17.o1
+	}
+}
+
+#1984 Election
+country_event = {
+	id = USA_history.18
+	title = USA_history.18.t
+	desc = USA_history.18.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.18.o1
+	}
+}
+
+#1988 Election
+country_event = {
+	id = USA_history.19
+	title = USA_history.19.t
+	desc = USA_history.19.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.19.o1
+	}
+}
+
+#1992 Election
+country_event = {
+	id = USA_history.20
+	title = USA_history.20.t
+	desc = USA_history.20.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.20.o1
+	}
+}
+
+#1996 Election
+country_event = {
+	id = USA_history.21
+	title = USA_history.21.t
+	desc = USA_history.21.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.21.o1
+	}
+}
+
+#Dole's Folly
+country_event = {
+	id = USA_history.22
+	title = USA_history.22.t
+	desc = USA_history.22.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.22.o1
+	}
+}
+
+#2000 Election
+country_event = {
+	id = USA_history.23
+	title = USA_history.23.t
+	desc = USA_history.23.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.23.o1
+	}
+}
+
+#2004 Election
+country_event = {
+	id = USA_history.24
+	title = USA_history.24.t
+	desc = USA_history.24.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_history.24.o1
+	}
+}

@@ -1,0 +1,41 @@
+﻿capital = 113
+
+set_politics = {	
+	ruling_party = liberal_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 3
+	revisionist_socialism = 7
+	libertarian_socialism = 4
+	social_democracy = 11
+	liberal_democracy = 26
+	conservative_democracy = 23
+	classical_authoritarianism = 4
+	despotism = 20
+	ultranationalism = 2
+}
+
+add_ideas = {
+	idea_presidential_republic
+	idea_unitary
+	idea_upper_house_bicameralism
+	idea_s_i_judiciary
+	idea_sp_voting
+	idea_pluralism
+	idea_restricted_freedoms
+}
+
+recruit_character = IRE_anarchy
+recruit_character = IRE_sean_garland
+recruit_character = IRE_ruairi_o_bradaigh
+recruit_character = IRE_trevor_sargent
+recruit_character = IRE_pat_rabbitte
+recruit_character = IRE_bertie_ahern
+recruit_character = IRE_enda_kenny
+recruit_character = IRE_terence_flanagan
+recruit_character = IRE_padraig_flynn
+recruit_character = IRE_gerard_casey

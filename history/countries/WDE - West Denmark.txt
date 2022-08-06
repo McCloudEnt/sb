@@ -1,0 +1,38 @@
+﻿capital = 887
+
+set_politics = {	
+	ruling_party = marxism_leninism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 50
+	revisionist_socialism = 25
+	libertarian_socialism = 12
+	social_democracy = 6
+	liberal_democracy = 4
+	conservative_democracy = 3
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_voting_consultation
+	idea_state_atheism
+	idea_no_freedoms
+}
+
+recruit_character = WDE_anarchy
+recruit_character = WDE_henrik_stamer_hedin
+recruit_character = WDE_soren_sondergaard
+recruit_character = WDE_annette_vilhelmsen
+recruit_character = WDE_mette_frederiksen
+recruit_character = WDE_kristian_jensen
+recruit_character = WDE_lars_barfoed
+recruit_character = WDE_kristian_thulesen_dahl
+recruit_character = WDE_pernille_vermund
+recruit_character = WDE_rasmus_paludan

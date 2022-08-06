@@ -1,0 +1,358 @@
+ideologies = {
+	
+	anarchy = {
+	
+		types = {
+			pure_anarchism = {}
+			collapsed_state = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHY_1" 
+		}
+		
+		color = { 25 12 13 } 
+		
+		rules = { 
+			can_guarantee_other_ideologies = no
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = no
+		}
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+
+		modifiers = { 
+			join_faction_tension = 0
+			civilian_intel_to_others = 0
+			army_intel_to_others = 0
+			navy_intel_to_others = 0
+			airforce_intel_to_others = 0
+		}
+	}
+marxism_leninism = {
+	
+		types = {
+			reformed_bolshevism = {}
+			leninism = {}
+                        stalinism = {}
+                        maoism = {}
+                        juche = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_MARXISM_LENINISM_1" 
+		}
+		
+		color = { 113 9 14 } 
+		
+		rules = { 
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+
+		modifiers = { 
+			join_faction_tension = 0.25
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		} 
+	}
+revisionist_socialism = {
+	
+		types = {
+			neocommunism = {}
+			trotskyism = {}
+                        market_socialism = {}
+                        socialist_nationalism = {}
+                        democratic_socialism = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_REVISIONIST_SOCIALISM_1" 
+		}
+		
+		color = { 187 15 23 } 
+		
+		rules = { 
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+
+		modifiers = { 
+			join_faction_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+
+		ai_neutral = yes 
+	}
+libertarian_socialism = {
+	
+		types = {
+			libertarianism = {}
+			religious_communism = {}
+                        neozapatismo = {}
+                        syndicalism = {}
+                        council_communism = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERTARIAN_SOCIALISM_1" 
+		}
+		
+		color = { 237 28 36 } 
+		
+		rules = { 
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+
+		war_impact_on_world_tension = 2
+		faction_impact_on_world_tension = 2
+
+		modifiers = { 
+			join_faction_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+	}
+social_democracy = {
+	
+		types = {
+			social_democracy_ideology = {}
+			social_corporatism = {}
+                        progressivism = {}
+                        third_way = {}
+                        nordic_model = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_DEMOCRACY_1" 
+		}
+		
+		color = { 242 91 99 } 
+		
+		rules = { 
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+
+		modifiers = { 
+			join_faction_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+
+		ai_neutral = yes 
+	}
+liberal_democracy = {
+	
+		types = {
+			national_liberalism = {}
+			classical_liberalism = {}
+                        social_liberalism = {}
+                        new_deal_liberalism = {}
+                        neoliberalism = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_DEMOCRACY_1" 
+		}
+		
+		color = { 233 222 22 } 
+		
+		rules = { 
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+
+		modifiers = { 
+			join_faction_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+
+		ai_neutral = yes 
+	}
+conservative_democracy = {
+	
+		types = {
+			classical_conservatism = {}
+			traditional_conservatism = {}
+                        neoconservatism = {}
+                        religious_democracy = {}
+                        national_conservatism = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CONSERVATIVE_DEMOCRACY_1" 
+		}
+		
+		color = { 46 54 209 } 
+		
+		rules = { 
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+
+		modifiers = { 
+			join_faction_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+
+		ai_neutral = yes
+	}
+classical_authoritarianism = {
+	
+		types = {
+			authoritarian_monarchy = {}
+			right_wing_oligarchy = {}
+                        left_wing_oligarchy = {}
+                        right_wing_military_dictatorship = {}
+                        left_wing_military_dictatorship = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CLASSICAL_AUTHORITARIANISM_1" 
+		}
+		
+		color = { 106 115 149 } 
+		
+		rules = { 
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+
+		modifiers = { 
+			join_faction_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+	}
+despotism = {
+	
+		types = {
+			republican_autocracy = {}
+			right_wing_despotism = {}
+                        left_wing_despotism = {}
+                        absolute_monarchy = {}
+                        corporatocracy = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DESPOTISM_1" 
+		}
+		
+		color = { 120 105 84 } 
+		
+		rules = { 
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+
+                war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+
+		modifiers = { 
+			join_faction_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+	}
+ultranationalism = {
+	
+		types = {
+			neoimperialism = {}
+			ethno_nationalism = {}
+                        fascism = {}
+                        third_position = {}
+                        theocratic = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ULTRANATIONALISM_1" 
+		}
+		
+		color = { 140 62 15 } 
+		
+		rules = { 
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+
+		modifiers = { 
+			join_faction_tension = 0.25
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+	}
+}

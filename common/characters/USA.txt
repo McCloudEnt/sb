@@ -1,0 +1,151 @@
+characters = {
+	USA_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	USA_alfonso_casal = {
+		name = "Alfonso Casal"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_Alfonso_Casal.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = USA_ALFONSO_CASAL_DESC
+		}
+	}
+	USA_bernie_sanders = {
+		name = "Bernie Sanders"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_Bernie_Sanders.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = USA_BERNIE_SANDERS_DESC
+		}
+	}
+	USA_pete_seeger = {
+		name = "Pete Seeger"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_Pete_Seeger.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = USA_PETE_SEEGER_DESC
+		}
+	}
+	USA_ralph_nader = {
+		name = "Ralph Nader"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_Ralph_Nader.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = USA_RALPH_NADER_DESC
+		}
+	}
+	USA_bill_bradley = {
+		name = "Bill Bradley"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_Bill_Bradley.dds"
+			}
+		}
+		country_leader = {
+			ideology = new_deal_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = USA_BILL_BRADLEY_DESC
+		}
+	}
+	USA_john_mccain = {
+		name = "John McCain"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_John_McCain.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoconservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = USA_JOHN_MCCAIN_DESC
+		}
+	}
+	USA_joint_chiefs_of_staff = {
+		name = "Joint Chiefs of Staff"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_Joint_Chiefs_of_Staff.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = USA_DOD_DESC
+		}
+	}
+	USA_mike_bloomberg = {
+		name = "Mike Bloomberg"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_Mike_Bloomberg.dds"
+			}
+		}
+		country_leader = {
+			ideology = corporatocracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = USA_MIKE_BLOOMBERG_DESC
+		}
+	}
+	USA_george_wallace_jr = {
+		name = "George Wallace Jr."
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_George_Wallace_Jr.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = USA_GEORGE_WALLACE_JR_DESC
+		}
+	}
+}

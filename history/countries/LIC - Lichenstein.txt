@@ -1,0 +1,33 @@
+﻿capital = 855
+
+set_politics = {	
+	ruling_party = conservative_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democracy = 13
+	liberal_democracy = 38
+	conservative_democracy = 49
+}
+
+add_ideas = {
+	idea_semi_constitutional_monarchy
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_fp_voting
+	idea_pluralism
+	idea_maximum_freedoms
+}
+
+recruit_character = LIC_anarchy
+recruit_character = LIC_collective_leadership
+recruit_character = LIC_pepo_frick
+recruit_character = LIC_heinz_frommelt
+recruit_character = LIC_otmar_hasler
+recruit_character = LIC_thomas_rehak
+recruit_character = LIC_prince_hans_adam_ii
+recruit_character = LIC_harry_quaderer

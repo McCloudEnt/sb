@@ -1,0 +1,38 @@
+﻿capital = 47
+
+set_politics = {	
+	ruling_party = classical_authoritarianism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	revisionist_socialism = 25
+	social_democracy = 35
+	liberal_democracy = 1
+	conservative_democracy = 15
+	classical_authoritarianism = 22
+	ultranationalism = 2
+}
+
+add_ideas = {
+	idea_aristocratic_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_indirect_voting
+	idea_moralism
+	idea_no_freedoms
+}
+
+recruit_character = GRE_anarchy
+recruit_character = GRE_dimitris_koutsoumpas
+recruit_character = GRE_alexis_tsipras
+recruit_character = GRE_yanis_varoufakis
+recruit_character = GRE_georgios_papandreou
+recruit_character = GRE_kyriakos_mitsotakis
+recruit_character = GRE_konstantinos_floros
+recruit_character = GRE_stylianos_pattakos
+recruit_character = GRE_king_constantine_ii
+recruit_character = GRE_nikolas_michaloliakos

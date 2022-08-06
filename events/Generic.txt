@@ -1,0 +1,14 @@
+﻿add_namespace = generic
+
+# Test
+country_event = {
+	id = generic.1
+	title = "Test"
+	desc = "Test"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Test"
+	}	
+}

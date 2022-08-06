@@ -1,0 +1,151 @@
+characters = {
+	CRE_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	CRE_aleka_papariga = {
+		name = "Aleka Papariga"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRE/CRE_Aleka_Papariga.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CRE_ALEKA_PAPARIGA_DESC
+		}
+	}
+	CRE_leonidas_kyrkos = {
+		name = "Leonidas Kyrkos"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRE/CRE_Leonidas_Kyrkos.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CRE_LEONIDAS_KYRKOS_DESC
+		}
+	}
+	CRE_dimitris_tzanakopoulos = {
+		name = "Dimitris Tzanakopoulos"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRE/CRE_Dimitris_Tzanakopoulos.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CRE_DIMITRIS_TZANAKOPOULOS_DESC
+		}
+	}
+	CRE_katerina_sakellaropoulou = {
+		name = "Katerina Sakellaropoulou"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRE/CRE_Katerina_Sakellaropoulou.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CRE_KATERINA_SAKELLAROPOULOU_DESC
+		}
+	}
+	CRE_neoklis_sarris = {
+		name = "Neoklis Sarris"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRE/CRE_Neoklis_Sarris.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CRE_NEOKLIS_SARRIS_DESC
+		}
+	}
+	CRE_antonis_samaras = {
+		name = "Antonis Samaras"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRE/CRE_Antonis_Samaras.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CRE_ANTONIS_SAMARAS_DESC
+		}
+	}
+	CRE_georgios_karatzaferis = {
+		name = "Georgios Karatzaferis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRE/CRE_Georgios_Karatzaferis.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CRE_GEORGIOS_KARATZAFERIS_DESC
+		}
+	}
+	CRE_king_constantine_ii = {
+		name = "King Constantine II"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRE/CRE_King_Constantine_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CRE_KING_CONSTANTINE_II_DESC
+		}
+	}
+	CRE_ilias_kasidiaris = {
+		name = "Ilias Kasidiaris"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRE/CRE_Ilias_Kasidiaris.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CRE_ILIAS_KASIDIARIS_DESC
+		}
+	}
+}

@@ -1,0 +1,37 @@
+﻿capital = 284
+
+set_politics = {	
+	ruling_party = social_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	libertarian_socialism = 5
+	social_democracy = 44
+	liberal_democracy = 6
+	conservative_democracy = 39
+	classical_authoritarianism = 6
+}
+
+add_ideas = {
+	idea_constitutional_monarchy
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_mixed_system
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = NZL_anarchy
+recruit_character = NZL_felicity_coggan
+recruit_character = NZL_joe_carolan
+recruit_character = NZL_rodney_donald
+recruit_character = NZL_helen_clark
+recruit_character = NZL_rodney_hide
+recruit_character = NZL_donald_brash
+recruit_character = NZL_winston_peters
+recruit_character = NZL_peter_tapsell
+recruit_character = NZL_colin_king_ansell

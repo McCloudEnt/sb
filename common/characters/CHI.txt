@@ -1,0 +1,151 @@
+characters = {
+	CHI_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	CHI_wu_rongyuan = {
+		name = "Wu Rongyuan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/CHI_Wu_Rongyuan.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CHI_WU_RONGYUAN_DESC
+		}
+	}
+	CHI_chen_baiguang = {
+		name = "Chen Baiguang"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/CHI_Chen_Baiguang.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CHI_CHEN_BAIGUANG_DESC
+		}
+	}
+	CHI_liu_yi_te = {
+		name = "Liu Yi-te"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/CHI_Liu_Yi_Te.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CHI_LIU_YI_TE_DESC
+		}
+	}
+	CHI_chiu_hsien_chih = {
+		name = "Chiu Hsien-chih"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/CHI_Chiu_Hsien_Chih.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CHI_CHIU_HSIEN_CHIH_DESC
+		}
+	}
+	CHI_tsai_ing_wen = {
+		name = "Tsai Ing-wen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/CHI_Tsai_Ing_Wen.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CHI_TSAI_ING_WEN_DESC
+		}
+	}
+	CHI_ma_ying_jeou = {
+		name = "Ma Ying-Jeou"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/CHI_Ma_Ying_Jeou.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CHI_MA_YING_JEOU_DESC
+		}
+	}
+	CHI_chiang_hsiao_yen = {
+		name = "Chiang Hsiao-yen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/CHI_Chiang_Hsiao_Yen.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CHI_CHIANG_HSIAO_YEN_DESC
+		}
+	}
+	CHI_general_staff = {
+		name = "General Staff"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/CHI_General_Staff.dds"
+			}
+		}
+		country_leader = {
+			ideology = republican_autocracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CHI_GENERAL_STAFF_DESC
+		}
+	}
+	CHI_chang_an_le = {
+		name = "Chang An-le"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/CHI_Chang_An_Le.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_position
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CHI_CHANG_AN_LE_DESC
+		}
+	}
+}

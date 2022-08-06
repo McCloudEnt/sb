@@ -1,0 +1,38 @@
+﻿capital = 505
+
+set_politics = {	
+	ruling_party = classical_authoritarianism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	libertarian_socialism = 2
+	social_democracy = 12
+	liberal_democracy = 13
+	conservative_democracy = 22
+	classical_authoritarianism = 28
+	despotism = 23
+}
+
+add_ideas = {
+	idea_aristocratic_republic
+	idea_federation
+	idea_upper_house_bicameralism
+	idea_s_s_judiciary
+	idea_fp_voting
+	idea_moderate_secularism
+	idea_restricted_freedoms
+}
+
+recruit_character = BRA_anarchy
+recruit_character = BRA_renato_rabelo
+recruit_character = BRA_heloisa_helena
+recruit_character = BRA_luiz_inacio_lula_da_silva
+recruit_character = BRA_geraldo_alckmin
+recruit_character = BRA_jose_jorge
+recruit_character = BRA_jose_maria_eymael
+recruit_character = BRA_fernando_azevedo_e_silva
+recruit_character = BRA_jair_bolsonaro
+recruit_character = BRA_moises_jose_de_lima

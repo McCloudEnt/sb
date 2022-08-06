@@ -1,0 +1,15 @@
+canada_history = {
+	icon = generic_political_actions
+
+	visible = {
+		tag = CAN
+	}
+}
+
+america_history = {
+	icon = generic_political_actions
+
+	visible = {
+		tag = USA
+	}
+}

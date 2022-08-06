@@ -1,0 +1,33 @@
+﻿capital = 816
+
+set_politics = {	
+	ruling_party = ultranationalism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	ultranationalism = 100
+}
+
+add_ideas = {
+	idea_elective_monarchy
+	idea_confederation
+	idea_unicameralism
+	idea_judicial_consultation
+	idea_no_voting
+	idea_moralism
+	idea_no_freedoms
+}
+
+recruit_character = MAL_anarchy
+recruit_character = MAL_chin_peng
+recruit_character = MAL_syed_husin_ali
+recruit_character = MAL_mohd_nasir_hashim
+recruit_character = MAL_chen_man_hin
+recruit_character = MAL_wan_azizah_wan_ismail
+recruit_character = MAL_m_kayveas
+recruit_character = MAL_mahathir_mohamad
+recruit_character = MAL_sultan_sirajuddin
+recruit_character = MAL_ashaari_mohammad

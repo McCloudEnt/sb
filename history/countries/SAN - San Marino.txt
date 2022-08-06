@@ -1,0 +1,29 @@
+﻿capital = 854
+
+set_politics = {	
+	ruling_party = conservative_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 3
+	revisionist_socialism = 21
+	social_democracy = 24
+	liberal_democracy = 8
+	conservative_democracy = 42
+	despotism = 2
+}
+
+add_ideas = {
+	idea_direct_democracy
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_sp_voting
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+recruit_character = SAN_anarchy
+recruit_character = SAN_captains_regent

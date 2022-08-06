@@ -1,0 +1,36 @@
+﻿capital = 1033
+
+set_politics = {	
+	ruling_party = marxism_leninism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 65
+	revisionist_socialism = 18
+	libertarian_socialism = 14
+	ultranationalism = 3
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_balanced_bicameralism
+	idea_s_i_judiciary
+	idea_indirect_voting
+	idea_state_atheism
+	idea_restricted_freedoms
+}
+
+recruit_character = PRJ_anarchy
+recruit_character = PRJ_masato_taura
+recruit_character = PRJ_ryoko_azuma
+recruit_character = PRJ_kira_yoshiko
+recruit_character = PRJ_ohata_akihiro
+recruit_character = PRJ_murata_renho
+recruit_character = PRJ_yamaguchi_natsuo
+recruit_character = PRJ_hashimoto_toru
+recruit_character = PRJ_akihito
+recruit_character = PRJ_yamada_kazunari

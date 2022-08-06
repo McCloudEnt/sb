@@ -1,0 +1,40 @@
+﻿capital = 112
+
+set_politics = {	
+	ruling_party = social_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 8
+	revisionist_socialism = 6
+	libertarian_socialism = 1
+	social_democracy = 45
+	conservative_democracy = 29
+	classical_authoritarianism = 7
+	despotism = 3
+	ultranationalism = 1
+}
+
+add_ideas = {
+	idea_semi_presidential_republic
+	idea_devolution
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_fp_voting
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = POR_anarchy
+recruit_character = POR_collective_leadership
+recruit_character = POR_francisco_louca
+recruit_character = POR_heloisa_apolonia
+recruit_character = POR_jose_socrates
+recruit_character = POR_eduardo_correia
+recruit_character = POR_luis_mendes
+recruit_character = POR_paulo_portas
+recruit_character = POR_jose_coelho
+recruit_character = POR_andre_ventura

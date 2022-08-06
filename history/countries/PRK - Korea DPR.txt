@@ -1,0 +1,36 @@
+﻿capital = 948
+
+set_politics = {	
+	ruling_party = marxism_leninism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 70
+	revisionist_socialism = 22
+	libertarian_socialism = 2
+	social_democracy = 6
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_voting_consultation
+	idea_state_atheism
+	idea_restricted_freedoms
+}
+
+recruit_character = PRK_anarchy
+recruit_character = PRK_kim_jong_il
+recruit_character = PRK_kim_jong_nam
+recruit_character = PRK_ryu_mi_yong
+recruit_character = PRK_kim_yong_dae
+recruit_character = PRK_kim_dae_jung
+recruit_character = PRK_park_geun_hye
+recruit_character = PRK_kim_jang_soo
+recruit_character = PRK_imperial_restoration_council
+recruit_character = PRK_jeon_kwang_hoon

@@ -1,0 +1,151 @@
+characters = {
+	NZL_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	NZL_felicity_coggan = {
+		name = "Felicity Coggan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/NZL_Felicity_Coggan.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NZL_FELICITY_COGGAN_DESC
+		}
+	}
+	NZL_joe_carolan = {
+		name = "Joe Carolan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/NZL_Joe_Carolan.dds"
+			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NZL_JOE_CAROLAN_DESC
+		}
+	}
+	NZL_rodney_donald = {
+		name = "Rodney Donald"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/NZL_Rodney_Donald.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NZL_RODNEY_DONALD_DESC
+		}
+	}
+	NZL_helen_clark = {
+		name = "Helen Clark"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/NZL_Helen_Clark.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NZL_HELEN_CLARK_DESC
+		}
+	}
+	NZL_rodney_hide = {
+		name = "Rodney Hide"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/NZL_Rodney_Hide.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NZL_RODNEY_HIDE_DESC
+		}
+	}
+	NZL_donald_brash = {
+		name = "Donald Brash"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/NZL_Donald_Brash.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NZL_DONALD_BRASH_DESC
+		}
+	}
+	NZL_winston_peters = {
+		name = "Winston Peters"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/NZL_Winston_Peters.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NZL_WINSTON_PETERS_DESC
+		}
+	}
+	NZL_peter_tapsell = {
+		name = "Peter Tapsell"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/NZL_Peter_Tapsell.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NZL_PETER_TAPSELL_DESC
+		}
+	}
+	NZL_colin_king_ansell = {
+		name = "Colin King-Ansell"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/NZL_Colin_King_Ansell.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NZL_COLIN_KING_ANSELL_DESC
+		}
+	}
+}

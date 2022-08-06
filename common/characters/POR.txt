@@ -1,0 +1,151 @@
+characters = {
+	POR_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	POR_collective_leadership = {
+		name = "Collective Leadership"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Collective/European_Collective_Leadership.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POR_COLLECTIVE_LEADERSHIP_DESC
+		}
+	}
+	POR_francisco_louca = {
+		name = "Francisco Louçã"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/POR_Francisco_Louca.dds"
+			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POR_FRANCISCO_LOUCA_DESC
+		}
+	}
+	POR_heloisa_apolonia = {
+		name = "Heloísa Apolónia"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/POR_Heloisa_Apolonia.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POR_HELOISA_APOLONIA_DESC
+		}
+	}
+	POR_jose_socrates = {
+		name = "José Sócrates"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/POR_Jose_Socrates.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_corporatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POR_JOSE_SOCRATES_DESC
+		}
+	}
+	POR_eduardo_correia = {
+		name = "Eduardo Baptista Correia"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/POR_Eduardo_Correia.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POR_EDUARDO_CORREIA_DESC
+		}
+	}
+	POR_luis_mendes = {
+		name = "Luís Marques Mendes"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/POR_Luis_Mendes.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POR_LUIS_MENDES_DESC
+		}
+	}
+	POR_paulo_portas = {
+		name = "Paulo Portas"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/POR_Paulo_Portas.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POR_PAULO_PORTAS_DESC
+		}
+	}
+	POR_jose_coelho = {
+		name = "José Pinto Coelho"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/POR_Jose_Coelho.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POR_JOSE_COELHO_DESC
+		}
+	}
+	POR_andre_ventura = {
+		name = "André Ventura"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/POR_Andre_Ventura.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_position
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POR_ANDRE_VENTURA_DESC
+		}
+	}
+}

@@ -1,0 +1,151 @@
+characters = {
+	NEP_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	NEP_pushpa_kamal_dahal = {
+		name = "Pushpa Kamal Dahal"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NEP/NEP_Pushpa_Kamal_Dahal.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NEP_PUSHPA_KAMAL_DAHAL_DESC
+		}
+	}
+	NEP_jhala_nath_khanal = {
+		name = "Jhala Nath Khanal"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NEP/NEP_Jhala_Nath_Khanal.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NEP_JHALA_NATH_KHANAL_DESC
+		}
+	}
+	NEP_madhav_kumar_nepal = {
+		name = "Madhav Kumar Nepal"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NEP/NEP_Madhav_Kumar_Nepal.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NEP_MADHAV_KUMAR_NEPAL_DESC
+		}
+	}
+	NEP_girija_prasad_koirala = {
+		name = "Girija Prasad Koirala"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NEP/NEP_Girija_Prasad_Koirala.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NEP_GIRIJA_PRASAD_KOIRALA_DESC
+		}
+	}
+	NEP_rabindra_mishra = {
+		name = "Rabindra Mishra"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NEP/NEP_Rabindra_Mishra.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NEP_RABINDRA_MISHRA_DESC
+		}
+	}
+	NEP_ek_nath_dhakal = {
+		name = "Ek Nath Dhakal"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NEP/NEP_Ek_Nath_Dhakal.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NEP_EK_NATH_DHAKAL_DESC
+		}
+	}
+	NEP_pashupati_rana = {
+		name = "Pashupati Rana"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NEP/NEP_Pashupati_Rana.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NEP_PASHUPATI_RANA_DESC
+		}
+	}
+	NEP_king_birendra = {
+		name = "King Birendra"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NEP/NEP_King_Birendra.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NEP_KING_BIRENDRA_DESC
+		}
+	}
+	NEP_raj_kumar_rauniyar = {
+		name = "Raj Kumar Rauniyar"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NEP/NEP_Raj_Kumar_Rauniyar.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NEP_RAJ_KUMAR_RAUNIYAR_DESC
+		}
+	}
+}

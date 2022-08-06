@@ -1,0 +1,38 @@
+﻿capital = 267
+
+set_politics = {	
+	ruling_party = marxism_leninism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 75
+	revisionist_socialism = 5
+	libertarian_socialism = 5
+	social_democracy = 5
+	liberal_democracy = 5
+	conservative_democracy = 5
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_balanced_bicameralism
+	idea_s_i_judiciary
+	idea_swm_voting
+	idea_state_atheism
+	idea_restricted_freedoms
+}
+
+recruit_character = AFG_anarchy
+recruit_character = AFG_mohammad_najibullah
+recruit_character = AFG_heela_najibullah
+recruit_character = AFG_muska_najibullah
+recruit_character = AFG_ajmal_shams
+recruit_character = AFG_sayed_ishaq_gailani
+recruit_character = AFG_abdul_rashid_dostum
+recruit_character = AFG_babrak_shinwari
+recruit_character = AFG_juma_khan_hamdard
+recruit_character = AFG_mullah_mohammed_omar

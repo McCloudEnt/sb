@@ -1,0 +1,151 @@
+characters = {
+	FRA_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	FRA_robert_hue = {
+		name = "Robert Hue"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/FRA_Robert_Hue.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FRA_ROBERT_HUE_DESC
+		}
+	}
+	FRA_jean_luc_melenchon = {
+		name = "Jean-Luc Mélenchon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/FRA_Jean_Luc_Melenchon.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FRA_JEAN_LUC_MELENCHON_DESC
+		}
+	}
+	FRA_nathalie_arthaud = {
+		name = "Nathalie Arthaud"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/FRA_Nathalie_Arthaud.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FRA_NATHALIE_ARTHAUD_DESC
+		}
+	}
+	FRA_francois_hollande = {
+		name = "François Hollande"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/FRA_Francois_Hollande.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FRA_FRANCOIS_HOLLANDE_DESC
+		}
+	}
+	FRA_francois_bayrou = {
+		name = "François Bayrou"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/FRA_Francois_Bayrou.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FRA_FRANCOIS_BAYROU_DESC
+		}
+	}
+	FRA_jacques_chirac = {
+		name = "Jacques Chirac"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/FRA_Jacques_Chirac.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FRA_JACQUES_CHIRAC_DESC
+		}
+	}
+	FRA_marine_le_pen = {
+		name = "Marine Le Pen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/FRA_Marine_Le_Pen.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FRA_MARINE_LE_PEN_DESC
+		}
+	}
+	FRA_benoit_puga = {
+		name = "Benoît Puga"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/FRA_Benoit_Puga.dds"
+			}
+		}
+		country_leader = {
+			ideology = republican_autocracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FRA_BENOIT_PUGA_DESC
+		}
+	}
+	FRA_jean_marie_le_pen = {
+		name = "Jean-Marie Le Pen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/FRA_Jean_Marie_Le_Pen.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FRA_JEAN_MARIE_LE_PEN_DESC
+		}
+	}
+}

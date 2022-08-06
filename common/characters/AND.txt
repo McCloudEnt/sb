@@ -1,0 +1,151 @@
+characters = {
+	AND_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	AND_collective_leadership = {
+		name = "Collective Leadership"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Collective/European_Collective_Leadership.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AND_COLLECTIVE_LEADERSHIP_DESC
+		}
+	}
+	AND_victor_naudi_zamora = {
+		name = "Victor Naudi Zamora"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AND/AND_Victor_Naudi_Zamora.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AND_VICTOR_NAUDI_ZAMORA_DESC
+		}
+	}
+	AND_pere_lopez_agras = {
+		name = "Pere López Agras"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AND/AND_Pere_Lopez_Agras.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AND_PERE_LOPEZ_AGRAS_DESC
+		}
+	}
+	AND_jaume_bartumeu = {
+		name = "Jaume Bartumeu"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AND/AND_Jaume_Bartumeu.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AND_JAUME_BARTUMEU_DESC
+		}
+	}
+	AND_marc_forne_molne = {
+		name = "Marc Forné Molné"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AND/AND_Marc_Forne_Molne.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AND_MARC_FORNE_MOLNE_DESC
+		}
+	}
+	AND_antoni_marti = {
+		name = "Antoni Martí"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AND/AND_Antoni_Marti.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AND_ANTONI_MARTI_DESC
+		}
+	}
+	AND_albert_pintat = {
+		name = "Albert Pintat"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AND/AND_Albert_Pintat.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AND_ALBERT_PINTAT_DESC
+		}
+	}
+	AND_co_prince_joan_enric_vives = {
+		name = "Co-Prince Joan-Enric Vives"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AND/AND_Archbishop_Joan_Enric_Vives.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AND_CO_PRINCE_JOAN_ENRIC_VIVES_DESC
+		}
+	}
+	AND_prince_archbishop_joan_enric_vives = {
+		name = "Prince-Archbishop Joan-Enric Vives"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AND/AND_Archbishop_Joan_Enric_Vives.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AND_PRINCE_ARCHBISHOP_JOAN_ENRIC_VIVES_DESC
+		}
+	}
+}

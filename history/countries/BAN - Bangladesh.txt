@@ -1,0 +1,39 @@
+﻿capital = 430
+
+set_politics = {	
+	ruling_party = classical_authoritarianism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 5
+	libertarian_socialism = 5
+	social_democracy = 15
+	liberal_democracy = 5
+	conservative_democracy = 5
+	classical_authoritarianism = 64
+	ultranationalism = 1
+}
+
+add_ideas = {
+	idea_aristocratic_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_swm_voting
+	idea_moderate_secularism
+	idea_restricted_freedoms
+}
+
+recruit_character = BAN_anarchy
+recruit_character = BAN_rashed_khan_menon
+recruit_character = BAN_serajul_alam_khan
+recruit_character = BAN_nurul_islam_nahid
+recruit_character = BAN_sheikh_hasina
+recruit_character = BAN_a_q_m_badruddoza_chowdhury
+recruit_character = BAN_khaleda_zia
+recruit_character = BAN_hussain_muhammad_ershad
+recruit_character = BAN_kazi_zafar_ahmed
+recruit_character = BAN_motiur_rahman_nizami

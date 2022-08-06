@@ -1,0 +1,36 @@
+﻿capital = 782
+
+set_politics = {	
+	ruling_party = conservative_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democracy = 11
+	liberal_democracy = 38
+	conservative_democracy = 42
+	classical_authoritarianism = 9
+}
+
+add_ideas = {
+	idea_parliamentary_republic
+	idea_unitary
+	idea_lower_house_bicameralism
+	idea_s_i_judiciary
+	idea_swm_voting
+	idea_moderate_secularism
+	idea_limited_freedoms
+}
+
+recruit_character = ZIM_anarchy
+recruit_character = ZIM_robert_mugabe
+recruit_character = ZIM_dumiso_dabengwa
+recruit_character = ZIM_wilson_khumbula
+recruit_character = ZIM_morgan_tsvangirai
+recruit_character = ZIM_abel_muzorewa
+recruit_character = ZIM_alec_smith
+recruit_character = ZIM_rick_cosnett
+recruit_character = ZIM_ronald_reid_daly
+recruit_character = ZIM_harold_covington

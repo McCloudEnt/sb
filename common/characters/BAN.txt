@@ -1,0 +1,151 @@
+characters = {
+	BAN_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	BAN_rashed_khan_menon = {
+		name = "Rashed Khan Menon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BAN/BAN_Rashed_Khan_Menon.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BAN_RASHED_KHAN_MENON_DESC
+		}
+	}
+	BAN_serajul_alam_khan = {
+		name = "Serajul Alam Khan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BAN/BAN_Serajul_Alam_Khan.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BAN_SERAJUL_ALAM_KHAN_DESC
+		}
+	}
+	BAN_nurul_islam_nahid = {
+		name = "Nurul Islam Nahid"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BAN/BAN_Nurul_Islam_Nahid.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BAN_NURUL_ISLAM_NAHID_DESC
+		}
+	}
+	BAN_sheikh_hasina = {
+		name = "Sheikh Hasina"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BAN/BAN_Sheikh_Hasina.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BAN_SHEIKH_HASINA_DESC
+		}
+	}
+	BAN_a_q_m_badruddoza_chowdhury = {
+		name = "A. Q. M. Badruddoza Chowdhury"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BAN/BAN_A_Q_M_Badruddoza_Chowdhury.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BAN_A_Q_M_BADRUDDOZA_CHOWDHURY_DESC
+		}
+	}
+	BAN_khaleda_zia = {
+		name = "Khaleda Zia"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BAN/BAN_Khaleda_Zia.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BAN_KHALEDA_ZIA_DESC
+		}
+	}
+	BAN_hussain_muhammad_ershad = {
+		name = "Hussain Muhammad Ershad"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BAN/BAN_Hussain_Muhammad_Ershad.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BAN_HUSSAIN_MUHAMMAD_ERSHAD_DESC
+		}
+	}
+	BAN_kazi_zafar_ahmed = {
+		name = "Kazi Zafar Ahmed"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BAN/BAN_Kazi_Zafar_Ahmed.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BAN_KAZI_ZAFAR_AHMED_DESC
+		}
+	}
+	BAN_motiur_rahman_nizami = {
+		name = "Motiur Rahman Nizami"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BAN/BAN_Motiur_Rahman_Nizami.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BAN_MOTIUR_RAHMAN_NIZAMI_DESC
+		}
+	}
+}

@@ -1,0 +1,12 @@
+focus_tree = {
+	id = canada_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = CAN
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

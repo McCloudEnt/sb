@@ -1,0 +1,151 @@
+characters = {
+	WDE_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	WDE_henrik_stamer_hedin = {
+		name = "Henrik Stamer Hedin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WDE/WDE_Henrik_Stamer_Hedin.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WDE_HENRIK_STAMER_HEDIN_DESC
+		}
+	}
+	WDE_soren_sondergaard = {
+		name = "Søren Søndergaard"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WDE/WDE_Soren_Sondergaard.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WDE_SOREN_SONDERGAARD_DESC
+		}
+	}
+	WDE_annette_vilhelmsen = {
+		name = "Annette Vilhelmsen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WDE/WDE_Annette_Vilhelmsen.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WDE_ANNETTE_VILHELMSEN_DESC
+		}
+	}
+	WDE_mette_frederiksen = {
+		name = "Mette Frederiksen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WDE/WDE_Mette_Frederiksen.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_corporatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WDE_METTE_FREDERIKSEN_DESC
+		}
+	}
+	WDE_kristian_jensen = {
+		name = "Kristian Jensen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WDE/WDE_Kristian_Jensen.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WDE_KRISTIAN_JENSEN_DESC
+		}
+	}
+	WDE_lars_barfoed = {
+		name = "Lars Barfoed"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WDE/WDE_Lars_Barfoed.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WDE_LARS_BARFOED_DESC
+		}
+	}
+	WDE_kristian_thulesen_dahl = {
+		name = "Kristian Thulesen Dahl"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WDE/WDE_Kristian_Thulesen_Dahl.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WDE_KRISTIAN_THULESEN_DAHL_DESC
+		}
+	}
+	WDE_pernille_vermund = {
+		name = "Pernille Vermund"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WDE/WDE_Pernille_Vermund.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WDE_PERNILLE_VERMUND_DESC
+		}
+	}
+	WDE_rasmus_paludan = {
+		name = "Rasmus Paludan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WDE/WDE_Rasmus_Paludan.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WDE_RASMUS_PALUDAN_DESC
+		}
+	}
+}

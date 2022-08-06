@@ -1,0 +1,33 @@
+﻿capital = 853
+
+set_politics = {	
+	ruling_party = liberal_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	liberal_democracy = 58
+	conservative_democracy = 42
+}
+
+add_ideas = {
+	idea_semi_constitutional_monarchy
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_fp_voting
+	idea_pluralism
+	idea_limited_freedoms
+}
+
+recruit_character = MOC_anarchy
+recruit_character = MOC_collective_leadership
+recruit_character = MOC_christine_pasquier_ciulla
+recruit_character = MOC_beatrice_fresko_rolfo
+recruit_character = MOC_jean_francois_robillon
+recruit_character = MOC_stephane_valeri
+recruit_character = MOC_jean_louis_campora
+recruit_character = MOC_prince_albert_ii
+recruit_character = MOC_dominique_marie_david

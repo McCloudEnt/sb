@@ -1,0 +1,152 @@
+characters = {
+	ZIM_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	ZIM_robert_mugabe = {
+		name = "Robert Mugabe"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZIM/ZIM_Robert_Mugabe.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ZIM_ROBERT_MUGABE_DESC
+		}
+	}
+	ZIM_dumiso_dabengwa = {
+		name = "Dumiso Dabengwa"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZIM/ZIM_Dumiso_Dabengwa.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ZIM_DUMISO_DABENGWA_DESC
+		}
+	}
+	
+	ZIM_wilson_khumbula = {
+		name = "Wilson Khumbula"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZIM/ZIM_Wilson_Khumbula.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ZIM_WILSON_KHUMBULA_DESC
+		}
+	}
+	ZIM_morgan_tsvangirai = {
+		name = "Morgan Tsvangirai"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZIM/ZIM_Morgan_Tsvangirai.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ZIM_MORGAN_TSVANGIRAI_DESC
+		}
+	}
+	ZIM_abel_muzorewa = {
+		name = "Abel Muzorewa"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZIM/ZIM_Abel_Muzorewa.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ZIM_ABEL_MUZOREWA_DESC
+		}
+	}
+	ZIM_alec_smith = {
+		name = "Alec Smith"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZIM/ZIM_Alec_Smith.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ZIM_ALEC_SMITH_DESC
+		}
+	}
+	ZIM_rick_cosnett = {
+		name = "Rick Cosnett"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZIM/ZIM_Rick_Cosnett.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ZIM_RICK_COSNETT_DESC
+		}
+	}
+	ZIM_ronald_reid_daly = {
+		name = "Ronald Reid-Daly"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZIM/ZIM_Ronald_Reid_Daly.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ZIM_RONALD_REID_DALY_DESC
+		}
+	}
+	ZIM_harold_covington = {
+		name = "Harold Covington"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZIM/ZIM_Harold_Covington.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ZIM_HAROLD_COVINGTON_DESC
+		}
+	}
+}

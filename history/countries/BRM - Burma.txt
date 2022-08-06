@@ -1,0 +1,35 @@
+﻿capital = 929
+
+set_politics = {	
+	ruling_party = revisionist_socialism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 8
+	revisionist_socialism = 90
+	libertarian_socialism = 2
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_voting_consultation
+	idea_state_atheism
+	idea_restricted_freedoms
+}
+
+recruit_character = BRM_anarchy
+recruit_character = BRM_sandar_win
+recruit_character = BRM_thakin_tin_mya
+recruit_character = BRM_council_of_monks
+recruit_character = BRM_aung_san_suu_kyi
+recruit_character = BRM_thu_wai
+recruit_character = BRM_aung_kham_hti
+recruit_character = BRM_thein_sein
+recruit_character = BRM_than_shwe
+recruit_character = BRM_ashin_wirathu

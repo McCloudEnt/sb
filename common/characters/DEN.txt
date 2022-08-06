@@ -1,0 +1,151 @@
+characters = {
+	DEN_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	DEN_ole_sohn = {
+		name = "Ole Sohn"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEN/DEN_Ole_Sohn.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = DEN_OLE_SOHN_DESC
+		}
+	}
+	DEN_collective_leadership = {
+		name = "Collective Leadership"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Collective/European_Collective_Leadership.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = DEN_COLLECTIVE_LEADERSHIP_DESC
+		}
+	}
+	DEN_villy_sovndal = {
+		name = "Villy Søvndal"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEN/DEN_Villy_Sovndal.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = DEN_VILLY_SOVNDAL_DESC
+		}
+	}
+	DEN_helle_thorning_schmidt = {
+		name = "Helle Thorning-Schmidt"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEN/DEN_Helle_Thorning_Schmidt.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = DEN_HELLE_THORNING_SCHMIDT_DESC
+		}
+	}
+	DEN_anders_fogh_rasmussen = {
+		name = "Anders Fogh Rasmussen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEN/DEN_Anders_Fogh_Rasmussen.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = DEN_ANDERS_FOGH_RASMUSSEN_DESC
+		}
+	}
+	DEN_bendt_bendtsen = {
+		name = "Bendt Bendtsen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEN/DEN_Bendt_Bendtsen.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = DEN_BENDT_BENDTSEN_DESC
+		}
+	}
+	DEN_pia_kjaersgaard = {
+		name = "Pia Kjærsgaard"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEN/DEN_Pia_Kjaersgaard.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = DEN_PIA_KJAERSGAARD_DESC
+		}
+	}
+	DEN_queen_margrethe_ii = {
+		name = "Queen Margrethe II"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEN/DEN_Queen_Margrethe_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = DEN_QUEEN_MARGRETHE_II_DESC
+		}
+	}
+	DEN_jonni_hansen = {
+		name = "Jonni Hansen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEN/DEN_Jonni_Hansen.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_position
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = DEN_JONNI_HANSEN_DESC
+		}
+	}
+}

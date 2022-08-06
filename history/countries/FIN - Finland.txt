@@ -1,0 +1,40 @@
+﻿capital = 111
+
+set_politics = {	
+	ruling_party = social_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 1
+	revisionist_socialism = 10
+	libertarian_socialism = 8
+	social_democracy = 30
+	liberal_democracy = 25
+	conservative_democracy = 24
+	despotism = 2
+}
+
+add_ideas = {
+	idea_aristocratic_republic
+	idea_devolution
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_sp_voting
+	idea_lite_secularism
+	idea_restricted_freedoms
+}
+
+recruit_character = FIN_anarchy
+recruit_character = FIN_yrjo_hakanen
+recruit_character = FIN_suvi_anne_siimes
+recruit_character = FIN_claes_andersson
+recruit_character = FIN_tarja_halonen
+recruit_character = FIN_matti_vanhanen
+recruit_character = FIN_sauli_niinisto
+recruit_character = FIN_seppo_kaariainen
+recruit_character = FIN_juhani_kaskeala
+recruit_character = FIN_timo_soini
+recruit_character = FIN_olavi_maenpaa

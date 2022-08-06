@@ -1,0 +1,41 @@
+﻿capital = 151
+
+set_politics = {	
+	ruling_party = liberal_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 5
+	revisionist_socialism = 4
+	libertarian_socialism = 7
+	social_democracy = 23
+	liberal_democracy = 27
+	conservative_democracy = 14
+	classical_authoritarianism = 17
+	despotism = 2
+	ultranationalism = 1
+}
+
+add_ideas = {
+	idea_direct_democracy
+	idea_federation
+	idea_balanced_bicameralism
+	idea_s_s_judiciary
+	idea_fp_voting
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = SWI_anarchy
+recruit_character = SWI_gavriel_pinson
+recruit_character = SWI_josef_zisyadis
+recruit_character = SWI_federal_council_grune
+recruit_character = SWI_federal_council_sps
+recruit_character = SWI_federal_council_fdp
+recruit_character = SWI_federal_council_cvp
+recruit_character = SWI_federal_council_svp
+recruit_character = SWI_eric_weber
+recruit_character = SWI_dominic_luthard

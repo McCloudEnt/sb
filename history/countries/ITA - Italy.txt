@@ -1,0 +1,40 @@
+﻿capital = 2
+
+set_politics = {	
+	ruling_party = classical_authoritarianism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 10
+	revisionist_socialism = 18
+	libertarian_socialism = 5
+	social_democracy = 7
+	liberal_democracy = 5
+	conservative_democracy = 15
+	classical_authoritarianism = 30
+	ultranationalism = 10
+}
+
+add_ideas = {
+	idea_constitutional_monarchy
+	idea_unitary
+	idea_balanced_bicameralism
+	idea_s_i_judiciary
+	idea_mixed_system
+	idea_lite_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = ITA_anarchy
+recruit_character = ITA_oliviero_diliberto
+recruit_character = ITA_enrico_boselli
+recruit_character = ITA_mario_capanna
+recruit_character = ITA_carlo_vizzini
+recruit_character = ITA_stefano_de_luca
+recruit_character = ITA_pier_ferdinando_casini
+recruit_character = ITA_ignazio_la_russa
+recruit_character = ITA_king_victor_emmanuel_iv
+recruit_character = ITA_gianni_alemanno

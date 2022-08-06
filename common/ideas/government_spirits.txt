@@ -1,0 +1,878 @@
+ideas = {
+	classification = {
+		idea_absolute_monarchy = {
+			picture = absolute_monarchy
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = 0.1
+			}
+		}
+		idea_aristocratic_republic = {
+			picture = aristocratic_republic
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = -0.3
+				command_power_gain_mult = 0.25
+				drift_defence_factor = 0.25
+			}
+		}
+		idea_clerical_dictatorship = {
+			picture = clerical_dictatorship
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				research_speed_factor = -0.05
+				stability_factor = 0.1
+				political_power_factor = -0.1
+			}
+		}
+		idea_communist_state = {
+			picture = communist_state
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.15
+				production_factory_max_efficiency_factor = 0.1
+				stability_factor = -0.05
+			}
+		}
+		idea_constitutional_monarchy = {
+			picture = constitutional_monarchy
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.2
+			}
+		}
+		idea_direct_democracy = {
+			picture = direct_democracy
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.2
+				stability_factor = -0.05
+			}
+		}
+		idea_elective_monarchy = {
+			picture = elective_monarchy
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = -0.05
+			}
+		}
+		idea_failed_state = {
+			picture = failed_state
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = -0.5
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.5
+				industrial_capacity_dockyard = -0.5
+				local_resources_factor = -0.5
+				conscription_factor = -0.5
+				mobilization_speed = -0.5
+				war_support_factor = -0.5
+				resistance_damage_to_garrison = 0.5
+			}
+		}
+		idea_junta = {
+			picture = junta
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = -0.3
+				command_power_gain_mult = 0.25
+				drift_defence_factor = 0.25
+			}
+		}
+		idea_one_party_dictatorship = {
+			picture = one_party_dictatorship
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				mobilization_speed = 0.1
+				conversion_cost_civ_to_mil_factor = -0.1
+				surrender_limit = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		idea_parliamentary_republic = {
+			picture = parliamentary_republic
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.3
+				stability_factor = -0.05
+				drift_defence_factor = -0.2
+			}
+		}
+		idea_presidential_republic = {
+			picture = presidential_republic
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.1
+			}
+		}
+		idea_puppet_government = {
+			picture = puppet_government
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				min_export = 0.25
+				political_power_factor = -0.2
+				stability_factor = -0.1
+			}
+		}
+		idea_republican_dictatorship = {
+			picture = republican_dictatorship
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = 0.1
+				drift_defence_factor = 0.1
+			}
+		}
+		idea_revolutionary_movement = {
+			picture = revolutionary_movement
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+				surrender_limit = 0.1
+				resistance_damage_to_garrison_on_our_occupied_states = 0.25
+				political_power_factor = -0.15
+			}
+		}
+		idea_semi_constitutional_monarchy = {
+			picture = semi_constitutional_monarchy
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.2
+				drift_defence_factor = 0.1
+			}
+		}
+		idea_semi_presidential_republic = {
+			picture = semi_presidential_republic
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.2
+				drift_defence_factor = -0.1
+			}
+		}
+		idea_socialist_republic = {
+			picture = socialist_republic
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				min_export = -0.1
+				political_power_factor = 0.2
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				stability_factor = -0.1
+			}
+		}
+		idea_theocracy = {
+			picture = theocracy
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				research_speed_factor = -0.025
+				stability_factor = 0.2
+				political_power_factor = -0.05
+			}
+		}
+		idea_theodemocracy = {
+			picture = theodemocracy
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				research_speed_factor = -0.05
+				political_power_factor = 0.1
+				stability_factor = 0.05
+			}
+		}
+	}
+
+	centralization = {
+		idea_no_centralization = {
+			picture = anarchy
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+		}
+		idea_confederation = {
+			picture = confederation
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+		}
+		idea_federation = {
+			picture = federation
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+		}
+		idea_devolution = {
+			picture = devolution
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+		}
+		idea_unitary = {
+			picture = unitary
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+		}
+	}
+
+	legislation = {
+		idea_no_legislation = {
+			picture = invalid_policy
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_legislative_consultation = {
+			picture = legislative_consultation
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_unicameralism = {
+			picture = unicameralism
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_upper_house_bicameralism = {
+			picture = upper_house_bicameralism
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_balanced_bicameralism = {
+			picture = balanced_bicameralism
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_lower_house_bicameralism = {
+			picture = lower_house_bicameralism
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+	}
+
+	judiciary = {
+		idea_no_judiciary = {
+			picture = invalid_policy
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_judicial_consultation = {
+			picture = judicial_consultation
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_m_s_judiciary = {
+			picture = m_s_judiciary
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_s_s_judiciary = {
+			picture = s_s_judiciary
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_m_i_judiciary = {
+			picture = m_i_judiciary
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_s_i_judiciary = {
+			picture = s_i_judiciary
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+	}
+
+	electoral_system = {
+		idea_no_voting = {
+			picture = invalid_policy
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_voting_consultation = {
+			picture = voting_consultation
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_indirect_voting = {
+			picture = indirect_voting
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_swm_voting = {
+			picture = swm_voting
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_mwm_voting = {
+			picture = mwm_voting
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_sp_voting = {
+			picture = sp_voting
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_fp_voting = {
+			picture = fp_voting
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_mixed_system = {
+			picture = mixed_system
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+	}
+
+	religious_policy = {
+		idea_no_religious_policy = {
+			picture = invalid_policy
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_moralism = {
+			picture = moralism
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_pluralism = {
+			picture = pluralism
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_lite_secularism = {
+			picture = lite_secularism
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_moderate_secularism = {
+			picture = moderate_secularism
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_laicity = {
+			picture = laicity
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_state_atheism = {
+			picture = state_atheism
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		idea_state_anti_theism = {
+			picture = state_anti_theism
+
+			allowed = {
+			}
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+		}
+	}
+
+	political_freedoms = {
+		idea_no_freedoms = {
+			picture = no_freedoms
+
+			allowed = {
+			}
+
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				drift_defence_factor = 0.45
+				war_support_factor = 0.15
+			}
+		}
+		idea_restricted_freedoms = {
+			picture = restricted_freedoms
+
+			allowed = {
+			}
+
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.07
+				industrial_capacity_factory = 0.07
+				industrial_capacity_dockyard = 0.07
+				drift_defence_factor = 0.3
+				war_support_factor = 0.1
+				research_speed_factor = 0.01
+			}
+		}
+		idea_limited_freedoms = {
+			picture = limited_freedoms
+
+			allowed = {
+			}
+
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.04
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				drift_defence_factor = 0.15
+				war_support_factor = 0.05
+				research_speed_factor = 0.03
+			}
+		}
+		idea_maximum_freedoms = {
+			picture = maximum_freedoms
+
+			allowed = {
+			}
+
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+	}
+}

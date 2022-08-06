@@ -1,0 +1,151 @@
+characters = {
+	SOV_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	SOV_boris_pugo = {
+		name = "Boris Pugo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/SOV_Boris_Pugo.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SOV_BORIS_PUGO_DESC
+		}
+	}
+	SOV_andrei_bogdanov = {
+		name = "Andrei Bogdanov"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/SOV_Andrei_Bogdanov.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SOV_ANDREI_BOGDANOV_DESC
+		}
+	}
+	SOV_sergey_mironov = {
+		name = "Sergey Mironov"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/SOV_Sergey_Mironov.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SOV_SERGEY_MIRONOV_DESC
+		}
+	}
+	SOV_yury_boldyrev = {
+		name = "Yury Boldyrev"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/SOV_Yury_Boldyrev.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_corporatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SOV_YURY_BOLDYREV_DESC
+		}
+	}
+	SOV_irina_khakamada = {
+		name = "Irina Khakamada"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/SOV_Irina_Khakamada.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SOV_IRINA_KHAKAMADA_DESC
+		}
+	}
+	SOV_nikolay_travkin = {
+		name = "Nikolay Travkin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/SOV_Nikolay_Travkin.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SOV_NIKOLAY_TRAVKIN_DESC
+		}
+	}
+	SOV_oleg_malyshkin = {
+		name = "Oleg Malyshkin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/SOV_Oleg_Malyshkin.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SOV_OLEG_MALYSHKIN_DESC
+		}
+	}
+	SOV_sergey_shoygu = {
+		name = "Sergey Shoygu"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/SOV_Sergey_Shoygu.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SOV_SERGEY_SHOYGU_DESC
+		}
+	}
+	SOV_aleksandr_dugin = {
+		name = "Aleksandr Dugin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/SOV_Aleksandr_Dugin.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_position
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SOV_ALEKSANDR_DUGIN_DESC
+		}
+	}
+}

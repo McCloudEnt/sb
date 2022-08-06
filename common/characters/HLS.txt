@@ -1,0 +1,69 @@
+characters = {
+	HLS_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	HLS_pope_boniface_x = {
+		name = "Boniface X"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HLS/HLS_Pope_Boniface_X.dds"
+			}
+		}
+		country_leader = {
+			desc = HLS_POPE_BONIFACE_X
+			ideology = theocratic
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = HLS_POPE_BONIFACE_X
+			ideology = absolute_monarchy
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = HLS_POPE_BONIFACE_X
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = HLS_POPE_BONIFACE_X
+			ideology = religious_democracy
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = HLS_POPE_BONIFACE_X
+			ideology = social_liberalism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = HLS_POPE_BONIFACE_X
+			ideology = social_corporatism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = HLS_POPE_BONIFACE_X
+			ideology = religious_communism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = HLS_POPE_BONIFACE_X
+			ideology = democratic_socialism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = HLS_POPE_BONIFACE_X
+			ideology = reformed_bolshevism
+			expire = "2065.1.1"
+		}
+	}
+}

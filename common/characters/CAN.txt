@@ -1,0 +1,151 @@
+characters = {
+	CAN_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	CAN_hardial_bains = {
+		name = "Hardial Bains"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAN/CAN_Hardial_Bains.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAN_HARDIAL_BAINS_DESC
+		}
+	}
+	CAN_jack_layton = {
+		name = "Jack Layton"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAN/CAN_Jack_Layton.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAN_JACK_LAYTON_DESC
+		}
+	}
+	CAN_miguel_figueroa = {
+		name = "Miguel Figueroa"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAN/CAN_Miguel_Figueroa.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAN_MIGUEL_FIGUEROA_DESC
+		}
+	}
+	CAN_alton_rideout = {
+		name = "Alton Rideout"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAN/CAN_Alton_Rideout.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAN_ALTON_RIDEOUT_DESC
+		}
+	}
+	CAN_michael_ignatieff = {
+		name = "Michael Ignatieff"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAN/CAN_Michael_Ignatieff.dds"
+			}
+		}
+		country_leader = {
+			ideology = new_deal_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAN_MICHAEL_IGNATIEFF_DESC
+		}
+	}
+	CAN_peter_mackay = {
+		name = "Peter MacKay"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAN/CAN_Peter_MacKay.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAN_PETER_MACKAY_DESC
+		}
+	}
+	CAN_stephen_harper = {
+		name = "Stephen Harper"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAN/CAN_Stephen_Harper.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAN_STEPHEN_HARPER_DESC
+		}
+	}
+	CAN_stockwell_day = {
+		name = "Stockwell Day"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAN/CAN_Stockwell_Day.dds"
+			}
+		}
+		country_leader = {
+			ideology = republican_autocracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAN_STOCKWELL_DAY_DESC
+		}
+	}
+	CAN_maxime_bernier = {
+		name = "Maxime Bernier"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAN/CAN_Maxime_Bernier.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_position
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAN_MAXIME_BERNIER_DESC
+		}
+	}
+}

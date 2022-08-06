@@ -1,0 +1,120 @@
+﻿l_english:
+ CAN_history.1.t:0 "War of 1812"
+ CAN_history.1.d:0 "The War of 1812 was a major point in both American and Canadian history for had it ended differently, Canada might've retained its independence or could've been annexed outright by the United States. Although the British succeeded in halting the invasion, the Americans have managed to severely damage Canada for years to come, thus leading to it becoming more and more dependent on American trade which in turn shaped much of Canada's domestic and foreign policy for the next 155 years and beyond."
+ CAN_history.1.o1:0 "Interesting"
+ 
+ CAN_history.2.t:0 "Rebellion of 1837"
+ CAN_history.2.d:0 "The Rebellion of 1837 was a failed attempt at establishing an American-style republic in British North America. The rebellion came to be due to the oligarchic nature of the colonial governments and the desire to break away from the British Crown if things didn't change. The Republic of Canada would only last about a year before it collapsed with many of its leaders fleeing to the United States, among them future Toronto mayor William Lyon Mackenzie. The rebellion has been seen as the first step towards responsible government and eventual independence."
+ CAN_history.2.o1:0 "Interesting"
+ 
+ CAN_history.3.t:0 "Commonwealth Act of 1867"
+ CAN_history.3.d:0 "Formerly known as the British North America Act of 1867, the Commonwealth Act of 1867 was the Act of Parliament that established the Dominion of Canada on July 1st of 1867. With the backing of the United States, Canada was able to petition the United Kingdom to grant them self-government. Initially, the Prime Minister was Sir John A. MacDonald who died of liver failure in 1887 after being made Prime Minister a second time. His successor John Abbott would lose his position as Prime Minister in 1892 to Wilfred Laurier who remained Prime Minister until his death in 1919."
+ CAN_history.3.o1:0 "Interesting"
+ 
+ CAN_history.4.t:0 "Reciprocity"
+ CAN_history.4.d:0 "One of Wilfred Laurier's biggest campaign promises was to introduce the policy of reciprocity which meant the removal of any and all trade barriers between the United States and Canada, something that would be fulfilled in 1904 after the incumbent Liberal Party won yet another majority in the House of Commons. This removal of trade barriers wound up making the already dependent-on-American-trade Canada much more closer to the United States than ever before, further integrating the two countries together."
+ CAN_history.4.o1:0 "Interesting"
+ 
+ CAN_history.5.t:0 "Commonwealth Act of 1967"
+ CAN_history.5.d:0 "The Commonwealth Act of 1967 was, ironically, passed on the 100th anniversary of Confederation. The provisions of the act detailed the abolition of the monarchy, the establishment of a presidential system, and the declaration that Canada would become a Commonwealth of the United States effective immediately. The act came to be after about a decade of dissatisfaction with the British Crown which culminated in patriation in 1962. Some people cheered, some didn't know what to think of it, and others would begin to protest this act. The latter group would go on to establish the Canadian Independence Party."
+ CAN_history.5.o1:0 "Interesting"
+ 
+ CAN_history.6.t:0 "Canadian Independence Party Established"
+ CAN_history.6.d:0 "The Canadian Independence Party was established in 1979 as the result of a merger of the New Democratic Party and the Independence Rally. In the party's first leadership election, former NDP leader Alton Rideout was elected to become the first leader of the CIP, pushing the party towards a de facto moderate social democratic position. The party advocates for a new Commonwealth Act to supersede the 1967 Act, and to let the people decide which government the independent Canada should have which the CIP argues never happened with the 1967 Act despite the Liberal Party's promise to do so."
+ CAN_history.6.o1:0 "Interesting"
+ 
+ USA_history_1.t:0 "War of 1812"
+ USA_history_1.d:0 "The War of 1812 was a major point in both American and Canadian history for had it ended differently, Canada might've retained its independence or could've been annexed outright by the United States. The Americans might have failed to achieve their goal of annexing British North America, they were able to inflict damages so devestating that the colonies up north had no choice but to engage in trade with the United States in order to recover, a situation that would prove to be useful to the Americans as it allowed them to greatly influence Canadian politics which ultimately lead to the Commonwealth Act of 1967."
+ USA_history_1.o1:0 "Interesting"
+ 
+ USA_history_2.t:0 "Death of Franklin D. Roosevelt"
+ USA_history_2.d:0 "Franklin Delano Roosevelt, 32nd President of the United States, passed away on April 12, 1941 after suffering a stroke almost three months after being inaugurated into an unprecedented third term. As per tradition, it is the Vice President who is inaugurated as President should the incumbent leave office prematurely, which made Henry A. Wallace the next President after Roosevelt's death. A Progressive, Wallace has been regarded as the second father of New Deal liberalism, a form of liberalism that defines the left-wing faction of the modern Democratic Party."
+ USA_history_2.o1:0 "Interesting"
+ 
+ USA_history_3.t:0 "1944 Presidential Election"
+ USA_history_3.d:0 "The 1944 Presidential Election was the 40th presidential election held in the United States, and was held on November 7, 1944. The election took place during World War II, and resulted in incumbent Democratic President Henry A. Wallace defeating Republican and future President Thomas E. Dewey to win a second term. This was the last time a Democratic candidate would win a presidential election until the victory of George Wallace in the 1964 Presidential Election."
+ USA_history_3.o1:0 "Interesting"
+ 
+ USA_history_4.t:0 "1948 Presidential Election"
+ USA_history_4.d:0 "The 1948 Presidential Election was the 41st presidential election held in the United States, and was held on November 2, 1948. Republican candidate Thomas E. Dewey defeated Democratic candidate and future Vice President and eventually President Strom Thurmond despite the latter's feisty campaign style and the former's more low-risk style of campaigning. One of Dewey's promises was to not run for reelection after his term was up, citing that Roosevelt's third term was a dangerous precedent that goes against the wishes of George Washington and that he vowed to ensure that no future President will ever run for the third term, which culminated in the 22nd Amendment in 1951."
+ USA_history_4.o1:0 "Interesting"
+ 
+ USA_history_5.t:0 "1952 Presidential Election"
+ USA_history_5.d:0 "The 1952 Presidential Election was the 42nd presidential election held in the United States, and was held on November 4, 1952. Incumbent Thomas E. Dewey fulfilled his promise to not run for a second term, and so the candidacy was given to former general Dwight D. Eisenhower who was up against Democratic nominee Adlai Stevenson. Thanks to Eisenhower's personal popularity, and Dewey's endorsement of him, he would go on to win the election with future President Richard Nixon as his Vice President. The following election held in 1956 would also net a victory for Eisenhower, and a defeat for Stevenson."
+ USA_history_5.o1:0 "Interesting"
+ 
+ USA_history_6.t:0 "1960 Presidential Election"
+ USA_history_6.d:0 "The 1960 Presidential Election was the 44th presidential election held in the United States, and was held on November 8, 1960. In what was a closely contested election, incumbent Vice President Richard Nixon, the Republican nominee, defeated Democratic nominee Senator John F. Kennedy in an upset victory despite predictions that said that Kennedy was sure to win. This election was notable for being the first election in which Alaska and Hawaii, having become states only months before, were allowed to participate in as well as the last election in which the District of Columbia wasn't allowed to participate in."
+ USA_history_6.o1:0 "Interesting"
+ 
+ USA_history_7.t:0 "Resignation of Richard Nixon"
+ USA_history_7.d:0 "On a bright sunny day known as November 22, 1963 in the city of Dallas, Nixon was the target of an attempted assassination. The shooter was said to have been aiming a long-range rifle from a nearby warehouse when he fired. Although the President wasn't assassinated, and his vital organs were unharmed, he was still shot in the lower torso before the bullet was embedded into his upper leg, thus disrupting mobility in that leg. Because of his sudden handicap, and his wanting to retire from politics anyway, President Nixon made the decision to resign from the presidency on December 14, 1963, handing the role over to his Vice President Henry Cabot Lodge."
+ USA_history_7.o1:0 "Interesting"
+ 
+ USA_history_8.t:0 "Civil Rights Act of 1964"
+ USA_history_8.d:0 "The Civil Rights Amendment was signed into law by President Lodge on July 2, 1964. Although the act had support in the left-wing factions of both the Republican and Democratic Parties, the former party's left-wing faction was shrinking fast and the latter party's right-wing faction was holding a chokehold on power due to the failures of Stevenson and Kennedy. The signing of the act would prove to be a major factor for Wallace's victory in the presidential election a few months later."
+ USA_history_8.o1:0 "Interesting"
+ 
+ USA_history_9.t:0 "1964 Presidential Election"
+ USA_history_9.d:0 "The 1964 Presidential Election was the 45th presidential election held in the United States, and was held on November 3, 1964. Due to the fallout of the signing of the Civil Rights Act of 1964, and the rise of a populist third party lead by Barry Goldwater, incumbent Republican Henry Cabot Lodge lost to Democratic Governor George Wallace who appealled to not only Southern Democrats, but also white-working class voters in the Industrial Midwest who were attracted to the populist Wallace with 1948 candidate Strom Thurmond as his running mate. This cemented the right-wing faction of the Democratic Party as a main faction within the party."
+ USA_history_9.o1:0 "Interesting"
+ 
+ USA_history_10.t:0 "1968 Presidential Election"
+ USA_history_10.d:0 "The 1968 Presidential Election was the 46th presidential election held in the United States, and was held on November 5, 1968. Incumbent President George Wallace, the Democratic nominee, defeated Republican nominee Nelson Rockefeller, no doubt thanks to the former's moderation on his civil rights stance in favor of his economic populism which netted him greater support in the Industrial Midwest. This election would also be the last time that a member of the right-wing faction of the Democratic Party won the presidential election and also the last time that a Democratic candidate won a presidential election until Michael Dukakis in 1992."
+ USA_history_10.o1:0 "Interesting"
+ 
+ USA_history_11.t:0 "Apollo VI Disaster"
+ USA_history_11.d:0 "On Christmas Day of 1968, the lunar lander Eagle developed a leak in a fuel tank leading it to crash on the surface of the Moon, killing astronauts Neil Armstrong and Edwin Aldrin instantly on impact. Astronaut Michael Collins, who remained on board Apollo VI, declared a mutiny and refused to come home until being persauded to return by his wife. President George Wallace gave a speech which concluded with the phrase \"part of the moon that is forever America\" instead of \"forever human\" as originally typed out, sparking outrage from both Canadian and European scientists. In the aftermath, Collins got PTSD, the AFSEP pulled out of the Apollo program in response to Wallace's remark, and the Apollo program was put to an end on January 8, 1969 after Apollo VII finished its journey"
+ USA_history_11.o1:0 "Interesting"
+ 
+ USA_history_12.t:0 "Assassination of George Wallace"
+ USA_history_12.d:0 "For the first time since William McKinley, George Wallace was assassinated on May 15, 1971 in Laurel, Maryland by Arthur Bremer. At the Laurel Shopping Center, the President was holding a speech in front of a crowd of 1000 people, and although there was some minor heckling the crowd was mostly quiet and were friendly. After his speech, Wallace decided to shake hands with some of those present despite being advised not to by his Secret Service guards. At around 4 in the afternoon, Bremer pushed his way forward and opened fire at the President's torso, with the final bullet hitting his heart and killing him instantly with Bremer yelling \"A penny for your thoughts!\" before being subdued by the Secret Service. With the passing of Wallace, the presidency was given to his Vice President Strom Thurmond."
+ USA_history_12.o1:0 "Interesting"
+ 
+ USA_history_13.t:0 "1972 Presidential Election"
+ USA_history_13.d:0 "The 1972 Presidential Election was the 47th presidential election held in the United States, and was held on November 7, 1972. Incumbent Democratic President Strom Thurmond lost to Congressman Gerald Ford, the Republican nominee. Despite trying to utilize George Wallace's popularity to net him a term, Thurmond didn't have the same pull as the late President had, and his continued support for racial segregation further alienated him from voters who instead voted for the less controversial and more likeable Ford. This in turn was also said to be the beginning of the return of the left-wing faction of the Democratic Party which still holds a dominent role in the Democratic Party to this day."
+ USA_history_13.o1:0 "Interesting"
+ 
+ USA_history_14.t:0 "1976 Presidential Election"
+ USA_history_14.d:0 "The 1976 Presidential Election was the 48th presidential election held in the United States, and was held on November 2, 1976. Incumbent Republican President Gerald Ford won against Governor Jimmy Carter. Carter made 1960 candidate John F. Kennedy his running mate in order to utilize his popularity. However, due to his age and the constant arguments that he and Carter had throughout the campaign, Kennedy didn't help Carter in winning the election, allowing Ford to win a second term and become the first President since Eisenhower to serve two full terms."
+ USA_history_14.o1:0 "Interesting"
+ 
+ USA_history_15.t:0 "1980 Presidential Election"
+ USA_history_15.d:0 "The 1980 Presidential Election was the 49th presidential election held in the United States, and was held on November 4, 1980. Republican nominee Ronald Reagan defeated Democratic nominee Jimmy Carter. Kennedy was replaced by Walter Mondale as Carter's running mate. Campaigning for a smaller government, coupled by his optimism and sunny disposition compared to Carter's unpopularity and the latter's terrible 1976 campaign, Reagan managed to win the election by a landslide."
+ USA_history_15.o1:0 "Interesting"
+ 
+ USA_history_16.t:0 "Assassination of Ronald Reagan"
+ USA_history_16.d:0 "On March 30, 1981, President Reagan delivered a luncheon address to union representatives at the Washington Hilton. The venue was seen by the Secret Service as very safe, complete with a secure and enclosed passageway installed after the assassination attempt on Richard Nixon only 18 years prior. Because his limousine was close by, Reagan didn't have to wear a bulletproof vest. After Reagan exited the hotel through the same passageway, the assassin, John Hinckley Jr., opened fire as the President passed in front of him, missing with all but the sixth shot which struck Reagan's heart, killing him within seconds. The President was immediately rushed to the George Washington University Hospital where he was pronounced dead; his Vice President George Bush was inaugurated immediately afterward."
+ USA_history_16.o1:0 "Interesting"
+ 
+ USA_history_17.t:0 "Reform Party Forms"
+ USA_history_17.d:0 "Ross Perot is a billionaire and philantropist who happened to amass a sizable amount of grassroots supporters who were disillusioned with the state of politics and that vital issues were being ignored in favour of partisan corruption. These supporters would become the founding members of the Reform Party in 1983 in preparation for the 1984 election. Initially a populist centrist party, the party attracted many moderates before it was taken over by the Naderists in 2002 which lead to the party taking a turn towards social democracy, but the legacy of the eight years in power can be seen in Election Day which was made a national holiday in 1986 as well as campaign finance reforms. So far, the Reform Party remains as a sort of \"half party\" in what would otherwise be a two party system."
+ USA_history_17.o1:0 "Interesting"
+ 
+ USA_history_18.t:0 "1984 Presidential Election"
+ USA_history_18.d:0 "The 1984 Presidential Election was the 50th presidential election held in the United States, and was held on November 6, 1984. This election marks the first time since 1848 that a candidate from neither the Democratic Party or the Republican Party had won the election. Incumbent Republican President George Bush and Democratic nominee and Senator Walter Mondale were defeated by Reform Party nominee Ross Perot. Perot's appeal to moderates from both parties as well as Bush not being as optimistic or as sunny in disposition as Reagan despite having a successful term as President. The upset would cement the Reform Party as a viable alternative to the Democratic and Republican parties and define the state of American politics to this day."
+ USA_history_18.o1:0 "Interesting"
+ 
+ USA_history_19.t:0 "1988 Presidential Election"
+ USA_history_19.d:0 "The 1988 Presidential Election was the 51st presidential election held in the United States, and was held on November 8, 1988. Following a successful first term, it was no surprise that Ross Perot would win a second term and defeat Republican nominee and former Vice President Bob Dole and Democratic nominee Michael Dukakis, both of whom would eventually be elected as President in 1996 and in 1992, respectively. This election is also notable for being the first election to take place on a national holiday as Election Day was declared as such only two years prior and no doubt helped in landing Perot a massive landslide victory that was never repeated until Bill Bradley's re-election in 2004."
+ USA_history_19.o1:0 "Interesting"
+ 
+ USA_history_20.t:0 "1992 Presidential Election"
+ USA_history_20.d:0 "The 1992 Presidential Election was the 52nd presidential election held in the United States, and was held on November 3, 1992. This election was described as a sort of a rematch between Republican nominee Bob Dole and Democratic nominee Michael Dukakis, the latter of which would go on to win the election after successfully emulating Ross Perot's campaign, though he had faced criticism, mainly from Republicans and Reformists, for being an elitist \"Massachusetts liberal\". Dukakis was also the first Democrat to win an election since George Wallace's re-election in 1968 and the first liberal Democrat to win an election since Henry A. Wallace's re-election in 1944."
+ USA_history_20.o1:0 "Interesting"
+ 
+ USA_history_21.t:0 "1996 Presidential Election"
+ USA_history_21.d:0 "The 1996 Presidential Election was the 53rd presidential election held in the United States, and was held on November 5, 1996. Due to a mediocre term, and the reinvigoration of Bob Dole's campaign, incumbent Democratic President Michael Dukakis was defeated by Republican nominee Bob Dole despite concerns over the latter's age and gaffes. This also marks the third and final time that the two were their parties' nominees for the election at the same time."
+ USA_history_21.o1:0 "Interesting"
+ 
+ USA_history_22.t:0 "Dole's Folly"
+ USA_history_22.d:0 "Mexico had fallen to a military junta by the mid-1990s, but because virtually no citizen recognizes the junta, thus shrinking their effective authority to just Mexico City. With the recent instability, and an interventionist president in power in the United States, Bob Dole has decided to send in the army to occupy the northern regions. The occupation has proven to be a disaster with resistance to the northern puppet states growing with each day, thus leading to President Dole to take massive hits in popularity which would lead to his eventual loss in the 2000 election."
+ USA_history_22.o1:0 "Interesting"
+ 
+ USA_history_23.t:0 "2000 Presidential Election"
+ USA_history_23.d:0 "The 2000 Presidential Election was the 54th presidential election held in the United States, and was held on November 7, 2000. Due to his failures in the intervention in Mexico, incumbent Republican Bob Dole was defeated by Democratic nominee and former professional NBA player Bill Bradley who also happened to be highly popular unlike many of his predecessors who were either voted due to being the least bad or were put in power due to the assassination of an immediate predecessor."
+ USA_history_23.o1:0 "Interesting"
+ 
+ USA_history_24.t:0 "2004 Presidential Election"
+ USA_history_24.d:0 "The 2004 Presidential Election was the 55th presidential election held in the United States, and was held on November 2, 2004. Riding the wave of popularity thanks to tax reforms, economic growth policies, and a partial withdrawal from Mexico, incumbent Democratic President Bill Bradley was sure to win a second term, but he decided to pull a power play anyway by making Republican John McCain his running mate, which netted him a devastating landslide against Republican nominee Dick Cheney."
+ USA_history_24.o1:0 "Interesting"

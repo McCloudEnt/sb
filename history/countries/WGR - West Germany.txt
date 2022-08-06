@@ -1,0 +1,38 @@
+﻿capital = 51
+
+set_politics = {	
+	ruling_party = conservative_democracy
+	last_election = "2005.9.18"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	revisionist_socialism = 9
+	libertarian_socialism = 8
+	social_democracy = 34
+	liberal_democracy = 10
+	conservative_democracy = 35
+	classical_authoritarianism = 4
+}
+
+add_ideas = {
+	idea_parliamentary_republic
+	idea_federation
+	idea_lower_house_bicameralism
+	idea_m_s_judiciary
+	idea_mixed_system
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = WGR_anarchy
+recruit_character = WGR_heinz_stehr
+recruit_character = WGR_oskar_lafontaine
+recruit_character = WGR_martin_sonneborn
+recruit_character = WGR_frank_walter_steinmeier
+recruit_character = WGR_guido_westerwelle
+recruit_character = WGR_wolfgang_schauble
+recruit_character = WGR_ken_jebsen
+recruit_character = WGR_provisional_reich_government
+recruit_character = WGR_udo_voigt

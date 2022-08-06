@@ -1,0 +1,35 @@
+﻿capital = 286
+
+set_politics = {	
+	ruling_party = marxism_leninism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 85
+	revisionist_socialism = 5
+	libertarian_socialism = 10
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_voting_consultation
+	idea_laicity
+	idea_restricted_freedoms
+}
+
+recruit_character = CAM_anarchy
+recruit_character = CAM_hun_sen
+recruit_character = CAM_nuon_chea
+recruit_character = CAM_pen_sovan
+recruit_character = CAM_mam_sonando
+recruit_character = CAM_kem_sokha
+recruit_character = CAM_sam_rainsy
+recruit_character = CAM_dien_del
+recruit_character = CAM_norodom_sihanouk
+recruit_character = CAM_lon_rith

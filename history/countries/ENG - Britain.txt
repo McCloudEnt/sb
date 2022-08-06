@@ -1,0 +1,35 @@
+﻿capital = 126
+
+set_politics = {	
+	ruling_party = social_democracy
+	last_election = "2002.7.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democracy = 47
+	liberal_democracy = 17
+	conservative_democracy = 36
+}
+
+add_ideas = {
+	idea_constitutional_monarchy
+	idea_devolution
+	idea_lower_house_bicameralism
+	idea_m_s_judiciary
+	idea_swm_voting
+	idea_pluralism
+	idea_maximum_freedoms
+}
+
+recruit_character = ENG_anarchy
+recruit_character = ENG_robert_griffiths
+recruit_character = ENG_arthur_scargill
+recruit_character = ENG_george_galloway
+recruit_character = ENG_john_lennon
+recruit_character = ENG_menzies_campbell
+recruit_character = ENG_david_cameron
+recruit_character = ENG_nick_griffin
+recruit_character = ENG_queen_margaret
+recruit_character = ENG_patrick_harrington

@@ -1,0 +1,41 @@
+﻿capital = 64
+
+set_politics = {	
+	ruling_party = marxism_leninism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 35
+	revisionist_socialism = 20
+	libertarian_socialism = 7
+	social_democracy = 10
+	liberal_democracy = 6
+	conservative_democracy = 15
+	classical_authoritarianism = 2
+	despotism = 3
+	ultranationalism = 2
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_voting_consultation
+	idea_state_atheism
+	idea_restricted_freedoms
+}
+
+recruit_character = DDR_anarchy
+recruit_character = DDR_wolfgang_schwanitz
+recruit_character = DDR_lothar_bisky
+recruit_character = DDR_ulrich_junghanns
+recruit_character = DDR_rainer_ortleb
+recruit_character = DDR_lothar_de_maizeire
+recruit_character = DDR_angela_merkel
+recruit_character = DDR_frauke_petry
+recruit_character = DDR_wolfgang_rauls
+recruit_character = DDR_lothar_ahrendt

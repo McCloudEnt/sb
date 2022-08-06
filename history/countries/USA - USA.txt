@@ -1,0 +1,38 @@
+﻿capital = 361
+
+set_politics = {	
+	ruling_party = liberal_democracy
+	last_election = "2006.11.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	revisionist_socialism = 4
+	social_democracy = 19
+	liberal_democracy = 37
+	conservative_democracy = 35
+	ultranationalism = 5
+}
+
+add_ideas = {
+	idea_presidential_republic
+	idea_federation
+	idea_upper_house_bicameralism
+	idea_s_s_judiciary
+	idea_swm_voting
+	idea_moderate_secularism
+	idea_maximum_freedoms
+	usa_soc_john_mccain
+}
+
+recruit_character = USA_anarchy
+recruit_character = USA_alfonso_casal
+recruit_character = USA_bernie_sanders
+recruit_character = USA_pete_seeger
+recruit_character = USA_ralph_nader
+recruit_character = USA_bill_bradley
+recruit_character = USA_john_mccain
+recruit_character = USA_joint_chiefs_of_staff
+recruit_character = USA_mike_bloomberg
+recruit_character = USA_george_wallace_jr

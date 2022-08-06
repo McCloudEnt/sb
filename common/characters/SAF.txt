@@ -1,0 +1,152 @@
+characters = {
+	SAF_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	SAF_blade_nzimande = {
+		name = "Blade Nzimande"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/SAF_Blade_Nzimande.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SAF_BLADE_NZIMANDE_DESC
+		}
+	}
+	SAF_thabo_mbeki = {
+		name = "Thabo Mbeki"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/SAF_Thabo_Mbeki.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SAF_THABO_MBEKI_DESC
+		}
+	}
+	
+	SAF_mosibudi_mangena = {
+		name = "Mosibudi Mangena"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/SAF_Mosibudi_Mangena.dds"
+			}
+		}
+		country_leader = {
+			ideology = neozapatismo
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SAF_MOSIBUDI_MANGENA_DESC
+		}
+	}
+	SAF_allan_hendrickse = {
+		name = "Allan Hendrickse"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/SAF_Allan_Hendrickse.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SAF_ALLAN_HENDRICKSE_DESC
+		}
+	}
+	SAF_helen_zille = {
+		name = "Helen Zille"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/SAF_Helen_Zille.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SAF_HELEN_ZILLE_DESC
+		}
+	}
+	SAF_tony_leon = {
+		name = "Tony Leon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/SAF_Tony_Leon.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SAF_TONY_LEON_DESC
+		}
+	}
+	SAF_f_w_de_klerk = {
+		name = "F. W. de Klerk"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/SAF_F_W_De_Klerk.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SAF_F_W_DE_KLERK_DESC
+		}
+	}
+	SAF_reginald_otto = {
+		name = "Reginald Otto"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/SAF_Reginald_Otto.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SAF_REGINALD_OTTO_DESC
+		}
+	}
+	SAF_ferdi_hartzenberg = {
+		name = "Ferdi Hartzenberg"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/SAF_Ferdi_Hartzenberg.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SAF_FERDI_HARTZENBERG_DESC
+		}
+	}
+}

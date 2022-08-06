@@ -1,0 +1,166 @@
+characters = {
+	FIN_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	FIN_yrjo_hakanen = {
+		name = "Yrjö Hakanen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/FIN_Yrjo_Hakanen.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FIN_YRJO_HAKANEN_DESC
+		}
+	}
+	FIN_suvi_anne_siimes = {
+		name = "Suvi-Anne Siimes"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/FIN_Suvi_Anne_Siimes.dds"
+			}
+		}
+		country_leader = {
+			ideology = neocommunism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FIN_SUVI_ANNE_SIIMES_DESC
+		}
+	}
+	FIN_claes_andersson = {
+		name = "Claes Andersson"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/FIN_Claes_Andersson.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FIN_CLAES_ANDERSSON_DESC
+		}
+	}
+	FIN_tarja_halonen = {
+		name = "Tarja Halonen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/FIN_Tarja_Halonen.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_corporatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FIN_TARJA_HALONEN_DESC
+		}
+	}
+	FIN_matti_vanhanen = {
+		name = "Matti Vanhanen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/FIN_Matti_Vanhanen.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FIN_MATTI_VANHANEN_DESC
+		}
+	}
+	FIN_sauli_niinisto = {
+		name = "Sauli Niinistö"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/FIN_Sauli_Niinisto.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FIN_SAULI_NIINISTO_DESC
+		}
+	}
+	FIN_seppo_kaariainen = {
+		name = "Seppo Kääriäinen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/FIN_Seppo_Kaariainen.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FIN_SEPPO_KAARIAINEN_DESC
+		}
+	}
+	FIN_juhani_kaskeala = {
+		name = "Juhani Kaskeala"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/FIN_Juhani_Kaskeala.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FIN_JUHANI_KASKEALA_DESC
+		}
+	}
+	FIN_timo_soini = {
+		name = "Timo Soini"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/FIN_Timo_Soini.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FIN_TIMO_SOINI_DESC
+		}
+	}
+	FIN_olavi_maenpaa = {
+		name = "Olavi Mäenpää"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/FIN_Olavi_Maenpaa.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = FIN_OLAVI_MAENPAA_DESC
+		}
+	}
+}

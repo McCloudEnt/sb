@@ -1,0 +1,635 @@
+canada_history = {
+	CAN_war_of_1812 = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = CAN
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = CAN_history.1 }
+		}
+	}
+	CAN_rebellion_of_1837 = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = CAN
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = CAN_history.2 }
+		}
+	}
+	CAN_bna_act = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = CAN
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = CAN_history.3 }
+		}
+	}
+	CAN_reciprocity = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = CAN
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = CAN_history.4 }
+		}
+	}
+	CAN_commonwealth_act = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = CAN
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = CAN_history.5 }
+		}
+	}
+	CAN_cip = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = CAN
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = CAN_history.6 }
+		}
+	}
+}
+
+america_history = {
+	USA_war_of_1812 = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.1 }
+		}
+	}
+	USA_death_of_fdr = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.2 }
+		}
+	}
+	USA_1944_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.3 }
+		}
+	}
+	USA_1948_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.4 }
+		}
+	}
+	USA_1952_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.5 }
+		}
+	}
+	USA_1960_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.6 }
+		}
+	}
+	USA_nixon_resigns = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.7 }
+		}
+	}
+	USA_civil_rights_act = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.8 }
+		}
+	}
+	USA_1964_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.9 }
+		}
+	}
+	USA_1968_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.10 }
+		}
+	}
+	USA_apollo_vi_disaster = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.11 }
+		}
+	}
+	USA_wallace_assassination = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.12 }
+		}
+	}
+	USA_1972_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.13 }
+		}
+	}
+	USA_1976_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.14 }
+		}
+	}
+	USA_1980_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.15 }
+		}
+	}
+	USA_reagan_assassination = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.16 }
+		}
+	}
+	USA_reform_party = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.17 }
+		}
+	}
+	USA_1984_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.18 }
+		}
+	}
+	USA_1988_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.19 }
+		}
+	}
+	USA_1992_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.20 }
+		}
+	}
+	USA_1996_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.21 }
+		}
+	}
+	USA_mexico_intervention = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.22 }
+		}
+	}
+	USA_2000_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.23 }
+		}
+	}
+	USA_2004_election = {
+		icon = generic_decision
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			country_event = { id = USA_history.24 }
+		}
+	}
+}

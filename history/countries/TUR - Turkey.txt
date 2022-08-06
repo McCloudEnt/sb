@@ -1,0 +1,35 @@
+﻿capital = 49
+
+set_politics = {	
+	ruling_party = marxism_leninism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 80
+	revisionist_socialism = 10
+	libertarian_socialism = 10
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_voting_consultation
+	idea_state_anti_theism
+	idea_restricted_freedoms
+}
+
+recruit_character = TUR_anarchy
+recruit_character = TUR_nubar_ozanyan
+recruit_character = TUR_figen_yuksekdag
+recruit_character = TUR_ertugrul_kurkcu
+recruit_character = TUR_deniz_baykal
+recruit_character = TUR_meral_aksener
+recruit_character = TUR_gultekin_uysal
+recruit_character = TUR_recep_tayyip_erdogan
+recruit_character = TUR_yasar_guler
+recruit_character = TUR_devlet_bahceli

@@ -1,0 +1,151 @@
+characters = {
+	PRJ_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	PRJ_masato_taura = {
+		name = "Masato Taura"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/PRJ_Masato_Taura.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRJ_MASATO_TAURA_DESC
+		}
+	}
+	PRJ_ryoko_azuma = {
+		name = "Ryoko Azuma"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/PRJ_Ryoko_Azuma.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRJ_RYOKO_AZUMA_DESC
+		}
+	}
+	PRJ_kira_yoshiko = {
+		name = "Kira Yoshiko"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/PRJ_Kira_Yoshiko.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRJ_KIRA_YOSHIKO_DESC
+		}
+	}
+	PRJ_ohata_akihiro = {
+		name = "Ōhata Akihiro"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/PRJ_Ohata_Akihiro.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRJ_OHATA_AKIHIRO_DESC
+		}
+	}
+	PRJ_murata_renho = {
+		name = "Murata Renhō"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/PRJ_Murata_Renho.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRJ_MURATA_RENHO_DESC
+		}
+	}
+	PRJ_yamaguchi_natsuo = {
+		name = "Yamaguchi Natsuo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/PRJ_Yamaguchi_Natsuo.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRJ_YAMAGUCHI_NATSUO_DESC
+		}
+	}
+	PRJ_hashimoto_toru = {
+		name = "Hashimoto Tōru"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/PRJ_Hashimoto_Toru.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRJ_HASHIMOTO_TORU_DESC
+		}
+	}
+	PRJ_akihito = {
+		name = "Emperor Akihito"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/PRJ_Akihito.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRJ_AKIHITO_DESC
+		}
+	}
+	PRJ_yamada_kazunari = {
+		name = "Yamada Kazunari"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/PRJ_Yamada_Kazunari.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRJ_YAMADA_KAZUNARI_DESC
+		}
+	}
+}

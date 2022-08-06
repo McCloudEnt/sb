@@ -1,0 +1,69 @@
+characters = {
+	SAN_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	SAN_captains_regent = {
+		name = "Captains Regent"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAN/SAN_Captains_Regent.dds"
+			}
+		}
+		country_leader = {
+			desc = SAN_CAPTAINS_REGENT
+			ideology = fascism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = SAN_CAPTAINS_REGENT
+			ideology = right_wing_despotism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = SAN_CAPTAINS_REGENT
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = SAN_CAPTAINS_REGENT
+			ideology = religious_democracy
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = SAN_CAPTAINS_REGENT
+			ideology = classical_liberalism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = SAN_CAPTAINS_REGENT
+			ideology = third_way
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = SAN_CAPTAINS_REGENT
+			ideology = libertarianism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = SAN_CAPTAINS_REGENT
+			ideology = democratic_socialism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = SAN_CAPTAINS_REGENT
+			ideology = reformed_bolshevism
+			expire = "2065.1.1"
+		}
+	}
+}

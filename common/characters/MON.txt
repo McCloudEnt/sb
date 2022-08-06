@@ -1,0 +1,151 @@
+characters = {
+	MON_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	MON_budragchaagiin_dash_yondin = {
+		name = "Büdragchaagiin Dash-Yondon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/MON_Budragchaagiin_Dash_Yondon.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MON_BUDRAGCHAAGIIN_DASH_YONDON_DESC
+		}
+	}
+	MON_gombojavyn_zandanshatar = {
+		name = "Gombojavyn Zandanshatar"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/MON_Gombojavyn_Zandanshatar.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MON_GOMBOJAVYN_ZANDANSHATAR_DESC
+		}
+	}
+	MON_nambaryn_enkhbayar = {
+		name = "Nambaryn Enkhbayar"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/MON_Nambaryn_Enkhbayar.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MON_NAMBARYN_ENKHBAYAR_DESC
+		}
+	}
+	MON_miyeegombyn_enkhbold = {
+		name = "Miyeegombyn Enkhbold"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/MON_Miyeegombyn_Enkhbold.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MON_MIYEEGOMBYN_ENKHBOLD_DESC
+		}
+	}
+	MON_tsakhiagiin_elbegdorj = {
+		name = "Tsakhiagiin Elbegdorj"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/MON_Tsakhiagiin_Elbegdorj.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MON_TSAKHIAGIIN_ELBEGDORJ_DESC
+		}
+	}
+	MON_mendsaikhany_enkhsaikhan = {
+		name = "Mendsaikhany Enkhsaikhan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/MON_Mendsaikhany_Enkhsaikhan.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MON_MENDSAIKHANY_ENKHSAIKHAN_DESC
+		}
+	}
+	MON_ochirbatyn_dashbalbar = {
+		name = "Ochirbatyn Dashbalbar"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/MON_Ochirbatyn_Dashbalbar.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MON_OCHIRBATYN_DASHBALBAR_DESC
+		}
+	}
+	MON_dschero_khan = {
+		name = "Dschero Khan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/MON_Dschero_Khan.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MON_DSCHERO_KHAN_DESC
+		}
+	}
+	MON_uranjargal = {
+		name = "Uranjargal"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/MON_Uranjargal.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_position
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MON_URANJARGAL_DESC
+		}
+	}
+}

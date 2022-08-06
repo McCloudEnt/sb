@@ -1,0 +1,151 @@
+characters = {
+	MLT_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	MLT_victor_degiovanni = {
+		name = "Victor Degiovanni"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MLT/MLT_Victor_Degiovanni.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MLT_VICTOR_DEGIOVANNI_DESC
+		}
+	}
+	MLT_arnold_cassola = {
+		name = "Arnold Cassola"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MLT/MLT_Arnold_Cassola.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MLT_ARNOLD_CASSOLA_DESC
+		}
+	}
+	MLT_carmel_cacopardo = {
+		name = "Carmel Cacopardo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MLT/MLT_Carmel_Cacopardo.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MLT_CARMEL_CACOPARDO_DESC
+		}
+	}
+	MLT_george_vella = {
+		name = "George Vella"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MLT/MLT_George_Vella.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MLT_GEORGE_VELLA_DESC
+		}
+	}
+	MLT_josie_muscat = {
+		name = "Josie Muscat"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MLT/MLT_Josie_Muscat.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MLT_JOSIE_MUSCAT_DESC
+		}
+	}
+	MLT_lawrence_gonzi = {
+		name = "Lawrence Gonzi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MLT/MLT_Lawrence_Gonzi.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MLT_LAWRENCE_GONZI_DESC
+		}
+	}
+	MLT_ivan_grech_mintoff = {
+		name = "Ivan Grech Mintoff"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MLT/MLT_Ivan_Grech_Mintoff.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MLT_IVAN_GRECH_MINTOFF_DESC
+		}
+	}
+	MLT_paul_salomone = {
+		name = "Paul Salomone"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MLT/MLT_Paul_Salomone.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MLT_PAUL_SALOMONE_DESC
+		}
+	}
+	MLT_andrew_bertie = {
+		name = "Friar Andrew Bertie"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MLT/MLT_Andrew_Bertie.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MLT_ANDREW_BERTIE_DESC
+		}
+	}
+}

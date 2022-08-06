@@ -1,0 +1,151 @@
+characters = {
+	HOL_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	HOL_ina_brouwer = {
+		name = "Ina Brouwer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HOL/HOL_Ina_Brouwer.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HOL_INA_BROUWER_DESC
+		}
+	}
+	HOL_jan_marijnissen = {
+		name = "Jan Marijnissen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HOL/HOL_Jan_Marijnissen.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HOL_JAN_MARIJNISSEN_DESC
+		}
+	}
+	HOL_lea_manders = {
+		name = "Lea Manders"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HOL/HOL_Lea_Manders.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HOL_LEA_MANDERS_DESC
+		}
+	}
+	HOL_wouter_bos = {
+		name = "Wouter Bos"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HOL/HOL_Wouter_Bos.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HOL_WOUTER_BOS_DESC
+		}
+	}
+	HOL_mark_rutte = {
+		name = "Mark Rutte"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HOL/HOL_Mark_Rutte.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HOL_MARK_RUTTE_DESC
+		}
+	}
+	HOL_jan_peter_balkenende = {
+		name = "Jan Peter Balkenende"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HOL/HOL_Jan_Peter_Balkenende.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HOL_JAN_PETER_BALKENENDE_DESC
+		}
+	}
+	HOL_geert_wilders = {
+		name = "Geert Wilders"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HOL/HOL_Geert_Wilders.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HOL_GEERT_WILDERS_DESC
+		}
+	}
+	HOL_princess_beatrix = {
+		name = "Princess Beatrix"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HOL/HOL_Princess_Beatrix.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HOL_PRINCESS_BEATRIX_DESC
+		}
+	}
+	HOL_kees_van_der_staaij = {
+		name = "Kees van der Staaij"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HOL/HOL_Kees_Van_Der_Staaij.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = HOL_KEES_VAN_DER_STAAIJ_DESC
+		}
+	}
+}

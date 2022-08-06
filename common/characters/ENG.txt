@@ -1,0 +1,151 @@
+characters = {
+	ENG_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	ENG_robert_griffiths = {
+		name = "Robert Griffiths"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/ENG_Robert_Griffiths.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ENG_ROBERT_GRIFFITHS_DESC
+		}
+	}
+	ENG_arthur_scargill = {
+		name = "Arthur Scargill"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/ENG_Arthur_Scargill.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ENG_ARTHUR_SCARGILL_DESC
+		}
+	}
+	ENG_george_galloway = {
+		name = "George Galloway"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/ENG_George_Galloway.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ENG_GEORGE_GALLOWAY_DESC
+		}
+	}
+	ENG_john_lennon = {
+		name = "John Lennon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/ENG_John_Lennon.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ENG_JOHN_LENNON_DESC
+		}
+	}
+	ENG_menzies_campbell = {
+		name = "Menzies Campbell"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/ENG_Menzies_Campbell.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ENG_MENZIES_CAMPBELL_DESC
+		}
+	}
+	ENG_david_cameron = {
+		name = "David Cameron"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/ENG_David_Cameron.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ENG_DAVID_CAMERON_DESC
+		}
+	}
+	ENG_nick_griffin = {
+		name = "Nick Griffin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/ENG_Nick_Griffin.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ENG_NICK_GRIFFIN_DESC
+		}
+	}
+	ENG_queen_margaret = {
+		name = "Queen Margaret"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/ENG_Queen_Margaret.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ENG_QUEEN_MARGARET_DESC
+		}
+	}
+	ENG_patrick_harrington = {
+		name = "Patrick Harrington"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/ENG_Patrick_Harrington.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ENG_PATRICK_HARRINGTON_DESC
+		}
+	}
+}

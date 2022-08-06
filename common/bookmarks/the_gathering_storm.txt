@@ -1,0 +1,104 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2006.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "USA"
+		default = yes
+		
+		"PRC"={
+			history = ""
+			ideology = anarchy
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		"FRA"={
+			history = ""
+			ideology = anarchy
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		"GER"={
+			history = ""
+			ideology = anarchy
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		"JAP"={
+			history = ""
+			ideology = anarchy
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		"SOV"={
+			history = ""
+			ideology = anarchy
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		"ENG"={
+			history = ""
+			ideology = anarchy
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		"USA"={
+			history = ""
+			ideology = anarchy
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		"CAN"={
+			minor = yes
+			history = ""
+			ideology = anarchy
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = ""
+			ideology = anarchy
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		"BRA"={
+			minor = yes
+			history = ""
+			ideology = anarchy
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

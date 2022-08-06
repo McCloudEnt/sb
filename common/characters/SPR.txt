@@ -1,0 +1,151 @@
+characters = {
+	SPR_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	SPR_santiago_carillo = {
+		name = "Santiago Carillo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPR/SPR_Santiago_Carillo.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SPR_SANTIAGO_CARILLO_DESC
+		}
+	}
+	SPR_manuela_carmena = {
+		name = "Manuela Carmena"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPR/SPR_Manuela_Carmena.dds"
+			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SPR_MANUELA_CARMENA_DESC
+		}
+	}
+	SPR_pablo_rodriguez = {
+		name = "Pablo Rodríguez"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPR/SPR_Pablo_Rodriguez.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SPR_PABLO_RODRIGUEZ_DESC
+		}
+	}
+	SPR_felipe_gonzalez = {
+		name = "Felipe González"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPR/SPR_Felipe_Gonzalez.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_corporatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SPR_FELIPE_GONZALEZ_DESC
+		}
+	}
+	SPR_julian_munoz = {
+		name = "Julián Muñóz"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPR/SPR_Julian_Munoz.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SPR_JULIAN_MUNOZ_DESC
+		}
+	}
+	SPR_mariano_rajoy = {
+		name = "Mariano Rajoy"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPR/SPR_Mariano_Rajoy.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SPR_MARIANO_RAJOY_DESC
+		}
+	}
+	SPR_manuel_fraga = {
+		name = "Manuel Fraga"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPR/SPR_Manuel_Fraga.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SPR_MANUEL_FRAGA_DESC
+		}
+	}
+	SPR_blas_pinar = {
+		name = "Blas Piñar"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPR/SPR_Blas_Pinar.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SPR_BLAS_PINAR_DESC
+		}
+	}
+	SPR_manuel_canduela = {
+		name = "Manuel Canduela"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPR/SPR_Manuel_Canduela.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SPR_MANUEL_CANDUELA_DESC
+		}
+	}
+}

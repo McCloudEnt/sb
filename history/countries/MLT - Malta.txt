@@ -1,0 +1,35 @@
+﻿capital = 116
+
+set_politics = {	
+	ruling_party = conservative_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	libertarian_socialism = 1
+	social_democracy = 47
+	conservative_democracy = 52
+}
+
+add_ideas = {
+	idea_constitutional_monarchy
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_fp_voting
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = MLT_anarchy
+recruit_character = MLT_victor_degiovanni
+recruit_character = MLT_arnold_cassola
+recruit_character = MLT_carmel_cacopardo
+recruit_character = MLT_george_vella
+recruit_character = MLT_josie_muscat
+recruit_character = MLT_lawrence_gonzi
+recruit_character = MLT_ivan_grech_mintoff
+recruit_character = MLT_paul_salomone
+recruit_character = MLT_andrew_bertie

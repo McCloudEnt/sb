@@ -1,0 +1,41 @@
+﻿capital = 6
+
+set_politics = {	
+	ruling_party = conservative_democracy
+	last_election = "2003.5.18"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 10
+	revisionist_socialism = 4
+	libertarian_socialism = 2
+	social_democracy = 28
+	liberal_democracy = 27
+	conservative_democracy = 19
+	classical_authoritarianism = 4
+	despotism = 4
+	ultranationalism = 2
+}
+
+add_ideas = {
+	idea_parliamentary_republic
+	idea_federation
+	idea_lower_house_bicameralism
+	idea_m_i_judiciary
+	idea_fp_voting
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = BEL_anarchy
+recruit_character = BEL_raoul_hedebouw
+recruit_character = BEL_national_committee
+recruit_character = BEL_new_policy_committee
+recruit_character = BEL_johan_vande_lanotte
+recruit_character = BEL_guy_verhofstadt
+recruit_character = BEL_joelle_milquet
+recruit_character = BEL_hans_van_de_cauter
+recruit_character = BEL_frank_vanhecke
+recruit_character = BEL_daniel_feret

@@ -1,0 +1,38 @@
+﻿capital = 4
+
+set_politics = {	
+	ruling_party = conservative_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 1
+	libertarian_socialism = 9
+	social_democracy = 37
+	liberal_democracy = 1
+	conservative_democracy = 42
+	classical_authoritarianism = 10
+}
+
+add_ideas = {
+	idea_parliamentary_republic
+	idea_federation
+	idea_lower_house_bicameralism
+	idea_m_s_judiciary
+	idea_fp_voting
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = AUS_anarchy
+recruit_character = AUS_walter_baier
+recruit_character = AUS_otto_bruckner
+recruit_character = AUS_alexander_van_der_bellen
+recruit_character = AUS_alfred_gusenbauer
+recruit_character = AUS_alexander_zach
+recruit_character = AUS_wolfgang_schussel
+recruit_character = AUS_heinz_christian_strache
+recruit_character = AUS_helga_vereno
+recruit_character = AUS_jorg_haider

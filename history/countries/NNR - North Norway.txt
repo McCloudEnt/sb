@@ -1,0 +1,36 @@
+﻿capital = 144
+
+set_politics = {	
+	ruling_party = marxism_leninism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 75
+	revisionist_socialism = 12
+	libertarian_socialism = 7
+	social_democracy = 6
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_confederation
+	idea_unicameralism
+	idea_s_s_judiciary
+	idea_voting_consultation
+	idea_state_atheism
+	idea_restricted_freedoms
+}
+
+recruit_character = NNR_anarchy
+recruit_character = NNR_mads_gilbert
+recruit_character = NNR_bjornar_moxnes
+recruit_character = NNR_oystein_meier_johannesen
+recruit_character = NNR_theo_koritzinsky
+recruit_character = NNR_lars_peder_brekk
+recruit_character = NNR_kjell_magne_bondevik
+recruit_character = NNR_roy_waage
+recruit_character = NNR_vidar_kleppe
+recruit_character = NNR_odd_even_harvik

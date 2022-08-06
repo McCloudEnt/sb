@@ -1,0 +1,33 @@
+﻿capital = 266
+
+set_politics = {	
+	ruling_party = ultranationalism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	ultranationalism = 100
+}
+
+add_ideas = {
+	idea_clerical_dictatorship
+	idea_unitary
+	idea_legislative_consultation
+	idea_judicial_consultation
+	idea_no_voting
+	idea_moralism
+	idea_no_freedoms
+}
+
+recruit_character = PER_anarchy
+recruit_character = PER_ali_khavari
+recruit_character = PER_qasem_soleimani
+recruit_character = PER_maryam_rajavi
+recruit_character = PER_kazem_moussavi
+recruit_character = PER_hassan_shariatmadari
+recruit_character = PER_roozbeh_farahanipour
+recruit_character = PER_hossein_marashi
+recruit_character = PER_reza_pahlavi
+recruit_character = PER_ayatollah_ali_khamenei

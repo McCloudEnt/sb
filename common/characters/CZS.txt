@@ -1,0 +1,241 @@
+characters = {
+	CZS_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	CZS_jiri_svoboda = {
+		name = "Jiří Svoboda"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Jiri_Svoboda.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_JIRI_SVOBODA_DESC
+		}
+	}
+	CZS_alexander_dubcek_com = {
+		name = "Alexander Dubček"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Alexander_Dubcek.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_ALEXANDER_DUBCEK_COM_DESC
+		}
+	}
+	CZS_robert_fico = {
+		name = "Robert Fico"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Robert_Fico.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_ROBERT_FICO_DESC
+		}
+	}
+	CZS_jiri_paroubek = {
+		name = "Jiří Paroubek"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Jiri_Paroubek.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_JIRI_PAROUBEK_DESC
+		}
+	}
+	CZS_karel_janko = {
+		name = "Karel Janko"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Karel_Janko.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_KAREL_JANKO_DESC
+		}
+	}
+	CZS_alexander_dubcek_rev = {
+		name = "Alexander Dubček"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Alexander_Dubcek.dds"
+			}
+		}
+		country_leader = {
+			ideology = neocommunism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_ALEXANDER_DUBCEK_REV_DESC
+		}
+	}
+	CZS_jiri_dienstbier = {
+		name = "Jiří Dienstbier"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Jiri_Dienstbier.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_JIRI_DIENSTBIER_DESC
+		}
+	}
+	CZS_bohuslav_sobotka = {
+		name = "Bohuslav Sobotka"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Bohuslav_Sobotka.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_BOHUSLAV_SOBOTKA_DESC
+		}
+	}
+	CZS_alexander_dubcek_soc = {
+		name = "Alexander Dubček"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Alexander_Dubcek.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_ALEXANDER_DUBCEK_SOC_DESC
+		}
+	}
+	CZS_petr_fiala = {
+		name = "Petr Fiala"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Petr_Fiala.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_PETR_FIALA_DESC
+		}
+	}
+	CZS_jiri_cunek = {
+		name = "Jiří Čunek"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Jiri_Cunek.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_JIRI_CUNEK_DESC
+		}
+	}
+	CZS_tomio_okamura = {
+		name = "Tomio Okamura"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Tomio_Okamura.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_TOMIO_OKAMURA_DESC
+		}
+	}
+	CZS_petr_hannig = {
+		name = "Petr Hannig"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Petr_Hannig.dds"
+			}
+		}
+		country_leader = {
+			ideology = republican_autocracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_PETR_HANNIG_DESC
+		}
+	}
+	CZS_petra_edelmannova = {
+		name = "Petra Edelmannová"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Petra_Edelmannova.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_PETRA_EDELMANNOVA_DESC
+		}
+	}
+	CZS_patriarch_tomas_butta = {
+		name = "Patriarch Tomáš Butta"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZS/CZS_Patriarch_Tomas_Butta.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CZS_PATRIARCH_TOMAS_BUTTA_DESC
+		}
+	}
+}

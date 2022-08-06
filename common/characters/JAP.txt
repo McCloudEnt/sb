@@ -1,0 +1,151 @@
+characters = {
+	JAP_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	JAP_takaya_shiomi = {
+		name = "Takaya Shiomi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/JAP_Takaya_Shiomi.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = JAP_TAKAYA_SHIOMI_DESC
+		}
+	}
+	JAP_masaaki_osaka = {
+		name = "Masaaki Osaka"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/JAP_Masaaki_Osaka.dds"
+			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = JAP_MASAAKI_OSAKA_DESC
+		}
+	}
+	JAP_kazuo_shii = {
+		name = "Kazuo Shii"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/JAP_Kazuo_Shii.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = JAP_KAZUO_SHII_DESC
+		}
+	}
+	JAP_mizuho_fukushima = {
+		name = "Mizuho Fukushima"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/JAP_Mizuho_Fukushima.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = JAP_MIZUHO_FUKUSHIMA_DESC
+		}
+	}
+	JAP_katsuya_okada = {
+		name = "Katsuya Okada"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/JAP_Katsuya_Okada.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = JAP_KATSUYA_OKADA_DESC
+		}
+	}
+	JAP_junichiro_koizumi = {
+		name = "Junichiro Koizumi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/JAP_Junichiro_Koizumi.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = JAP_JUNICHIRO_KOIZUMI_DESC
+		}
+	}
+	JAP_shinzo_abe = {
+		name = "Shinzo Abe"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/JAP_Shinzo_Abe.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = JAP_SHINZO_ABE_DESC
+		}
+	}
+	JAP_takihito = {
+		name = "Emperor Takihito"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/JAP_Takihito.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = JAP_TAKIHITO_DESC
+		}
+	}
+	JAP_shintaro_ishihara = {
+		name = "Shintaro Ishihara"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/JAP_Shintaro_Ishihara.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoimperialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = JAP_SHINTARO_ISHIHARA_DESC
+		}
+	}
+}

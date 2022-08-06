@@ -1,0 +1,151 @@
+characters = {
+	YUG_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	YUG_branko_kitanovic = {
+		name = "Branko Kitanović"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/YUG_Branko_Kitanovic.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUG_BRANKO_KITANOVIC_DESC
+		}
+	}
+	YUG_josip_joska_broz = {
+		name = "Josip Joška Broz"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/YUG_Josip_Joska_Broz.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUG_JOSIP_JOSKA_BROZ_DESC
+		}
+	}
+	YUG_bosko_obradovic = {
+		name = "Boško Obradović"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/YUG_Bosko_Obradovic.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUG_BOSKO_OBRADOVIC_DESC
+		}
+	}
+	YUG_slobodan_milosevic = {
+		name = "Slobodan Milošević"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/YUG_Slobodan_Milosevic.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_corporatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUG_SLOBODAN_MILOSEVIC_DESC
+		}
+	}
+	YUG_vuk_draskovic = {
+		name = "Vuk Drašković"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/YUG_Vuk_Draskovic.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUG_VUK_DRASKOVIC_DESC
+		}
+	}
+	YUG_boris_tadic = {
+		name = "Boris Tadić"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/YUG_Boris_Tadic.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUG_BORIS_TADIC_DESC
+		}
+	}
+	YUG_stjepan_mesic = {
+		name = "Stjepan Mesić"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/YUG_Stjepan_Mesic.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUG_STJEPAN_MESIC_DESC
+		}
+	}
+	YUG_svetozar_marovic = {
+		name = "Svetozar Marović"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/YUG_Svetozar_Marovic.dds"
+			}
+		}
+		country_leader = {
+			ideology = republican_autocracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUG_SVETOZAR_MAROVIC_DESC
+		}
+	}
+	YUG_vojislav_seselj = {
+		name = "Vojislav Šešelj"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/YUG_Vojislav_Seselj.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUG_VOJISLAV_SESELJ_DESC
+		}
+	}
+}

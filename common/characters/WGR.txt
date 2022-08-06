@@ -1,0 +1,151 @@
+characters = {
+	WGR_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	WGR_heinz_stehr = {
+		name = "Heinz Stehr"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WGR/WGR_Heinz_Stehr.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WGR_HEINZ_STEHR_DESC
+		}
+	}
+	WGR_oskar_lafontaine = {
+		name = "Oskar Lafontaine"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WGR/WGR_Oskar_Lafontaine.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WGR_OSKAR_LAFONTAINE_DESC
+		}
+	}
+	WGR_martin_sonneborn = {
+		name = "Martin Sonneborn"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WGR/WGR_Martin_Sonneborn.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WGR_MARTIN_SONNEBORN_DESC
+		}
+	}
+	WGR_frank_walter_steinmeier = {
+		name = "Frank-Walter Steinmeier"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WGR/WGR_Frank_Walter_Steinmeier.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WGR_FRANK_WALTER_STEINMEIER_DESC
+		}
+	}
+	WGR_guido_westerwelle = {
+		name = "Guido Westerwelle"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WGR/WGR_Guido_Westerwelle.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WGR_GUIDO_WESTERWELLE_DESC
+		}
+	}
+	WGR_wolfgang_schauble = {
+		name = "Wolfgang Schäuble"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WGR/WGR_Wolfgang_Schauble.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WGR_WOLFGANG_SCHAUBLE_DESC
+		}
+	}
+	WGR_ken_jebsen = {
+		name = "Ken Jebsen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WGR/WGR_Ken_Jebsen.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WGR_KEN_JEBSEN_DESC
+		}
+	}
+	WGR_provisional_reich_government = {
+		name = "Provisional Reich Government"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WGR/WGR_Provisional_Reich_Government.dds"
+			}
+		}
+		country_leader = {
+			ideology = republican_autocracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WGR_PROVISIONAL_REICH_GOVERNMENT_DESC
+		}
+	}
+	WGR_udo_voigt = {
+		name = "Udo Voigt"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WGR/WGR_Udo_Voigt.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_position
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = WGR_UDO_VOIGT_DESC
+		}
+	}
+}

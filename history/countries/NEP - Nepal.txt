@@ -1,0 +1,33 @@
+﻿capital = 323
+
+set_politics = {	
+	ruling_party = classical_authoritarianism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	classical_authoritarianism = 100
+}
+
+add_ideas = {
+	idea_junta
+	idea_unitary
+	idea_legislative_consultation
+	idea_judicial_consultation
+	idea_voting_consultation
+	idea_moralism
+	idea_no_freedoms
+}
+
+recruit_character = NEP_anarchy
+recruit_character = NEP_pushpa_kamal_dahal
+recruit_character = NEP_jhala_nath_khanal
+recruit_character = NEP_madhav_kumar_nepal
+recruit_character = NEP_girija_prasad_koirala
+recruit_character = NEP_rabindra_mishra
+recruit_character = NEP_ek_nath_dhakal
+recruit_character = NEP_pashupati_rana
+recruit_character = NEP_king_birendra
+recruit_character = NEP_raj_kumar_rauniyar

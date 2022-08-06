@@ -1,0 +1,151 @@
+characters = {
+	POL_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	POL_wojciech_jaruzelski = {
+		name = "Wojciech Jaruzelski"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/POL_Wojciech_Jaruzelski.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POL_WOJCIECH_JARUZELSKI_DESC
+		}
+	}
+	POL_piotr_ikonowicz = {
+		name = "Piotr Ikonowicz"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/POL_Piotr_Ikonowicz.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POL_PIOTR_IKONOWICZ_DESC
+		}
+	}
+	POL_waldemar_witkowski = {
+		name = "Waldemar Witkowski"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/POL_Waldemar_Witkowski.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POL_WALDEMAR_WITKOWSKI_DESC
+		}
+	}
+	POL_aleksander_kwasniewski = {
+		name = "Aleksander Kwaśniewski"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/POL_Aleksander_Kwasniewski.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POL_ALEKSANDER_KWASNIEWSKI_DESC
+		}
+	}
+	POL_donald_tusk = {
+		name = "Donald Tusk"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/POL_Donald_Tusk.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POL_DONALD_TUSK_DESC
+		}
+	}
+	POL_leszek_moczulski = {
+		name = "Leszek Moczulski"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/POL_Leszek_Moczulski.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POL_LESZEK_MOCZULSKI_DESC
+		}
+	}
+	POL_lech_kaczynski = {
+		name = "Lech Kaczyński"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/POL_Lech_Kaczynski.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POL_LECH_KACZYNSKI_DESC
+		}
+	}
+	POL_leszek_wierzchowski = {
+		name = "Leszek Wierzchowski"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/POL_Leszek_Wierzchowski.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POL_LESZEK_WIERZCHOWSKI_DESC
+		}
+	}
+	POL_adam_gmurczyk = {
+		name = "Adam Gmurczyk"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/POL_Adam_Gmurczyk.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POL_ADAM_GMURCZYK_DESC
+		}
+	}
+}

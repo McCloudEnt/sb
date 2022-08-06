@@ -1,0 +1,151 @@
+characters = {
+	CAM_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	CAM_hun_sen = {
+		name = "Hun Sen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAM/CAM_Hun_Sen.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAM_HUN_SEN_DESC
+		}
+	}
+	CAM_nuon_chea = {
+		name = "Nuon Chea"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAM/CAM_Nuon_Chea.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAM_NUON_CHEA_DESC
+		}
+	}
+	CAM_pen_sovan = {
+		name = "Pen Sovan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAM/CAM_Pen_Sovan.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAM_PEN_SOVAN_DESC
+		}
+	}
+	CAM_mam_sonando = {
+		name = "Mam Sonando"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAM/CAM_Mam_Sonando.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAM_MAM_SONANDO_DESC
+		}
+	}
+	CAM_kem_sokha = {
+		name = "Kem Sokha"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAM/CAM_Kem_Sokha.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAM_KEM_SOKHA_DESC
+		}
+	}
+	CAM_sam_rainsy = {
+		name = "Sam Rainsy"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAM/CAM_Sam_Rainsy.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAM_SAM_RAINSY_DESC
+		}
+	}
+	CAM_dien_del = {
+		name = "Dien Del"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAM/CAM_Dien_Del.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAM_DIEN_DEL_DESC
+		}
+	}
+	CAM_norodom_sihanouk = {
+		name = "Norodom Sihanouk"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAM/CAM_Norodom_Sihanouk.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAM_NORODOM_SIHANOUK_DESC
+		}
+	}
+	CAM_lon_rith = {
+		name = "Lon Rith"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAM/CAM_Lon_Rith.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAM_LON_RITH_DESC
+		}
+	}
+}

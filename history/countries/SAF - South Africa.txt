@@ -1,0 +1,41 @@
+﻿# Although South Africa is officially tricameral in the mod, it will be depicted as unicameral
+# because for all intents and purposes the whites are the ones primarily in power due to Apartheid.
+# Also, South Africa will be depicted with the devolution idea to reflect the quasi-independence of
+# the Bantustans.
+
+capital = 275
+
+set_politics = {	
+	ruling_party = classical_authoritarianism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	liberal_democracy = 8
+	conservative_democracy = 12
+	classical_authoritarianism = 52
+	ultranationalism = 28
+}
+
+add_ideas = {
+	idea_parliamentary_republic
+	idea_devolution
+	idea_unicameralism
+	idea_m_i_judiciary
+	idea_swm_voting
+	idea_moderate_secularism
+	idea_restricted_freedoms
+}
+
+recruit_character = SAF_anarchy
+recruit_character = SAF_blade_nzimande
+recruit_character = SAF_thabo_mbeki
+recruit_character = SAF_mosibudi_mangena
+recruit_character = SAF_allan_hendrickse
+recruit_character = SAF_helen_zille
+recruit_character = SAF_tony_leon
+recruit_character = SAF_f_w_de_klerk
+recruit_character = SAF_reginald_otto
+recruit_character = SAF_ferdi_hartzenberg

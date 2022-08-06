@@ -1,0 +1,151 @@
+characters = {
+	LUX_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	LUX_ali_ruckert = {
+		name = "Ali Ruckert"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUX/LUX_Ali_Ruckert.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LUX_ALI_RUCKERT_DESC
+		}
+	}
+	LUX_andre_hoffmann = {
+		name = "André Hoffmann"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUX/LUX_Andre_Hoffmann.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LUX_ANDRE_HOFFMANN_DESC
+		}
+	}
+	LUX_claude_haagen = {
+		name = "Claude Haagen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUX/LUX_Claude_Haagen.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LUX_CLAUDE_HAAGEN_DESC
+		}
+	}
+	LUX_alex_bodry = {
+		name = "Alex Bodry"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUX/LUX_Alex_Bodry.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LUX_ALEX_BODRY_DESC
+		}
+	}
+	LUX_corinne_cahen = {
+		name = "Corinne Cahen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUX/LUX_Corinne_Cahen.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LUX_CORINNE_CAHEN_DESC
+		}
+	}
+	LUX_marc_spautz = {
+		name = "Marc Spautz"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUX/LUX_Marc_Spautz.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LUX_MARC_SPAUTZ_DESC
+		}
+	}
+	LUX_aly_jaerling = {
+		name = "Aly Jaerling"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUX/LUX_Aly_Jaerling.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LUX_ALY_JAERLING_DESC
+		}
+	}
+	LUX_grand_duke_henri = {
+		name = "Grand Duke Henri"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUX/LUX_Grand_Duke_Henri.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LUX_GRAND_DUKE_HENRI_DESC
+		}
+	}
+	LUX_pierre_peters = {
+		name = "Pierre Peters"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUX/LUX_Pierre_Peters.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_position
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LUX_PIERRE_PETERS_DESC
+		}
+	}
+}

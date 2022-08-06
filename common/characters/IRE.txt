@@ -1,0 +1,151 @@
+characters = {
+	IRE_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	IRE_sean_garland = {
+		name = "Seán Garland"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/IRE_Sean_Garland.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRE_SEAN_GARLAND_DESC
+		}
+	}
+	IRE_ruairi_o_bradaigh = {
+		name = "Ruairí Ó Brádaigh"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/IRE_Ruairi_O_Bradaigh.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRE_RUAIRI_O_BRADAIGH_DESC
+		}
+	}
+	IRE_trevor_sargent = {
+		name = "Trevor Sargent"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/IRE_Trevor_Sargent.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRE_TREVOR_SARGENT_DESC
+		}
+	}
+	IRE_pat_rabbitte = {
+		name = "Pat Rabbitte"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/IRE_Pat_Rabbitte.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_corporatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRE_PAT_RABBITTE_DESC
+		}
+	}
+	IRE_bertie_ahern = {
+		name = "Bertie Ahern"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/IRE_Bertie_Ahern.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRE_BERTIE_AHERN_DESC
+		}
+	}
+	IRE_enda_kenny = {
+		name = "Enda Kenny"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/IRE_Enda_Kenny.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRE_ENDA_KENNY_DESC
+		}
+	}
+	IRE_terence_flanagan = {
+		name = "Terence Flanagan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/IRE_Terence_Flanagan.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRE_TERENCE_FLANAGAN_DESC
+		}
+	}
+	IRE_padraig_flynn = {
+		name = "Pádraig Flynn"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/IRE_Padraig_Flynn.dds"
+			}
+		}
+		country_leader = {
+			ideology = republican_autocracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRE_PADRAIG_FLYNN_DESC
+		}
+	}
+	IRE_gerard_casey = {
+		name = "Gerard Casey"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/IRE_Gerard_Casey.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRE_GERARD_CASEY_DESC
+		}
+	}
+}

@@ -1,0 +1,36 @@
+﻿capital = 868
+
+set_politics = {	
+	ruling_party = liberal_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	libertarian_socialism = 7
+	social_democracy = 38
+	liberal_democracy = 45
+	conservative_democracy = 10
+}
+
+add_ideas = {
+	idea_constitutional_monarchy
+	idea_federation
+	idea_lower_house_bicameralism
+	idea_s_s_judiciary
+	idea_swm_voting
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = AST_anarchy
+recruit_character = AST_peter_symon
+recruit_character = AST_john_percy
+recruit_character = AST_richard_di_natale
+recruit_character = AST_kevin_rudd
+recruit_character = AST_malcolm_turnbull
+recruit_character = AST_tony_abbott
+recruit_character = AST_pauline_hanson
+recruit_character = AST_philip_michael_jeffery
+recruit_character = AST_james_saleam

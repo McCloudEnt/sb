@@ -1,0 +1,33 @@
+﻿capital = 324
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	despotism = 100
+}
+
+add_ideas = {
+	idea_absolute_monarchy
+	idea_unitary
+	idea_legislative_consultation
+	idea_judicial_consultation
+	idea_indirect_voting
+	idea_pluralism
+	idea_restricted_freedoms
+}
+
+recruit_character = BHU_anarchy
+recruit_character = BHU_tek_nath_rizal
+recruit_character = BHU_lily_wangchuk
+recruit_character = BHU_r_p_subba
+recruit_character = BHU_lotay_tshering
+recruit_character = BHU_tshering_tobgay
+recruit_character = BHU_dorji_wangdi
+recruit_character = BHU_jigme_thinley
+recruit_character = BHU_king_jigme_singye
+recruit_character = BHU_kipchu_namgyal

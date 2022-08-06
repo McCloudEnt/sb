@@ -1,0 +1,35 @@
+﻿capital = 350
+
+set_politics = {	
+	ruling_party = marxism_leninism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 34
+	revisionist_socialism = 33
+	libertarian_socialism = 33
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_indirect_voting
+	idea_state_atheism
+	idea_restricted_freedoms
+}
+
+recruit_character = KUR_anarchy
+recruit_character = KUR_abdullah_ocalan
+recruit_character = KUR_cemil_bayik
+recruit_character = KUR_murat_karayilan
+recruit_character = KUR_sebahat_tuncel
+recruit_character = KUR_nawshirwan_mustafa
+recruit_character = KUR_salaheddine_bahaaeddin
+recruit_character = KUR_masoud_barzani
+recruit_character = KUR_ehsan_ali_abdul_aziz
+recruit_character = KUR_huseyin_velioglu

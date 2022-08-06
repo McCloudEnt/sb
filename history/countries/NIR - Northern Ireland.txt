@@ -1,0 +1,39 @@
+﻿capital = 119
+
+set_politics = {	
+	ruling_party = conservative_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 1
+	revisionist_socialism = 3
+	libertarian_socialism = 2
+	social_democracy = 24
+	liberal_democracy = 21
+	conservative_democracy = 26
+	despotism = 23
+}
+
+add_ideas = {
+	idea_constitutional_monarchy
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_fp_voting
+	idea_moderate_secularism
+	idea_limited_freedoms
+}
+
+recruit_character = NIR_new_army_council
+recruit_character = NIR_des_o_hagan
+recruit_character = NIR_david_ervine
+recruit_character = NIR_steven_agnew
+recruit_character = NIR_martin_mcguinness
+recruit_character = NIR_david_ford
+recruit_character = NIR_peter_robinson
+recruit_character = NIR_charles_huxtable
+recruit_character = NIR_ian_paisley
+recruit_character = NIR_inner_council

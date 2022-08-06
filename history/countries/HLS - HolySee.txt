@@ -1,0 +1,25 @@
+﻿capital = 835
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	despotism = 100
+}
+
+add_ideas = {
+	idea_theocracy
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_indirect_voting
+	idea_moralism
+	idea_no_freedoms
+}
+
+recruit_character = HLS_anarchy
+recruit_character = HLS_pope_boniface_x

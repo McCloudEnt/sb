@@ -1,0 +1,38 @@
+﻿capital = 107
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	revisionist_socialism = 2
+	social_democracy = 2
+	liberal_democracy = 2
+	conservative_democracy = 2
+	despotism = 90
+	ultranationalism = 2
+}
+
+add_ideas = {
+	idea_republican_dictatorship
+	idea_unitary
+	idea_balanced_bicameralism
+	idea_s_i_judiciary
+	idea_indirect_voting
+	idea_moralism
+	idea_no_freedoms
+}
+
+recruit_character = YUG_anarchy
+recruit_character = YUG_branko_kitanovic
+recruit_character = YUG_josip_joska_broz
+recruit_character = YUG_bosko_obradovic
+recruit_character = YUG_slobodan_milosevic
+recruit_character = YUG_vuk_draskovic
+recruit_character = YUG_boris_tadic
+recruit_character = YUG_stjepan_mesic
+recruit_character = YUG_svetozar_marovic
+recruit_character = YUG_vojislav_seselj

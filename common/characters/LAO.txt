@@ -1,0 +1,151 @@
+characters = {
+	LAO_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	LAO_khamtai_siphandon = {
+		name = "Khamtai Siphandon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAO/LAO_Khamtai_Siphandon.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LAO_KHAMTAI_SIPHANDON_DESC
+		}
+	}
+	LAO_somsavat_lengsavad = {
+		name = "Somsavat Lengsavad"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAO/LAO_Somsavat_Lengsavad.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LAO_SOMSAVAT_LENGSAVAD_DESC
+		}
+	}
+	LAO_bouasone_bouphavanh = {
+		name = "Bouasone Bouphavanh"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAO/LAO_Bouasone_Bouphavanh.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LAO_BOUASONE_BOUPHAVANH_DESC
+		}
+	}
+	LAO_choummaly_sayasone = {
+		name = "Choummaly Sayasone"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAO/LAO_Choummaly_Sayasone.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LAO_CHOUMMALY_SAYASONE_DESC
+		}
+	}
+	LAO_vang_wangyee = {
+		name = "Vang Wangyee"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAO/LAO_Vang_Wangyee.dds"
+			}
+		}
+		country_leader = {
+			ideology = new_deal_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LAO_VANG_WANGYEE_DESC
+		}
+	}
+	LAO_vang_cherzong = {
+		name = "Vang Cherzong"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAO/LAO_Vang_Cherzong.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LAO_VANG_CHERZONG_DESC
+		}
+	}
+	LAO_kong_le = {
+		name = "Kong Le"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAO/LAO_Kong_Le.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LAO_KONG_LE_DESC
+		}
+	}
+	LAO_vang_pao = {
+		name = "Vang Pao"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAO/LAO_Vang_Pao.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LAO_VANG_PAO_DESC
+		}
+	}
+	LAO_vang_chai = {
+		name = "Vang Chai"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAO/LAO_Vang_Chai.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = LAO_VANG_CHAI_DESC
+		}
+	}
+}

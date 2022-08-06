@@ -1,0 +1,26 @@
+# List of intelligence agency upgrades, and their effects
+# For documentation, there is a file _documentation.info in the same folder.
+
+branch_intelligence = {
+
+	upgrade_economy_civilian = {
+	
+		picture = GFX_agency_economy_department
+		frame = GFX_upgrade_frame_economy
+		sound = Spy_Agency_Intel_Upgrades_Confirm
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		modifiers_during_progress = {
+			civilian_factory_use = 5
+		}
+		
+		level = {
+			modifier = {
+				civilian_intel_factor = 0.25
+			}
+		}
+	}
+}

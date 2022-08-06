@@ -1,0 +1,206 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_goal_shine_test"
+		texturefile = "gfx/interface/goals/goal_generic_production.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/goal_generic_production.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = -90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 1			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/goal_generic_production.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = 90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 1			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		legacy_lazy_load = no
+	}
+	#### IDEOLOGY #### 
+	SpriteType = {
+		name = "agrarian_socialism"
+		texturefile = "gfx/interface/goals/ideology/agrarian_socialism.dds"
+	}
+	SpriteType = {
+		name = "anti_fascist"
+		texturefile = "gfx/interface/goals/ideology/anti_fascist.dds"
+	}
+	SpriteType = {
+		name = "anti_monarchy"
+		texturefile = "gfx/interface/goals/ideology/anti_monarchy.dds"
+	}
+	SpriteType = {
+		name = "com_fascism"
+		texturefile = "gfx/interface/goals/ideology/com_fascism.dds"
+	}
+	SpriteType = {
+		name = "communism_1"
+		texturefile = "gfx/interface/goals/ideology/communism_1.dds"
+	}
+	SpriteType = {
+		name = "communism_2"
+		texturefile = "gfx/interface/goals/ideology/communism_2.dds"
+	}
+	SpriteType = {
+		name = "communism_3"
+		texturefile = "gfx/interface/goals/ideology/communism_3.dds"
+	}
+	SpriteType = {
+		name = "communism_over_europe"
+		texturefile = "gfx/interface/goals/ideology/communism_over_europe.dds"
+	}
+	SpriteType = {
+		name = "communist_construction"
+		texturefile = "gfx/interface/goals/ideology/communist_construction.dds"
+	}
+	SpriteType = {
+		name = "communist_monarchy"
+		texturefile = "gfx/interface/goals/ideology/communist_monarchy.dds"
+	}
+	SpriteType = {
+		name = "communist_star"
+		texturefile = "gfx/interface/goals/ideology/communist_star.dds"
+	}
+	SpriteType = {
+		name = "communists_marching"
+		texturefile = "gfx/interface/goals/ideology/communists_marching.dds"
+	}
+	SpriteType = {
+		name = "crown_chains"
+		texturefile = "gfx/interface/goals/ideology/crown_chains.dds"
+	}
+	SpriteType = {
+		name = "crown_shatterd"
+		texturefile = "gfx/interface/goals/ideology/crown_shatterd.dds"
+	}
+	SpriteType = {
+		name = "dealmaker"
+		texturefile = "gfx/interface/goals/ideology/dealmaker.dds"
+	}
+	SpriteType = {
+		name = "democracy"
+		texturefile = "gfx/interface/goals/ideology/democracy.dds"
+	}
+	SpriteType = {
+		name = "fascism_1"
+		texturefile = "gfx/interface/goals/ideology/fascism_1.dds"
+	}
+	SpriteType = {
+		name = "fascism_2"
+		texturefile = "gfx/interface/goals/ideology/fascism_2.dds"
+	}
+	SpriteType = {
+		name = "fascism_3"
+		texturefile = "gfx/interface/goals/ideology/fascism_3.dds"
+	}
+	SpriteType = {
+		name = "fascist_wolf"
+		texturefile = "gfx/interface/goals/ideology/fascist_wolf.dds"
+	}
+	SpriteType = {
+		name = "focus_ideology_ultranationalism"
+		texturefile = "gfx/interface/goals/ideology/focus_ideology_ultranationalism.dds"
+	}
+	SpriteType = {
+		name = "focus_ideology_despotism"
+		texturefile = "gfx/interface/goals/ideology/focus_ideology_despotism.dds"
+	}
+	SpriteType = {
+		name = "focus_ideology_classical_authoritarianism"
+		texturefile = "gfx/interface/goals/ideology/focus_ideology_classical_authoritarianism.dds"
+	}
+	SpriteType = {
+		name = "focus_ideology_conservative_democracy"
+		texturefile = "gfx/interface/goals/ideology/focus_ideology_conservative_democracy.dds"
+	}
+	SpriteType = {
+		name = "focus_ideology_liberal_democracy"
+		texturefile = "gfx/interface/goals/ideology/focus_ideology_liberal_democracy.dds"
+	}
+	SpriteType = {
+		name = "focus_ideology_social_democracy"
+		texturefile = "gfx/interface/goals/ideology/focus_ideology_social_democracy.dds"
+	}
+	SpriteType = {
+		name = "focus_ideology_libertarian_socialism"
+		texturefile = "gfx/interface/goals/ideology/focus_ideology_libertarian_socialism.dds"
+	}
+	SpriteType = {
+		name = "focus_ideology_revisionist_socialism"
+		texturefile = "gfx/interface/goals/ideology/focus_ideology_revisionist_socialism.dds"
+	}
+	SpriteType = {
+		name = "focus_ideology_marxism_leninism"
+		texturefile = "gfx/interface/goals/ideology/focus_ideology_marxism_leninism.dds"
+	}
+	SpriteType = {
+		name = "fourth_international"
+		texturefile = "gfx/interface/goals/ideology/fourth_international.dds"
+	}
+	SpriteType = {
+		name = "generic_ideology"
+		texturefile = "gfx/interface/goals/ideology/generic_ideology.dds"
+	}
+	SpriteType = {
+		name = "GFX_freedom_focus"
+		texturefile = "gfx/interface/goals/ideology/GFX_freedom_focus.dds"
+	}
+	SpriteType = {
+		name = "ideology_fist"
+		texturefile = "gfx/interface/goals/ideology/ideology_fist.dds"
+	}
+	SpriteType = {
+		name = "left_wing_win"
+		texturefile = "gfx/interface/goals/ideology/left_wing_win.dds"
+	}
+	SpriteType = {
+		name = "neutrality"
+		texturefile = "gfx/interface/goals/ideology/neutrality.dds"
+	}
+	SpriteType = {
+		name = "propaganda"
+		texturefile = "gfx/interface/goals/ideology/propaganda.dds"
+	}
+	SpriteType = {
+		name = "royal_strength"
+		texturefile = "gfx/interface/goals/ideology/royal_strength.dds"
+	}
+	SpriteType = {
+		name = "send_the_army_in"
+		texturefile = "gfx/interface/goals/ideology/send_the_army_in.dds"
+	}
+	SpriteType = {
+		name = "support_monarchy"
+		texturefile = "gfx/interface/goals/ideology/support_monarchy.dds"
+	}
+}

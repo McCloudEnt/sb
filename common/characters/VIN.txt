@@ -1,0 +1,151 @@
+characters = {
+	VIN_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	VIN_nong_duc_manh = {
+		name = "Nong Duc Manh"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/VIN_Nong_Duc_Manh.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = VIN_NONG_DUC_MANH_DESC
+		}
+	}
+	VIN_nguyen_thi_kim_ngan = {
+		name = "Nguyen Thi Kim Ngan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/VIN_Nguyen_Thi_Kim_Ngan.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = VIN_NGUYEN_THI_KIM_NGAN_DESC
+		}
+	}
+	VIN_hoang_minh_chinh = {
+		name = "Pen Sovan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/VIN_Hoang_Minh_Chinh.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = VIN_HOANG_MINH_CHINH_DESC
+		}
+	}
+	VIN_tran_quoc_hien = {
+		name = "Tran Quoc Hien"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/VIN_Tran_Quoc_Hien.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = VIN_TRAN_QUOC_HIEN_DESC
+		}
+	}
+	VIN_do_hoang_diem = {
+		name = "Do Hoang Diem"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/VIN_Do_Hoang_Diem.dds"
+			}
+		}
+		country_leader = {
+			ideology = new_deal_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = VIN_DO_HOANG_DIEM_DESC
+		}
+	}
+	VIN_nguyen_si_binh = {
+		name = "Nguyen Si Binh"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/VIN_Nguyen_Si_Binh.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = VIN_NGUYEN_SI_BINH_DESC
+		}
+	}
+	VIN_tran_thien_khiem = {
+		name = "Tran Thien Khiem"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/VIN_Tran_Thien_Khiem.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = VIN_Tran_Thien_Khiem_DESC
+		}
+	}
+	VIN_bao_thang = {
+		name = "Bao Thang"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/VIN_Bao_Thang.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = VIN_BAO_THANG_DESC
+		}
+	}
+	VIN_ngo_dinh_le_quyen = {
+		name = "Ngo Dinh Le Quyen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/VIN_Ngo_Dinh_Le_Quyen.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_position
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = VIN_NGO_DINH_LE_QUYEN_DESC
+		}
+	}
+}

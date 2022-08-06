@@ -1,0 +1,181 @@
+characters = {
+	KOR_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	KOR_lee_seok_ki = {
+		name = "Lee Seok-ki"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/KOR_Lee_Seok_Ki.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = KOR_LEE_SEOK_KI_DESC
+		}
+	}
+	KOR_geum_min = {
+		name = "Geum Min"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/KOR_Geum_Min.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = KOR_GEUM_MIN_DESC
+		}
+	}
+	KOR_kim_jae_yeon = {
+		name = "Kim Jae-yeon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/KOR_Kim_Jae_Yeon.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = KOR_KIM_JAE_YEON_DESC
+		}
+	}
+	KOR_kwon_young_ghil = {
+		name = "Kwon Young-ghil"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/KOR_Kwon_Young_Ghil.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = KOR_KWON_YOUNG_GHIL_DESC
+		}
+	}
+	KOR_kim_dae_jung = {
+		name = "Kim Dae-jung"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/KOR_Kim_Dae_Jung.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = KOR_KIM_DAE_JUNG_DESC
+		}
+	}
+	KOR_park_geun_hye = {
+		name = "Park Geun-hye"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/KOR_Park_Geun_Hye.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = KOR_PARK_GEUN_HYE_DESC
+		}
+	}
+	KOR_kim_jang_soo = {
+		name = "Kim Jang-soo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/KOR_Kim_Jang_Soo.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = KOR_KIM_JANG_SOO_DESC
+		}
+	}
+	KOR_imperial_restoration_council = {
+		name = "Imperial Restoration Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/KOR_Imperial_Restoration_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = KOR_IMPERIAL_RESTORATION_COUNCIL_DESC
+		}
+	}
+	KOR_emperor_won = {
+		name = "Emperor Won"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/KOR_Emperor_Won.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = KOR_EMPEROR_WON_DESC
+		}
+	}
+	KOR_emperor_seok = {
+		name = "Emperor Seok"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/KOR_Emperor_Seok.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = KOR_EMPEROR_SEOK_DESC
+		}
+	}
+	KOR_jeon_kwang_hoon = {
+		name = "Jeon Kwang-hoon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/KOR_Jeon_Kwang_Hoon.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = KOR_JEON_KWANG_HOON_DESC
+		}
+	}
+}

@@ -1,0 +1,33 @@
+﻿capital = 289
+
+set_politics = {	
+	ruling_party = ultranationalism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	ultranationalism = 100
+}
+
+add_ideas = {
+	idea_theocracy
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_indirect_voting
+	idea_moralism
+	idea_restricted_freedoms
+}
+
+recruit_character = SIA_anarchy
+recruit_character = SIA_surachai_danwattananusorn
+recruit_character = SIA_yingluck_shinawatra
+recruit_character = SIA_thanathorn_juangroongruangkit
+recruit_character = SIA_sondhi_limthongkul
+recruit_character = SIA_suwit_khunkitti
+recruit_character = SIA_abhisit_vejjajiva
+recruit_character = SIA_sonthi_boonyaratglin
+recruit_character = SIA_king_rama_ix
+recruit_character = SIA_ajahn_maha_bua

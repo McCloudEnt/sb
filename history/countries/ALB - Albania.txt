@@ -1,0 +1,35 @@
+﻿capital = 44
+
+set_politics = {	
+	ruling_party = marxism_leninism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 81
+	revisionist_socialism = 5
+	classical_authoritarianism = 14
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_voting_consultation
+	idea_state_anti_theism
+	idea_no_freedoms
+}
+
+recruit_character = ALB_anarchy
+recruit_character = ALB_hysni_milloshi
+recruit_character = ALB_nexhmije_hoxha
+recruit_character = ALB_monika_kryemadhi
+recruit_character = ALB_tom_doshi
+recruit_character = ALB_sali_berisha
+recruit_character = ALB_fatmir_mediu
+recruit_character = ALB_kostaq_karoli
+recruit_character = ALB_shpetim_axhami
+recruit_character = ALB_idajet_beqiri

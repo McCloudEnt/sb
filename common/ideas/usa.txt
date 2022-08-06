@@ -1,0 +1,1057 @@
+ideas = {
+
+	# TECHNOLOGY
+	tank_manufacturer = {
+
+		designer = yes
+
+		oregon_ironworks = {
+
+			picture = oregon_ironworks
+			
+			allowed = {
+			    original_tag = USA
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+			
+		}
+
+		BAE_systems_north_america = {
+
+			picture = BAE_systems_north_america
+			
+			allowed = {
+				original_tag = USA
+			}
+		
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		general_dynamics_land_systems = {
+		
+			picture = general_dynamics_land_system
+
+			allowed = {
+				original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				armor = 0.10
+			}
+
+			traits = { tank_manufacturer }
+		}
+
+		polaris = {
+
+			picture = polaris
+			
+			allowed = {
+			    original_TAG = USA
+			}
+
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	}
+
+	naval_manufacturer = {
+
+		designer = yes
+
+		marinette_marine_corporation = {
+			
+			picture = marinette_marine_corporation
+
+			allowed = {
+			    original_TAG = USA
+			}
+
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+
+		bath_iron_works = {
+			
+			picture = bath_iron_works
+
+			allowed = {
+				original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+
+		huntington_ingalls_industries = {
+
+			picture = huntington_ingalls_industries
+
+			allowed = {
+				original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+
+			traits = { naval_manufacturer }
+		}
+
+		philadelphia_naval_shipyard = {
+			
+			picture = philadelphia_naval_shipyard
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+
+		vigor_industrial = {
+			
+			picture = vigor_industrial
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}
+
+	aircraft_manufacturer = {
+
+		designer = yes
+
+		aerovironment = {
+
+			picture = aerovironment
+
+			allowed = {
+				original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+
+			traits = { naval_aircraft_manufacturer }
+		}
+
+		mcdonnell_douglas = {
+
+			picture = mcdonnell_douglas
+
+			allowed = {
+				original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+
+			traits = { medium_aircraft_manufacturer }
+		}
+
+		boeing = {
+
+			picture = boeing
+
+			allowed = {
+				original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		esterline_technologies = {
+			
+			picture = esterline_technologies
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+		}
+		
+		insitu = {
+			
+			picture = insitu
+
+			allowed = {
+			   original_tag = USA
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+		}
+
+		aeronca_aircraft = {
+			
+			picture = aeronca_aircraft
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+
+		rockwell_international = {
+			
+			picture = rockwell_international
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		aai = {
+			
+			picture = aai
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+
+		l3harris = {
+			
+			picture = l3harris 
+
+			allowed = {
+			    original_TAG = USA
+			}
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		eaton = {
+			
+			picture = eaton
+
+			allowed = {
+			    original_TAG = USA
+			}
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		metaltek = {
+
+			picture = metaltek
+			
+			allowed = {
+			    original_TAG = USA
+			}
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		donaldson = {
+			
+			picture = donaldson
+
+			allowed = {
+			    original_TAG = USA
+			}
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+
+		Avco = {
+			
+			picture = Avco
+
+			allowed = {
+				original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		Sikorsky_Aircraft = {
+			
+			picture = Sikorsky_Aircraft
+
+			allowed = {
+				original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		pratt_and_whitney = {
+			
+			picture = pratt_and_whitney
+
+			allowed = {
+				original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		lockheed_corporation = {
+
+			picture = lockheed_corporation
+
+			allowed = {
+				original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+
+			traits = { light_aircraft_manufacturer }
+		}
+
+		grumman = {
+
+			picture = grumman
+
+			allowed = {
+			    original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+
+			traits = { medium_aircraft_manufacturer }
+		}
+
+		bombardier = {
+
+			picture = bombardier
+
+			allowed = {
+			    original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		northrop = {
+
+			picture = northrop
+
+			allowed = {
+			    original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+
+			traits = { naval_aircraft_manufacturer }
+		}
+	}
+
+	industrial_concern = {
+
+		turner_construction = {
+			
+			picture = turner_construction
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		ibm = {
+			
+			picture = ibm
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}
+
+		dupont = {
+			
+			picture = dupont
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { refinery_concern }
+		}
+
+		gehl = {
+			
+			picture = gehl
+
+			allowed = {
+				original_TAG = USA
+			}
+
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		keytronic = {
+			
+			picture = keytronic
+
+			allowed = {
+			    original_TAG = USA
+			}
+
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}
+
+		Ensign_Bickford = {
+			
+			picture = Ensign_Bickford
+
+			allowed = {
+				original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}
+
+		praxair = {
+			
+			picture = praxair
+
+			allowed = {
+				original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { refinery_concern }
+		}
+		
+		Nortrax = {
+			
+			picture = Nortrax
+
+			allowed = {
+				original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		caterpillar_inc = {
+
+			picture = caterpillar_inc
+
+			allowed = {
+				original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				industry = 0.10
+			}
+
+			traits = { industrial_concern }
+		}
+
+		hewlett_packard = {
+
+			picture = hewlett_packard
+
+			allowed = {
+				original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				electronics = 0.10
+			}
+
+			traits = { electronics_concern }
+		}
+		esco = {
+			
+			picture = esco
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}
+		
+		hoffman_construction_company = {
+			
+			picture = hoffman_construction_company
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		electro_scientific_industries = {
+			
+			picture = electro_scientific_industries
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}
+
+		conestoga_rovers_and_associates_usa = {
+
+			picture = conestoga_rovers_associates
+
+			allowed = {
+			    original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				industry = 0.10
+			}
+
+			traits = { industrial_concern }
+		}
+	}
+
+	materiel_manufacturer = {
+
+		designer = yes
+
+		paccar = {
+			
+			picture = paccar
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		calico_light_arms = {
+			
+			picture = calico_light_arms
+
+			allowed = {
+			    original_tag = USA
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		american_motors = {
+			
+			picture = american_motors
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+
+		raytheon_company = {
+			
+			picture = raytheon_company
+			allowed = {
+			    original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+
+		oshkosh = {
+			
+			picture = oshkosh
+
+			allowed = {
+			    original_TAG = USA
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		lewis_machine_tool = {
+			
+			picture = lewis_machine_tool
+
+			allowed = {
+			    original_TAG = USA
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		
+		mumm_ironworks = {
+			
+			picture = mumm_ironworks
+
+			allowed = {
+			    original_TAG = USA
+			}
+
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+
+		Textron  = {
+			
+			picture = Textron 
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		colt = {
+			
+			picture = colt
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		
+		BAE_systems_platforms = {
+			
+			picture = BAE_systems_platforms
+
+			allowed = {
+			    original_tag = USA
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+
+		anniston_army_depot = {
+
+			picture = anniston_army_depot
+
+			allowed = {
+			    original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+
+			traits = { motorized_equipment_manufacturer }
+		}
+
+		bushmaster_firearms = {
+
+			picture = bushmaster_firearms
+
+			allowed = {
+			    original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		remington_arms = {
+
+			picture = remington_arms
+
+			allowed = {
+			    original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				artillery = 0.10
+			}
+
+			traits = { artillery_manufacturer }
+		}
+		general_dynamics = {
+
+			picture = general_dynamics_land_system
+
+			allowed = {
+			    original_tag = USA
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
+
+	second_in_command = {
+		usa_soc_john_mccain = {
+			picture = usa_soc_john_mccain
+			allowed = {
+					original_tag = USA
+			}
+			available = {
+				OR = {
+					has_government = liberal_democracy #Bradley's VP
+				}
+				cannot_change_second_in_command = no
+			}
+			cancel_if_invalid = no
+			traits = {
+				compassionate_gentleman
+				retired_admiral
+			}
+		}
+		usa_soc_kshama_sawant = {
+			picture = usa_soc_kshama_sawant
+			allowed = {
+					original_tag = USA
+			}
+			available = {
+				OR = {
+					has_government = liberal_democracy #Roosevelt's VP
+				}
+				cannot_change_second_in_command = no
+			}
+			cancel_if_invalid = no
+			traits = {
+				political_protege
+				ideological_crusader
+			}
+		}
+		usa_soc_dianne_feinstein = {
+			picture = usa_soc_dianne_feinstein
+			allowed = {
+					original_tag = USA
+			}
+			available = {
+				OR = {
+					has_government = conservative_democracy #Bolton's VP
+				}
+				cannot_change_second_in_command = no
+			}
+			cancel_if_invalid = no
+			traits = {
+				master_of_the_senate
+				compromise_choice
+			}
+		}
+		usa_soc_erik_prince = {
+			picture = usa_soc_erik_prince
+			allowed = {
+					original_tag = USA
+			}
+			available = {
+				OR = {
+					has_government = liberal_democracy #Powell's VP
+				}
+				cannot_change_second_in_command = no
+			}
+			cancel_if_invalid = no
+			traits = {
+				corporate_suit
+				retired_admiral
+			}
+		}
+		usa_soc_jesse_ventura = {
+			picture = usa_soc_jesse_ventura
+			allowed = {
+					original_tag = USA
+			}
+			available = {
+				OR = {
+					has_government = conservative_democracy #Buchanan's VP
+				}
+				cannot_change_second_in_command = no
+			}
+			cancel_if_invalid = no
+			traits = {
+				compromise_choice
+				retired_admiral
+			}
+		}
+	}
+}

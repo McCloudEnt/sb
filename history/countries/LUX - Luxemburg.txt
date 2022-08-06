@@ -1,0 +1,39 @@
+﻿capital = 8
+
+set_politics = {	
+	ruling_party = social_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	revisionist_socialism = 3
+	libertarian_socialism = 3
+	social_democracy = 35
+	liberal_democracy = 21
+	conservative_democracy = 18
+	classical_authoritarianism = 10
+	ultranationalism = 10
+}
+
+add_ideas = {
+	idea_constitutional_monarchy
+	idea_unitary
+	idea_lower_house_bicameralism
+	idea_m_i_judiciary
+	idea_fp_voting
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = LUX_anarchy
+recruit_character = LUX_ali_ruckert
+recruit_character = LUX_andre_hoffmann
+recruit_character = LUX_claude_haagen
+recruit_character = LUX_alex_bodry
+recruit_character = LUX_corinne_cahen
+recruit_character = LUX_marc_spautz
+recruit_character = LUX_aly_jaerling
+recruit_character = LUX_grand_duke_henri
+recruit_character = LUX_pierre_peters

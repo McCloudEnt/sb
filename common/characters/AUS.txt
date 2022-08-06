@@ -1,0 +1,151 @@
+characters = {
+	AUS_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	AUS_walter_baier = {
+		name = "Walter Baier"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/AUS_Walter_Baier.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AUS_WALTER_BAIER_DESC
+		}
+	}
+	AUS_otto_bruckner = {
+		name = "Otto Bruckner"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/AUS_Otto_Bruckner.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AUS_OTTO_BRUCKNER_DESC
+		}
+	}
+	AUS_alexander_van_der_bellen = {
+		name = "Alexander Van der Bellen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/AUS_Alexander_Van_der_Bellen.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AUS_ALEXANDER_VAN_DER_BELLEN_DESC
+		}
+	}
+	AUS_alfred_gusenbauer = {
+		name = "Alfred Gusenbauer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/AUS_Alfred_Gusenbauer.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AUS_ALFRED_GUSENBAUER_DESC
+		}
+	}
+	AUS_alexander_zach = {
+		name = "Alexander Zach"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/AUS_Alexander_Zach.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AUS_ALEXANDER_ZACH_DESC
+		}
+	}
+	AUS_wolfgang_schussel = {
+		name = "Wolfgang Schüssel"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/AUS_Wolfgang_Schussel.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AUS_WOLFGANG_SCHUSSEL_DESC
+		}
+	}
+	AUS_heinz_christian_strache = {
+		name = "Heinz-Christian Strache"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/AUS_Heinz_Christian_Strache.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AUS_HEINZ_CHRISTIAN_STRACHE_DESC
+		}
+	}
+	AUS_helga_vereno = {
+		name = "Helga Vereno"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/AUS_Helga_Vereno.dds"
+			}
+		}
+		country_leader = {
+			ideology = republican_autocracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AUS_HELGA_VERENO_DESC
+		}
+	}
+	AUS_jorg_haider = {
+		name = "Jörg Haider"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/AUS_Jorg_Haider.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AUS_JORG_HAIDER_DESC
+		}
+	}
+}

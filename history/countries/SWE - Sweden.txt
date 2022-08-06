@@ -1,0 +1,40 @@
+﻿capital = 141	
+
+set_politics = {	
+	ruling_party = social_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 8
+	revisionist_socialism = 3
+	libertarian_socialism = 5
+	social_democracy = 40
+	liberal_democracy = 19
+	conservative_democracy = 15
+	classical_authoritarianism = 9
+	ultranationalism = 1
+}
+
+add_ideas = {
+	idea_junta
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_sp_voting
+	idea_lite_secularism
+	idea_restricted_freedoms
+}
+
+recruit_character = SWE_anarchy
+recruit_character = SWE_lars_ohly
+recruit_character = SWE_ingela_thalen
+recruit_character = SWE_gudrun_schyman
+recruit_character = SWE_goran_persson
+recruit_character = SWE_maud_olofsson
+recruit_character = SWE_fredrik_reinfeldt
+recruit_character = SWE_goran_hagglund
+recruit_character = SWE_king_carl_xvi_gustaf
+recruit_character = SWE_jimmie_akesson

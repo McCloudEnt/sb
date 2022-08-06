@@ -1,0 +1,151 @@
+characters = {
+	BRM_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	BRM_sandar_win = {
+		name = "Sandar Win"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRM/BRM_Sandar_Win.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRM_SANDAR_WIN_DESC
+		}
+	}
+	BRM_thakin_tin_mya = {
+		name = "Thakin Tin Mya"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRM/BRM_Thakin_Tin_Mya.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRM_THAKIN_TIN_MYA_DESC
+		}
+	}
+	BRM_council_of_monks = {
+		name = "Council of Monks"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRM/BRM_Council_of_Monks.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRM_COUNCIL_OF_MONKS_DESC
+		}
+	}
+	BRM_aung_san_suu_kyi = {
+		name = "Aung San Suu Kyi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRM/BRM_Aung_San_Suu_Kyi.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRM_AUNG_SAN_SUU_KYI_DESC
+		}
+	}
+	BRM_thu_wai = {
+		name = "Thu Wai"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRM/BRM_Thu_Wai.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRM_THU_WAI_DESC
+		}
+	}
+	BRM_aung_kham_hti = {
+		name = "Aung Kham Hti"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRM/BRM_Aung_Kham_Hti.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRM_AUNG_KHAM_HTI_DESC
+		}
+	}
+	BRM_thein_sein = {
+		name = "Thein Sen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRM/BRM_Thein_Sein.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRM_THEIN_SEIN_DESC
+		}
+	}
+	BRM_than_shwe = {
+		name = "Than Shwe"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRM/BRM_Than_Shwe.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRM_THAN_SHWE_DESC
+		}
+	}
+	BRM_ashin_wirathu = {
+		name = "Ashin Wirathu"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRM/BRM_Ashin_Wirathu.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRM_ASHIN_WIRATHU_DESC
+		}
+	}
+}

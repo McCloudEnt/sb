@@ -1,0 +1,256 @@
+characters = {
+	PRK_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	PRK_kim_jong_il = {
+		name = "Kim Jong-il"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Kim_Jong_Il.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_KIM_JONG_IL_DESC
+		}
+	}
+	PRK_kim_yo_jong = {
+		name = "Kim Yo-jong"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Kim_Yo_Jong.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_KIM_YO_JONG_DESC
+		}
+	}
+	PRK_kim_jong_un = {
+		name = "Kim Jong-un"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Kim_Jong_Un.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_KIM_JONG_UN_DESC
+		}
+	}
+	PRK_kim_jong_chul = {
+		name = "Kim Jong-chul"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Kim_Jong_Chul.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_KIM_JONG_CHUL_DESC
+		}
+	}
+	PRK_kim_jong_nam = {
+		name = "Kim Jong-nam"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Kim_Jong_Nam.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_KIM_JONG_NAM_DESC
+		}
+	}
+	PRK_kim_yong_nam = {
+		name = "Kim Yong-nam"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Kim_Yong_Nam.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_KIM_YONG_NAM_DESC
+		}
+	}
+	PRK_kim_il_chol = {
+		name = "Kim Il-chol"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Kim_Il_Chol.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_KIM_IL_CHOL_DESC
+		}
+	}
+	PRK_ryu_mi_yong = {
+		name = "Ryu Mi-yong"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Ryu_Mi_Yong.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_RYU_MI_YONG_DESC
+		}
+	}
+	PRK_kim_yong_dae = {
+		name = "Kim Yong-dae"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Kim_Yong_Dae.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_KIM_YONG_DAE_DESC
+		}
+	}
+	PRK_kim_dae_jung = {
+		name = "Kim Dae-jung"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Kim_Dae_Jung.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_KIM_DAE_JUNG_DESC
+		}
+	}
+	PRK_park_geun_hye = {
+		name = "Park Geun-hye"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Park_Geun_Hye.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_PARK_GEUN_HYE_DESC
+		}
+	}
+	PRK_kim_jang_soo = {
+		name = "Kim Jang-soo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Kim_Jang_Soo.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_KIM_JANG_SOO_DESC
+		}
+	}
+	PRK_imperial_restoration_council = {
+		name = "Imperial Restoration Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Imperial_Restoration_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_IMPERIAL_RESTORATION_COUNCIL_DESC
+		}
+	}
+	PRK_emperor_won = {
+		name = "Emperor Won"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Emperor_Won.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_EMPEROR_WON_DESC
+		}
+	}
+	PRK_emperor_seok = {
+		name = "Emperor Seok"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Emperor_Seok.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_EMPEROR_SEOK_DESC
+		}
+	}
+	PRK_jeon_kwang_hoon = {
+		name = "Jeon Kwang-hoon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRK/PRK_Jeon_Kwang_Hoon.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRK_JEON_KWANG_HOON_DESC
+		}
+	}
+}

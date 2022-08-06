@@ -1,0 +1,38 @@
+﻿capital = 524
+
+set_politics = {	
+	ruling_party = conservative_democracy
+	last_election = "2004.12.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	revisionist_socialism = 5
+	libertarian_socialism = 8
+	liberal_democracy = 36
+	conservative_democracy = 33
+	classical_authoritarianism = 14
+	ultranationalism = 4
+}
+
+add_ideas = {
+	idea_semi_presidential_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_mixed_system
+	idea_moderate_secularism
+	idea_limited_freedoms
+}
+
+recruit_character = CHI_anarchy
+recruit_character = CHI_wu_rongyuan
+recruit_character = CHI_chen_baiguang
+recruit_character = CHI_liu_yi_te
+recruit_character = CHI_chiu_hsien_chih
+recruit_character = CHI_tsai_ing_wen
+recruit_character = CHI_ma_ying_jeou
+recruit_character = CHI_chiang_hsiao_yen
+recruit_character = CHI_general_staff
+recruit_character = CHI_chang_an_le

@@ -1,0 +1,151 @@
+characters = {
+	NOR_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	NOR_jorun_gulbrandsen = {
+		name = "Jorun Gulbrandsen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOR/NOR_Jorun_Gulbrandsen.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NOR_JORUN_GULBRANDSEN_DESC
+		}
+	}
+	NOR_kristin_halvorsen = {
+		name = "Kristin Halvorsen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOR/NOR_Kristin_Halvorsen.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NOR_KRISTIN_HALVORSEN_DESC
+		}
+	}
+	NOR_hanna_marcussen = {
+		name = "Hanna Marcussen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOR/NOR_Hanna_Marcussen.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NOR_HANNA_MARCUSSEN_DESC
+		}
+	}
+	NOR_jens_stoltenberg = {
+		name = "Jens Stoltenberg"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOR/NOR_Jens_Stoltenberg.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NOR_JENS_STOLTENBERG_DESC
+		}
+	}
+	NOR_lars_sponheim = {
+		name = "Lars Sponheim"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOR/NOR_Lars_Sponheim.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NOR_LARS_SPONHEIM_DESC
+		}
+	}
+	NOR_erna_solberg = {
+		name = "Erna Solberg"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOR/NOR_Erna_Solberg.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NOR_ERNA_SOLBERG_DESC
+		}
+	}
+	NOR_carl_i_hagen = {
+		name = "Carl I. Hagen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOR/NOR_Carl_I_Hagen.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NOR_CARL_I_HAGEN_DESC
+		}
+	}
+	NOR_king_harald_v = {
+		name = "King Harald V"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOR/NOR_King_Harald_V.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NOR_KING_HARALD_V_DESC
+		}
+	}
+	NOR_oddbjorn_jonstad = {
+		name = "Oddbjørn Jonstad"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOR/NOR_Oddbjorn_Jonstad.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NOR_ODDBJORN_JONSTAD_DESC
+		}
+	}
+}

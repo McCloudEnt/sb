@@ -1,0 +1,45 @@
+﻿#
+#
+# State of Japan
+#
+#
+
+capital = 282
+
+set_politics = {	
+	ruling_party = classical_authoritarianism
+	last_election = "2005.9.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 2
+	revisionist_socialism = 2
+	libertarian_socialism = 3
+	social_democracy = 11
+	liberal_democracy = 31
+	conservative_democracy = 24
+	classical_authoritarianism = 27
+}
+
+add_ideas = {
+	idea_constitutional_monarchy
+	idea_unitary
+	idea_lower_house_bicameralism
+	idea_s_i_judiciary
+	idea_mixed_system
+	idea_moderate_secularism
+	idea_restricted_freedoms
+}
+
+recruit_character = JAP_anarchy
+recruit_character = JAP_takaya_shiomi
+recruit_character = JAP_masaaki_osaka
+recruit_character = JAP_kazuo_shii
+recruit_character = JAP_mizuho_fukushima
+recruit_character = JAP_katsuya_okada
+recruit_character = JAP_junichiro_koizumi
+recruit_character = JAP_shinzo_abe
+recruit_character = JAP_takihito
+recruit_character = JAP_shintaro_ishihara

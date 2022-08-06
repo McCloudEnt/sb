@@ -1,0 +1,39 @@
+﻿capital = 276
+
+set_cosmetic_tag = CAN_USA
+
+set_politics = {	
+	ruling_party = liberal_democracy
+	last_election = "2004.11.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	revisionist_socialism = 8
+	social_democracy = 23
+	liberal_democracy = 35
+	conservative_democracy = 24
+	classical_authoritarianism = 10
+}
+
+add_ideas = {
+	idea_presidential_republic
+	idea_federation
+	idea_upper_house_bicameralism
+	idea_s_s_judiciary
+	idea_swm_voting
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = CAN_anarchy
+recruit_character = CAN_hardial_bains
+recruit_character = CAN_jack_layton
+recruit_character = CAN_miguel_figueroa
+recruit_character = CAN_alton_rideout
+recruit_character = CAN_michael_ignatieff
+recruit_character = CAN_peter_mackay
+recruit_character = CAN_stephen_harper
+recruit_character = CAN_stockwell_day
+recruit_character = CAN_maxime_bernier

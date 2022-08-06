@@ -1,0 +1,38 @@
+﻿capital = 43
+
+set_politics = {	
+	ruling_party = marxism_leninism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 45
+	revisionist_socialism = 20
+	libertarian_socialism = 20
+	social_democracy = 5
+	liberal_democracy = 5
+	conservative_democracy = 5
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_voting_consultation
+	idea_state_atheism
+	idea_restricted_freedoms
+}
+
+recruit_character = HUN_anarchy
+recruit_character = HUN_tibor_szanyi
+recruit_character = HUN_istvan_hiller
+recruit_character = HUN_jozsef_torgyan
+recruit_character = HUN_laszlo_kapolyi
+recruit_character = HUN_ferenc_gyurcsany
+recruit_character = HUN_gabor_vona
+recruit_character = HUN_viktor_orban
+recruit_character = HUN_istvan_csurka
+recruit_character = HUN_laszlo_toroczkai

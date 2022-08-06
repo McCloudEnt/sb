@@ -1,0 +1,151 @@
+characters = {
+	ITA_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	ITA_oliviero_diliberto = {
+		name = "Oliviero Diliberto"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/ITA_Oliviero_Diliberto.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ITA_OLIVIERO_DILIBERTO_DESC
+		}
+	}
+	ITA_enrico_boselli = {
+		name = "Enrico Boselli"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/ITA_Enrico_Boselli.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ITA_ENRICO_BOSELLI_DESC
+		}
+	}
+	ITA_mario_capanna = {
+		name = "Mario Capanna"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/ITA_Mario_Capanna.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ITA_MARIO_CAPANNA_DESC
+		}
+	}
+	ITA_carlo_vizzini = {
+		name = "Carlo Vizzini"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/ITA_Carlo_Vizzini.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ITA_CARLO_VIZZINI_DESC
+		}
+	}
+	ITA_stefano_de_luca = {
+		name = "Stefano De Luca"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/ITA_Stefano_de_Luca.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ITA_STEFANO_DE_LUCA_DESC
+		}
+	}
+	ITA_pier_ferdinando_casini = {
+		name = "Pier Ferdinando Casini"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/ITA_Pier_Ferdinando_Casini.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ITA_PIER_FERDINANDO_CASINI_DESC
+		}
+	}
+	ITA_ignazio_la_russa = {
+		name = "Ignazio La Russa"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/ITA_Ignazio_la_Russa.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ITA_IGNAZIO_LA_RUSSA_DESC
+		}
+	}
+	ITA_king_victor_emmanuel_iv = {
+		name = "King Victor Emmanuel IV"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/ITA_King_Victor_Emmanuel_IV.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ITA_KING_VICTOR_EMMANUEL_IV_DESC
+		}
+	}
+	ITA_gianni_alemanno = {
+		name = "Gianni Alemanno"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/ITA_Gianni_Alemanno.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ITA_GIANNI_ALEMANNO_DESC
+		}
+	}
+}

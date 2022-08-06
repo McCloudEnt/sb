@@ -1,0 +1,243 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_ideology_pure_anarchism"
+		texturefile = "gfx/interface/ideologies/pure_anarchism.dds"
+	}
+	
+    spriteType = {
+		name = "GFX_ideology_collapsed_state"
+		texturefile = "gfx/interface/ideologies/collapsed_state.dds"
+	}
+    
+	spriteType = {
+		name = "GFX_ideology_reformed_bolshevism"
+		texturefile = "gfx/interface/ideologies/reformed_bolshevism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_leninism"
+		texturefile = "gfx/interface/ideologies/leninism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_stalinism"
+		texturefile = "gfx/interface/ideologies/stalinism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_maoism"
+		texturefile = "gfx/interface/ideologies/maoism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_juche"
+		texturefile = "gfx/interface/ideologies/juche.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_neocommunism"
+		texturefile = "gfx/interface/ideologies/neocommunism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_trotskyism"
+		texturefile = "gfx/interface/ideologies/trotskyism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_market_socialism"
+		texturefile = "gfx/interface/ideologies/market_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_socialist_nationalism"
+		texturefile = "gfx/interface/ideologies/socialist_nationalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_democratic_socialism"
+		texturefile = "gfx/interface/ideologies/democratic_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_libertarianism"
+		texturefile = "gfx/interface/ideologies/libertarianism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_religious_communism"
+		texturefile = "gfx/interface/ideologies/religious_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_neozapatismo"
+		texturefile = "gfx/interface/ideologies/neozapatismo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_syndicalism"
+		texturefile = "gfx/interface/ideologies/syndicalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_council_communism"
+		texturefile = "gfx/interface/ideologies/council_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_democracy_ideology"
+		texturefile = "gfx/interface/ideologies/social_democracy_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_corporatism"
+		texturefile = "gfx/interface/ideologies/social_corporatism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_progressivism"
+		texturefile = "gfx/interface/ideologies/progressivism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_third_way"
+		texturefile = "gfx/interface/ideologies/third_way.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_nordic_model"
+		texturefile = "gfx/interface/ideologies/nordic_model.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_national_liberalism"
+		texturefile = "gfx/interface/ideologies/national_liberalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_classical_liberalism"
+		texturefile = "gfx/interface/ideologies/classical_liberalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_liberalism"
+		texturefile = "gfx/interface/ideologies/social_liberalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_new_deal_liberalism"
+		texturefile = "gfx/interface/ideologies/new_deal_liberalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_neoliberalism"
+		texturefile = "gfx/interface/ideologies/neoliberalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_classical_conservatism"
+		texturefile = "gfx/interface/ideologies/classical_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_traditional_conservatism"
+		texturefile = "gfx/interface/ideologies/traditional_conservatism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_neoconservatism"
+		texturefile = "gfx/interface/ideologies/neoconservatism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_religious_democracy"
+		texturefile = "gfx/interface/ideologies/religious_democracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_national_conservatism"
+		texturefile = "gfx/interface/ideologies/national_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_monarchy"
+		texturefile = "gfx/interface/ideologies/authoritarian_monarchy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_right_wing_oligarchy"
+		texturefile = "gfx/interface/ideologies/right_wing_oligarchy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_left_wing_oligarchy"
+		texturefile = "gfx/interface/ideologies/left_wing_oligarchy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_right_wing_military_dictatorship"
+		texturefile = "gfx/interface/ideologies/right_wing_military_dictatorship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_left_wing_military_dictatorship"
+		texturefile = "gfx/interface/ideologies/left_wing_military_dictatorship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_republican_autocracy"
+		texturefile = "gfx/interface/ideologies/republican_autocracy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_right_wing_despotism"
+		texturefile = "gfx/interface/ideologies/right_wing_despotism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_left_wing_despotism"
+		texturefile = "gfx/interface/ideologies/left_wing_despotism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_absolute_monarchy"
+		texturefile = "gfx/interface/ideologies/absolute_monarchy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_corporatocracy"
+		texturefile = "gfx/interface/ideologies/corporatocracy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_neoimperialism"
+		texturefile = "gfx/interface/ideologies/neoimperialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ethno_nationalism"
+		texturefile = "gfx/interface/ideologies/ethno_nationalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_fascism"
+		texturefile = "gfx/interface/ideologies/fascism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_third_position"
+		texturefile = "gfx/interface/ideologies/third_position.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_theocracy"
+		texturefile = "gfx/interface/ideologies/theocracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_unknown"
+		texturefile = "gfx/interface/ideologies/unknown.dds"
+		legacy_lazy_load = no
+	}
+}

@@ -1,0 +1,143 @@
+characters = {
+	MOC_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	MOC_collective_leadership = {
+		name = "Collective Leadership"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Collective/European_Collective_Leadership.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MOC_COLLECTIVE_LEADERSHIP_DESC
+		}
+		country_leader = {
+			ideology = neocommunism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MOC_COLLECTIVE_LEADERSHIP_DESC
+		}
+	}
+	MOC_christine_pasquier_ciulla = {
+		name = "Christine Pasquier-Ciulla"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOC/MOC_Christine_Pasquier_Ciulla.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MOC_CHRISTINE_PASQUIER_CIULLA_DESC
+		}
+	}
+	MOC_beatrice_fresko_rolfo = {
+		name = "Béatrice Fresko-Rolfo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOC/MOC_Beatrice_Fresko_Rolfo.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_corporatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MOC_BEATRICE_FRESKO_ROLFE_DESC
+		}
+	}
+	MOC_jean_francois_robillon = {
+		name = "Jean-François Robillon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOC/MOC_Jean_Francois_Robillon.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MOC_JEAN_FRANCOIS_ROBILLON_DESC
+		}
+	}
+	MOC_stephane_valeri = {
+		name = "Stéphane Valeri"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOC/MOC_Stephane_Valeri.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MOC_STEPHANE_VALERI_DESC
+		}
+	}
+	MOC_jean_louis_campora = {
+		name = "Jean-Louis Campora"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOC/MOC_Jean_Louis_Campora.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MOC_JEAN_LOUIS_CAMPORA_DESC
+		}
+	}
+	MOC_prince_albert_ii = {
+		name = "Prince Albert II"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOC/MOC_Prince_Albert_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MOC_PRINCE_ALBERT_II_DESC
+		}
+	}
+	MOC_dominique_marie_david = {
+		name = "Prince-Archbishop Dominique-Marie David"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOC/MOC_Dominique_Marie_David.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MOC_DOMINIQUE_MARIE_DAVID_DESC
+		}
+	}
+}

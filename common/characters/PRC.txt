@@ -1,0 +1,151 @@
+characters = {
+	PRC_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	PRC_bo_xilai = {
+		name = "Bo Xilai"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/PRC_Bo_Xilai.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRC_BO_XILAI_DESC
+		}
+	}
+	PRC_jiang_zemin = {
+		name = "Jiang Zemin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/PRC_Jiang_Zemin.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRC_JIANG_ZEMIN_DESC
+		}
+	}
+	PRC_chen_zhu = {
+		name = "Chen Zhu"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/PRC_Chen_Zhu.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRC_CHEN_ZHU_DESC
+		}
+	}
+	PRC_yan_junqi = {
+		name = "Yan Junqi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/PRC_Yan_Junqi.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_corporatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRC_YAN_JUNQI_DESC
+		}
+	}
+	PRC_ding_zhongli = {
+		name = "Ding Zhongli"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/PRC_Ding_Zhongli.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRC_DING_ZHONGLI_DESC
+		}
+	}
+	PRC_xu_wenli = {
+		name = "Xu Wenli"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/PRC_Xu_Wenli.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRC_XU_WENLI_DESC
+		}
+	}
+	PRC_zhou_tienong = {
+		name = "Zhou Tienong"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/PRC_Zhou_Tienong.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRC_ZHOU_TIENONG_DESC
+		}
+	}
+	PRC_xi_jinping = {
+		name = "Xi Jinping"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/PRC_Xi_Jinping.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRC_XI_JINPING_DESC
+		}
+	}
+	PRC_zhao_weishan = {
+		name = "Zhao Weishan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/PRC_Zhao_Weishan.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = PRC_ZHAO_WEISHAN_DESC
+		}
+	}
+}

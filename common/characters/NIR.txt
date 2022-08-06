@@ -1,0 +1,226 @@
+characters = {
+	NIR_new_army_council = {
+		name = "New Army Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_New_Army_Council.dds"
+			}
+		}
+		country_leader = {
+			desc = NIR_NEW_ARMY_COUNCIL_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	NIR_des_o_hagan = {
+		name = "Des O'Hagan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_Des_O_Hagan.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_DES_O_HAGAN_DESC
+		}
+	}
+	NIR_david_ervine = {
+		name = "David Ervine"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_David_Ervine.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_DAVID_ERVINE_DESC
+		}
+	}
+	NIR_steven_agnew = {
+		name = "Steven Agnew"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_Steven_Agnew.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_STEVEN_AGNEW_DESC
+		}
+	}
+	NIR_martin_mcguinness = {
+		name = "Martin McGuinness"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_Martin_McGuinness.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_MARTIN_MCGUINNESS_DESC
+		}
+	}
+	NIR_gerry_adams = {
+		name = "Gerry Adams"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_Gerry_Adams.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_GERRY_ADAMS_DESC
+		}
+	}
+	NIR_david_ford = {
+		name = "David Ford"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_David_Ford.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_DAVID_FORD_DESC
+		}
+	}
+	NIR_peter_robinson = {
+		name = "Peter Robinson"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_Peter_Robinson.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_PETER_ROBINSON_DESC
+		}
+	}
+	NIR_arlene_foster = {
+		name = "Arlene Foster"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_Arlene_Foster.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_ARLENE_FOSTER_DESC
+		}
+	}
+	NIR_maurice_morrow = {
+		name = "Maurice Morrow"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_Maurice_Morrow.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_MAURICE_MORROW_DESC
+		}
+	}
+	NIR_charles_huxtable = {
+		name = "Charles Huxtable"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_Charles_Huxtable.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_CHARLES_HUXTABLE_DESC
+		}
+	}
+	NIR_hugh_orde = {
+		name = "Hugh Order"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_Hugh_Orde.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_HUGH_ORDE_DESC
+		}
+	}
+	NIR_ian_paisley = {
+		name = "Ian Paisley"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_Ian_Paisley.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_IAN_PAISLEY_DESC
+		}
+	}
+	NIR_inner_council = {
+		name = "Inner Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_Inner_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_INNER_COUNCIL_DESC
+		}
+	}
+	NIR_provisional_army_council = {
+		name = "Provisional Army Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/NIR_Provisional_Army_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = NIR_PROVISIONAL_ARMY_COUNCIL_DESC
+		}
+	}
+}

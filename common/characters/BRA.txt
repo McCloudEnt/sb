@@ -1,0 +1,151 @@
+characters = {
+	BRA_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	BRA_renato_rabelo = {
+		name = "Renato Rabelo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Renato_Rabelo.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRA_RENATO_RABELO_DESC
+		}
+	}
+	BRA_heloisa_helena = {
+		name = "Heloisa Helena"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Heloisa_Helena.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRA_HELOISA_HELENA_DESC
+		}
+	}
+	BRA_luiz_inacio_lula_da_silva = {
+		name = "Luiz Inácio Lula da Silva"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Luiz_Inacio_Lula_Da_Silva.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRA_LUIZ_INACIO_LULA_DA_SILVA_DESC
+		}
+	}
+	BRA_geraldo_alckmin = {
+		name = "Geraldo Alckmin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Geraldo_Alckmin.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRA_GERALDO_ALCKMIN_DESC
+		}
+	}
+	BRA_jose_jorge = {
+		name = "José Jorge"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Jose_Jorge.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRA_JOSE_JORGE_DESC
+		}
+	}
+	BRA_jose_maria_eymael = {
+		name = "José Maria Eymael"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Jose_Maria_Eymael.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRA_JOSE_MARIA_EYMAEL_DESC
+		}
+	}
+	BRA_fernando_azevedo_e_silva = {
+		name = "Fernando Azevedo e Silva"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Fernando_Azevedo_E_Silva.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRA_FERNANDO_AZEVDO_E_SILVA_DESC
+		}
+	}
+	BRA_jair_bolsonaro = {
+		name = "Jair Bolsonaro"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Jair_Bolsonaro.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRA_JAIR_BOLSONARO_DESC
+		}
+	}
+	BRA_moises_jose_de_lima = {
+		name = "Moisés José de Lima"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/BRA_Moises_Jose_De_Lima.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BRA_MOISES_JOSE_DE_LIMA_DESC
+		}
+	}
+}

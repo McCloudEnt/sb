@@ -1,0 +1,35 @@
+﻿capital = 671
+
+set_politics = {	
+	ruling_party = marxism_leninism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 64
+	revisionist_socialism = 19
+	libertarian_socialism = 17
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_swm_voting
+	idea_state_atheism
+	idea_restricted_freedoms
+}
+
+recruit_character = VIN_anarchy
+recruit_character = VIN_nong_duc_manh
+recruit_character = VIN_nguyen_thi_kim_ngan
+recruit_character = VIN_hoang_minh_chinh
+recruit_character = VIN_tran_quoc_hien
+recruit_character = VIN_do_hoang_diem
+recruit_character = VIN_nguyen_si_binh
+recruit_character = VIN_tran_thien_khiem
+recruit_character = VIN_bao_thang
+recruit_character = VIN_ngo_dinh_le_quyen

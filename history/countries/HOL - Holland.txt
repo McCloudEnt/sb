@@ -1,0 +1,38 @@
+﻿capital = 7
+
+set_politics = {	
+	ruling_party = conservative_democracy
+	last_election = "2003.1.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	revisionist_socialism = 6
+	social_democracy = 27
+	liberal_democracy = 18
+	conservative_democracy = 29
+	classical_authoritarianism = 15
+	ultranationalism = 5
+}
+
+add_ideas = {
+	idea_constitutional_monarchy
+	idea_devolution
+	idea_lower_house_bicameralism
+	idea_m_i_judiciary
+	idea_fp_voting
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = HOL_anarchy
+recruit_character = HOL_ina_brouwer
+recruit_character = HOL_jan_marijnissen
+recruit_character = HOL_lea_manders
+recruit_character = HOL_wouter_bos
+recruit_character = HOL_mark_rutte
+recruit_character = HOL_jan_peter_balkenende
+recruit_character = HOL_geert_wilders
+recruit_character = HOL_princess_beatrix
+recruit_character = HOL_kees_van_der_staaij

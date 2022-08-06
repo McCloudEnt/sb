@@ -1,0 +1,38 @@
+﻿capital = 41
+
+set_politics = {	
+	ruling_party = liberal_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democracy = 15
+	liberal_democracy = 43
+	conservative_democracy = 13
+	classical_authoritarianism = 17
+	despotism = 6
+	ultranationalism = 6
+}
+
+add_ideas = {
+	idea_junta
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_sp_voting
+	idea_moralism
+	idea_restricted_freedoms
+}
+
+recruit_character = SPR_anarchy
+recruit_character = SPR_santiago_carillo
+recruit_character = SPR_manuela_carmena
+recruit_character = SPR_pablo_rodriguez
+recruit_character = SPR_felipe_gonzalez
+recruit_character = SPR_julian_munoz
+recruit_character = SPR_mariano_rajoy
+recruit_character = SPR_manuel_fraga
+recruit_character = SPR_blas_pinar
+recruit_character = SPR_manuel_canduela

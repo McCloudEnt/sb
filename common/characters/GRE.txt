@@ -1,0 +1,151 @@
+characters = {
+	GRE_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	GRE_dimitris_koutsoumpas = {
+		name = "Dimitris Koutsoumpas"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/GRE_Dimitris_Koutsoumpas.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = GRE_DIMITRIS_KOUTSOUMPAS_DESC
+		}
+	}
+	GRE_alexis_tsipras = {
+		name = "Alexis Tsipras"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/GRE_Alexis_Tsipras.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = GRE_ALEXIS_TSIPRAS_DESC
+		}
+	}
+	GRE_yanis_varoufakis = {
+		name = "Yanis Varoufakis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/GRE_Yanis_Varoufakis.dds"
+			}
+		}
+		country_leader = {
+			ideology = syndicalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = GRE_YANIS_VAROUFAKIS_DESC
+		}
+	}
+	GRE_georgios_papandreou = {
+		name = "Georgios Papandreou"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/GRE_Georgios_Papandreou.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = GRE_GEORGIOS_PAPANDREOU_DESC
+		}
+	}
+	GRE_kyriakos_mitsotakis = {
+		name = "Kyriakos Mitsotakis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/GRE_Kyriakos_Mitsotakis.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = GRE_KYRIAKOS_MITSOTAKIS_DESC
+		}
+	}
+	GRE_konstantinos_floros = {
+		name = "Konstantinos Floros"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/GRE_Konstantinos_Floros.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = GRE_KONSTANTINOS_FLOROS_DESC
+		}
+	}
+	GRE_stylianos_pattakos = {
+		name = "Stylianos Pattakos"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/GRE_Stylianos_Pattakos.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = GRE_STYLIANOS_PATTAKOS_DESC
+		}
+	}
+	GRE_king_constantine_ii = {
+		name = "King Constantine II"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/GRE_King_Constantine_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = GRE_KING_CONSTANTINE_II_DESC
+		}
+	}
+	GRE_nikolas_michaloliakos = {
+		name = "Nikólas Michaloliákos"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/GRE_Nikolas_Michaloliakos.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = GRE_NIKOLAS_MICHALOLIAKOS_DESC
+		}
+	}
+}

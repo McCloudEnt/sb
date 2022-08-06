@@ -1,0 +1,1810 @@
+focus_tree = {
+	id = USA_bill_bradley_tree
+	continuous_focus_position = { x = 115 y = 1940 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 200
+			tag = USA
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = USA_bradley_second_term
+		y = 0
+		x = 5
+		cost = 5
+		prerequisite = { }
+	}
+
+	focus = {
+		id = USA_a_new_approach
+		y = 1
+		x = 5
+		cost = 5
+		prerequisite = { focus = USA_bradley_second_term }
+	}
+
+	#Cabinet Branch
+
+	focus = {
+		id = USA_a_divided_cabinet
+		y = 2
+		x = 2
+		cost = 5
+		prerequisite = { focus = USA_a_new_approach }
+	}
+
+	focus = {
+		id = USA_finalize_cabinet_reforms
+		y = 9
+		x = 2
+		cost = 5
+		prerequisite = { focus = USA_side_with_republicans focus = USA_reconcile_cabinet focus = USA_vice_president_reich }
+	}
+
+	##McCain Cabinet Branch
+
+	focus = {
+		id = USA_side_with_mccain
+		y = 3
+		x = 0
+		cost = 5
+		prerequisite = { focus = USA_a_divided_cabinet }
+		mutually_exclusive = { focus = USA_side_with_biden focus = USA_side_with_reich }
+	}
+
+	focus = {
+		id = USA_cut_welfare_programs
+		y = 4
+		x = 0
+		cost = 5
+		prerequisite = { focus = USA_side_with_mccain }
+	}
+
+	focus = {
+		id = USA_fire_robert_reich
+		y = 5
+		x = 0
+		cost = 5
+		prerequisite = { focus = USA_cut_welfare_programs }
+	}
+
+	focus = {
+		id = USA_new_treasury_secretary
+		y = 6
+		x = 0
+		cost = 5
+		prerequisite = { focus = USA_fire_robert_reich }
+	}
+
+	focus = {
+		id = USA_increase_military_budget
+		y = 7
+		x = 0
+		cost = 5
+		prerequisite = { focus = USA_new_treasury_secretary }
+	}
+
+	focus = {
+		id = USA_side_with_republicans
+		y = 8
+		x = 0
+		cost = 5
+		prerequisite = { focus = USA_increase_military_budget }
+	}
+
+	##Biden Cabinet Branch
+
+	focus = {
+		id = USA_side_with_biden
+		y = 3
+		x = 2
+		cost = 5
+		prerequisite = { focus = USA_a_divided_cabinet }
+		mutually_exclusive = { focus = USA_side_with_mccain focus = USA_side_with_reich }
+	}
+
+	focus = {
+		id = USA_balanced_approach
+		y = 4
+		x = 2
+		cost = 5
+		prerequisite = { focus = USA_side_with_biden }
+	}
+
+	focus = {
+		id = USA_protect_medicaid
+		y = 5
+		x = 2
+		cost = 5
+		prerequisite = { focus = USA_balanced_approach }
+	}
+
+	focus = {
+		id = USA_protect_military
+		y = 6
+		x = 2
+		cost = 5
+		prerequisite = { focus = USA_protect_medicaid }
+	}
+
+	focus = {
+		id = USA_budget_balance
+		y = 7
+		x = 2
+		cost = 5
+		prerequisite = { focus = USA_protect_military }
+	}
+
+	focus = {
+		id = USA_reconcile_cabinet
+		y = 8
+		x = 2
+		cost = 5
+		prerequisite = { focus = USA_budget_balance }
+	}
+
+	##Reich Cabinet Branch
+
+	focus = {
+		id = USA_side_with_reich
+		y = 3
+		x = 4
+		cost = 5
+		prerequisite = { focus = USA_a_divided_cabinet }
+		mutually_exclusive = { focus = USA_side_with_biden focus = USA_side_with_mccain }
+	}
+
+	focus = {
+		id = USA_bolster_welfare_programs
+		y = 4
+		x = 4
+		cost = 5
+		prerequisite = { focus = USA_side_with_reich }
+	}
+
+	focus = {
+		id = USA_cut_military_budget
+		y = 5
+		x = 4
+		cost = 5
+		prerequisite = { focus = USA_bolster_welfare_programs }
+	}
+
+	focus = {
+		id = USA_investigate_mccain
+		y = 6
+		x = 4
+		cost = 5
+		prerequisite = { focus = USA_cut_military_budget }
+	}
+
+	focus = {
+		id = USA_impeach_mccain
+		y = 7
+		x = 4
+		cost = 5
+		prerequisite = { focus = USA_investigate_mccain }
+	}
+
+	focus = {
+		id = USA_vice_president_reich
+		y = 8
+		x = 4
+		cost = 5
+		prerequisite = { focus = USA_impeach_mccain }
+	}
+
+	#Congress Branch
+
+	focus = {
+		id = USA_improve_congress_relations
+		y = 2
+		x = 13
+		cost = 5
+		prerequisite = { focus = USA_a_new_approach }
+	}
+
+	focus = {
+		id = USA_meet_dick_cheney
+		y = 3
+		x = 13
+		cost = 5
+		prerequisite = { focus = USA_improve_congress_relations }
+	}
+
+	focus = {
+		id = USA_meet_mario_cuomo
+		y = 4
+		x = 13
+		cost = 5
+		prerequisite = { focus = USA_meet_dick_cheney }
+	}
+
+	##Democrats Branch
+
+	focus = {
+		id = USA_court_democrats
+		y = 5
+		x = 6
+		cost = 5
+		prerequisite = { focus = USA_meet_mario_cuomo }
+	}
+
+	focus = {
+		id = USA_endorse_democrat_candidates
+		y = 6
+		x = 6
+		cost = 5
+		prerequisite = { focus = USA_court_democrats }
+	}
+
+	focus = {
+		id = USA_meet_democrat_caucus
+		y = 7
+		x = 6
+		cost = 5
+		prerequisite = { focus = USA_endorse_democrat_candidates }
+	}
+
+	focus = {
+		id = USA_DOL_expansion
+		y = 8
+		x = 6
+		cost = 5
+		prerequisite = { focus = USA_meet_democrat_caucus }
+	}
+
+	focus = {
+		id = USA_consumer_protection
+		y = 9
+		x = 6
+		cost = 5
+		prerequisite = { focus = USA_DOL_expansion }
+	}
+
+	###Support Conservative Democrats
+
+	focus = {
+		id = USA_side_with_conservative_democrats
+		y = 10
+		x = 5
+		cost = 5
+		prerequisite = { focus = USA_consumer_protection }
+		mutually_exclusive = { focus = USA_side_with_liberal_democrats }
+	}
+
+	focus = {
+		id = USA_southern_democrat_campaign
+		y = 11
+		x = 5
+		cost = 5
+		prerequisite = { focus = USA_side_with_conservative_democrats }
+	}
+
+	focus = {
+		id = USA_states_rights_support
+		y = 11
+		x = 3
+		cost = 5
+		prerequisite = { focus = USA_side_with_conservative_democrats }
+	}
+
+	focus = {
+		id = USA_endorse_southern_incumbents
+		y = 12
+		x = 5
+		cost = 5
+		prerequisite = { focus = USA_southern_democrat_campaign }
+	}
+
+	focus = {
+		id = USA_downplay_vra
+		y = 12
+		x = 3
+		cost = 5
+		prerequisite = { focus = USA_states_rights_support }
+	}
+
+	focus = {
+		id = USA_solidify_southern_democrats
+		y = 13
+		x = 4
+		cost = 5
+		prerequisite = { focus = USA_downplay_vra } 
+		prerequisite = { focus = USA_endorse_southern_incumbents }
+	}
+
+	###Support Liberal Democrats
+
+	focus = {
+		id = USA_side_with_liberal_democrats
+		y = 10
+		x = 7
+		cost = 5
+		prerequisite = { focus = USA_consumer_protection }
+		mutually_exclusive = { focus = USA_side_with_conservative_democrats }
+	}
+
+	focus = {
+		id = USA_support_government_intervention
+		y = 11
+		x = 7
+		cost = 5
+		prerequisite = { focus = USA_side_with_liberal_democrats }
+	}
+
+	focus = {
+		id = USA_reinforce_vra
+		y = 12
+		x = 7
+		cost = 5
+		prerequisite = { focus = USA_support_government_intervention }
+	}
+
+	focus = {
+		id = USA_northeast_democrat_campaign
+		y = 11
+		x = 9
+		cost = 5
+		prerequisite = { focus = USA_side_with_liberal_democrats }
+	}
+
+	focus = {
+		id = USA_endorse_northeast_democrats
+		y = 12
+		x = 9
+		cost = 5
+		prerequisite = { focus = USA_northeast_democrat_campaign }
+	}
+
+	focus = {
+		id = USA_solidify_northeast_democrats
+		y = 13
+		x = 8
+		cost = 5
+		prerequisite = { focus = USA_reinforce_vra }
+		prerequisite = { focus = USA_endorse_northeast_democrats }
+	}
+
+	##Reform Branch
+
+	focus = {
+		id = USA_court_reform
+		y = 5
+		x = 13
+		cost = 5
+		prerequisite = { focus = USA_meet_mario_cuomo }
+	}
+
+	focus = {
+		id = USA_endorse_reform_candidates
+		y = 6
+		x = 13
+		cost = 5
+		prerequisite = { focus = USA_court_reform }
+	}
+
+	focus = {
+		id = USA_meet_reform_leaders
+		y = 7
+		x = 13
+		cost = 5
+		prerequisite = { focus = USA_endorse_reform_candidates }
+	}
+
+	focus = {
+		id = USA_promote_campaign_finance_reform_expansion
+		y = 8
+		x = 13
+		cost = 5
+		prerequisite = { focus = USA_meet_reform_leaders }
+	}
+
+	focus = {
+		id = USA_bust_political_machines
+		y = 9
+		x = 13
+		cost = 5
+		prerequisite = { focus = USA_promote_campaign_finance_reform_expansion }
+	}
+
+	###Support Centrist Reform
+
+	focus = {
+		id = USA_support_centrist_reform
+		y = 10
+		x = 11
+		cost = 5
+		prerequisite = { focus = USA_bust_political_machines }
+		mutually_exclusive = { focus = USA_support_social_democratic_reform }
+	}
+
+	focus = {
+		id = USA_meet_trump
+		y = 11
+		x = 11
+		cost = 5
+		prerequisite = { focus = USA_support_centrist_reform }
+	}
+
+	focus = {
+		id = USA_lower_corporate_tax
+		y = 12
+		x = 11
+		cost = 5
+		prerequisite = { focus = USA_meet_trump }
+	}
+
+	focus = {
+		id = USA_social_centrism
+		y = 13
+		x = 11
+		cost = 5
+		prerequisite = { focus = USA_lower_corporate_tax }
+	}
+
+	focus = {
+		id = USA_support_police_reform
+		y = 14
+		x = 10
+		cost = 5
+		prerequisite = { focus = USA_social_centrism }
+	}
+
+	focus = {
+		id = USA_lgbt_neutrality
+		y = 14
+		x = 12
+		cost = 5
+		prerequisite = { focus = USA_social_centrism }
+	}
+
+	focus = {
+		id = USA_solidify_midwest_reform
+		y = 15
+		x = 11
+		cost = 5
+		prerequisite = { focus = USA_support_police_reform }
+		prerequisite = { focus = USA_lgbt_neutrality }
+	}
+
+	###Support Social Democratic Reform
+
+	focus = {
+		id = USA_support_social_democratic_reform
+		y = 10
+		x = 15
+		cost = 5
+		prerequisite = { focus = USA_bust_political_machines }
+		mutually_exclusive = { focus = USA_support_centrist_reform }
+	}
+
+	focus = {
+		id = USA_meet_nader
+		y = 11
+		x = 15
+		cost = 5
+		prerequisite = { focus = USA_support_social_democratic_reform }
+	}
+
+	focus = {
+		id = USA_endorse_universal_healthcare
+		y = 12
+		x = 15
+		cost = 5
+		prerequisite = { focus = USA_meet_nader }
+	}
+
+	focus = {
+		id = USA_social_progressivism
+		y = 13
+		x = 15
+		cost = 5
+		prerequisite = { focus = USA_endorse_universal_healthcare }
+	}
+
+	focus = {
+		id = USA_meet_black_caucus
+		y = 14
+		x = 14
+		cost = 5
+		prerequisite = { focus = USA_social_progressivism }
+	}
+
+	focus = {
+		id = USA_lgbt_support
+		y = 14
+		x = 16
+		cost = 5
+		prerequisite = { focus = USA_social_progressivism }
+	}
+
+	focus = {
+		id = USA_solidify_midatlantic_reform
+		y = 15
+		x = 15
+		cost = 5
+		prerequisite = { focus = USA_meet_black_caucus }
+		prerequisite = { focus = USA_lgbt_support }
+	}
+
+	##Republican Branch
+
+	focus = {
+		id = USA_court_republicans
+		y = 5
+		x = 21
+		cost = 5
+		prerequisite = { focus = USA_meet_mario_cuomo }
+	}
+
+	focus = {
+		id = USA_endorse_republican_candidates
+		y = 6
+		x = 21
+		cost = 5
+		prerequisite = { focus = USA_court_republicans }
+	}
+
+	focus = {
+		id = USA_cut_taxes
+		y = 7
+		x = 21
+		cost = 5
+		prerequisite = { focus = USA_endorse_republican_candidates }
+	}
+
+	focus = {
+		id = USA_liberal_conservatism
+		y = 8
+		x = 21
+		cost = 5
+		prerequisite = { focus = USA_cut_taxes }
+	}
+
+	focus = {
+		id = USA_promote_american_exceptionalism
+		y = 9
+		x = 21
+		cost = 5
+		prerequisite = { focus = USA_liberal_conservatism }
+	}
+
+	###Support Classical Liberals
+
+	focus = {
+		id = USA_support_classical_liberal_republicans
+		y = 10
+		x = 19
+		cost = 5
+		prerequisite = { focus = USA_promote_american_exceptionalism }
+		mutually_exclusive = { focus = USA_support_neoconservative_republicans }
+	}
+
+	focus = {
+		id = USA_meet_freedom_caucus
+		y = 11
+		x = 19
+		cost = 5
+		prerequisite = { focus = USA_support_classical_liberal_republicans }
+	}
+
+	focus = {
+		id = USA_deregulate_market
+		y = 12
+		x = 19
+		cost = 5
+		prerequisite = { focus = USA_meet_freedom_caucus }
+	}
+
+	focus = {
+		id = USA_new_federalism
+		y = 13
+		x = 19
+		cost = 5
+		prerequisite = { focus = USA_deregulate_market }
+	}
+
+	focus = {
+		id = USA_increase_block_grants
+		y = 14
+		x = 18
+		cost = 5
+		prerequisite = { focus = USA_new_federalism }
+	}
+
+	focus = {
+		id = USA_reduce_federal_power
+		y = 14
+		x = 20
+		cost = 5
+		prerequisite = { focus = USA_new_federalism }
+	}
+
+	focus = {
+		id = USA_finalize_midwest_republicans
+		y = 15
+		x = 19
+		cost = 5
+		prerequisite = { focus = USA_increase_block_grants }
+		prerequisite = { focus = USA_reduce_federal_power }
+	}
+
+	###Support Neoconservatives
+
+	focus = {
+		id = USA_support_neoconservative_republicans
+		y = 10
+		x = 23
+		cost = 5
+		prerequisite = { focus = USA_promote_american_exceptionalism }
+		mutually_exclusive = { focus = USA_support_classical_liberal_republicans }
+	}
+
+	focus = {
+		id = USA_meet_council_foreign_relations
+		y = 11
+		x = 23
+		cost = 5
+		prerequisite = { focus = USA_support_neoconservative_republicans }
+	}
+
+	focus = {
+		id = USA_increase_military_spending
+		y = 12
+		x = 23
+		cost = 5
+		prerequisite = { focus = USA_meet_council_foreign_relations }
+	}
+
+	focus = {
+		id = USA_bolster_intelligence_community
+		y = 13
+		x = 23
+		cost = 5
+		prerequisite = { focus = USA_increase_military_spending }
+	}
+
+	focus = {
+		id = USA_spy_black_panthers
+		y = 14
+		x = 22
+		cost = 5
+		prerequisite = { focus = USA_bolster_intelligence_community }
+	}
+
+	focus = {
+		id = USA_endorse_regime_change
+		y = 14
+		x = 24
+		cost = 5
+		prerequisite = { focus = USA_bolster_intelligence_community }
+	}
+
+	focus = {
+		id = USA_secure_CIA_support
+		y = 15
+		x = 23
+		cost = 5
+		prerequisite = { focus = USA_spy_black_panthers }
+		prerequisite = { focus = USA_endorse_regime_change }
+	}
+
+	#Foreign Policy
+
+	focus = {
+		id = USA_bradley_doctrine
+		y = 2
+		x = 57
+		cost = 5
+		prerequisite = { focus = USA_a_new_approach }
+	}
+
+	##Middle East
+
+	focus = {
+		id = USA_middle_eastern_fp
+		y = 3
+		x = 28
+		cost = 5
+		prerequisite = { focus = USA_bradley_doctrine }
+	}
+
+	focus = {
+		id = USA_middle_eastern_socialism
+		y = 9
+		x = 28
+		cost = 5
+		prerequisite = { focus = USA_israel_tel_aviv focus = USA_iran_weapon_exchange }
+		prerequisite = { focus = USA_israel_pharmaceutical_research focus = USA_iran_oil }
+		prerequisite = { focus = USA_israel_iron_dome focus = USA_iran_profits }
+	}
+
+	###Israel Branch
+
+	focus = {
+		id = USA_reapproach_israel
+		y = 4
+		x = 25
+		cost = 5
+		prerequisite = { focus = USA_middle_eastern_fp }
+		mutually_exclusive = { focus = USA_reapproach_iran }
+	}
+
+	focus = {
+		id = USA_israel_harvard_tau
+		y = 5
+		x = 25
+		cost = 5
+		prerequisite = { focus = USA_reapproach_israel }
+	}
+
+	focus = {
+		id = USA_israel_infrastructure_projects
+		y = 6
+		x = 23
+		cost = 5
+		prerequisite = { focus = USA_israel_harvard_tau }
+	}
+
+	focus = {
+		id = USA_israel_medicine_research
+		y = 6
+		x = 25
+		cost = 5
+		prerequisite = { focus = USA_israel_harvard_tau }
+	}
+
+	focus = {
+		id = USA_israel_aerospace_research
+		y = 6
+		x = 27
+		cost = 5
+		prerequisite = { focus = USA_israel_harvard_tau }
+	}
+
+	focus = {
+		id = USA_israel_coastal_infrastructure
+		y = 7
+		x = 23
+		cost = 5
+		prerequisite = { focus = USA_israel_infrastructure_projects }
+	}
+
+	focus = {
+		id = USA_israel_doctor_exchange
+		y = 7
+		x = 25
+		cost = 5
+		prerequisite = { focus = USA_israel_medicine_research }
+	}
+
+	focus = {
+		id = USA_israel_chimnir_boeing
+		y = 7
+		x = 27
+		cost = 5
+		prerequisite = { focus = USA_israel_aerospace_research }
+	}
+
+	focus = {
+		id = USA_israel_tel_aviv
+		y = 8
+		x = 23
+		cost = 5
+		prerequisite = { focus = USA_israel_coastal_infrastructure }
+	}
+
+	focus = {
+		id = USA_israel_pharmaceutical_research
+		y = 8
+		x = 25
+		cost = 5
+		prerequisite = { focus = USA_israel_doctor_exchange }
+	}
+
+	focus = {
+		id = USA_israel_iron_dome
+		y = 8
+		x = 27
+		cost = 5
+		prerequisite = { focus = USA_israel_chimnir_boeing }
+	}
+
+	###Iran Branch
+
+	focus = {
+		id = USA_reapproach_iran
+		y = 4
+		x = 31
+		cost = 5
+		prerequisite = { focus = USA_middle_eastern_fp }
+		mutually_exclusive = { focus = USA_reapproach_israel }
+	}
+
+	focus = {
+		id = USA_iran_halliburton
+		y = 5
+		x = 31
+		cost = 5
+		prerequisite = { focus = USA_reapproach_iran }
+	}
+
+	focus = {
+		id = USA_iran_us_free_trade
+		y = 6
+		x = 29
+		cost = 5
+		prerequisite = { focus = USA_iran_halliburton }
+	}
+
+	focus = {
+		id = USA_iran_oil_infrastructure
+		y = 6
+		x = 31
+		cost = 5
+		prerequisite = { focus = USA_iran_halliburton }
+	}
+
+	focus = {
+		id = USA_iran_military_access
+		y = 6
+		x = 33
+		cost = 5
+		prerequisite = { focus = USA_iran_halliburton }
+	}
+
+	focus = {
+		id = USA_iran_gulf_markets
+		y = 7
+		x = 29
+		cost = 5
+		prerequisite = { focus = USA_iran_us_free_trade }
+	}
+
+	focus = {
+		id = USA_iran_oil_rigs
+		y = 7
+		x = 31
+		cost = 5
+		prerequisite = { focus = USA_iran_oil_infrastructure }
+	}
+
+	focus = {
+		id = USA_dc_tehran_pact
+		y = 7
+		x = 33
+		cost = 5
+		prerequisite = { focus = USA_iran_military_access }
+	}
+
+	focus = {
+		id = USA_iran_profits
+		y = 8
+		x = 29
+		cost = 5
+		prerequisite = { focus = USA_iran_gulf_markets }
+	}
+
+	focus = {
+		id = USA_iran_oil
+		y = 8
+		x = 31
+		cost = 5
+		prerequisite = { focus = USA_iran_oil_rigs }
+	}
+
+	focus = {
+		id = USA_iran_weapon_exchange
+		y = 8
+		x = 33
+		cost = 5
+		prerequisite = { focus = USA_dc_tehran_pact }
+	}
+
+	###Detente Branch
+
+	focus = {
+		id = USA_meet_middle_east_leaders
+		y = 10
+		x = 26
+		cost = 5
+		prerequisite = { focus = USA_middle_eastern_socialism }
+		mutually_exclusive = { focus = USA_support_opposition }
+	}
+
+	focus = {
+		id = USA_baghdad_embassy
+		y = 11
+		x = 25
+		cost = 5
+		prerequisite = { focus = USA_meet_middle_east_leaders }
+	}
+
+	focus = {
+		id = USA_sanaa_embassy
+		y = 11
+		x = 27
+		cost = 5
+		prerequisite = { focus = USA_meet_middle_east_leaders }
+	}
+
+	focus = {
+		id = USA_meet_gadaffi
+		y = 12
+		x = 26
+		cost = 5
+		prerequisite = { focus = USA_baghdad_embassy }
+		prerequisite = { focus = USA_sanaa_embassy }
+	}
+
+	###Support Opposition Branch
+
+	focus = {
+		id = USA_support_opposition
+		y = 10
+		x = 30
+		cost = 5
+		prerequisite = { focus = USA_middle_eastern_socialism }
+		mutually_exclusive = { focus = USA_meet_middle_east_leaders }
+	}
+
+	focus = {
+		id = USA_yemen_tribalism
+		y = 11
+		x = 29
+		cost = 5
+		prerequisite = { focus = USA_support_opposition }
+	}
+
+	focus = {
+		id = USA_sanction_UAR
+		y = 11
+		x = 31
+		cost = 5
+		prerequisite = { focus = USA_support_opposition }
+	}
+
+	focus = {
+		id = USA_iraq_religious_tensions
+		y = 12
+		x = 30
+		cost = 5
+		prerequisite = { focus = USA_yemen_tribalism }
+		prerequisite = { focus = USA_sanction_UAR }
+	}
+
+	##Europe
+
+	focus = {
+		id = USA_european_fp
+		y = 3
+		x = 40
+		cost = 5
+		prerequisite = { focus = USA_bradley_doctrine }
+	}
+
+	###British Branch
+
+	focus = {
+		id = USA_back_britain
+		y = 4
+		x = 36
+		cost = 5
+		prerequisite = { focus = USA_european_fp }
+		mutually_exclusive = { focus = USA_back_france focus = USA_back_west_germany }
+	}
+
+	focus = {
+		id = USA_britain_espionage
+		y = 5
+		x = 36
+		cost = 5
+		prerequisite = { focus = USA_back_britain }
+	}
+
+	focus = {
+		id = USA_britain_mi6_cia
+		y = 6
+		x = 35
+		cost = 5
+		prerequisite = { focus = USA_britain_espionage }
+	}
+
+	focus = {
+		id = USA_britain_spy_western_commies
+		y = 6
+		x = 37
+		cost = 5
+		prerequisite = { focus = USA_britain_espionage }
+	}
+
+	focus = {
+		id = USA_britain_bloc_infiltration
+		y = 7
+		x = 35
+		cost = 5
+		prerequisite = { focus = USA_britain_mi6_cia }
+	}
+
+	focus = {
+		id = USA_britain_spy_eastern_europe
+		y = 7
+		x = 37
+		cost = 5
+		prerequisite = { focus = USA_britain_spy_western_commies }
+	}
+
+	focus = {
+		id = USA_project_gladio
+		y = 8
+		x = 36
+		cost = 5
+		prerequisite = { focus = USA_britain_bloc_infiltration }
+		prerequisite = { focus = USA_britain_spy_eastern_europe }
+	}
+
+	###French Branch
+
+	focus = {
+		id = USA_back_france
+		y = 4
+		x = 40
+		cost = 5
+		prerequisite = { focus = USA_european_fp }
+		mutually_exclusive = { focus = USA_back_britain focus = USA_back_west_germany }
+	}
+
+	focus = {
+		id = USA_france_atlantic_militarism
+		y = 5
+		x = 40
+		cost = 5
+		prerequisite = { focus = USA_back_france }
+	}
+
+	focus = {
+		id = USA_france_military_bases
+		y = 6
+		x = 39
+		cost = 5
+		prerequisite = { focus = USA_france_atlantic_militarism }
+	}
+
+	focus = {
+		id = USA_france_arm_greece
+		y = 6
+		x = 41
+		cost = 5
+		prerequisite = { focus = USA_france_atlantic_militarism }
+	}
+
+	focus = {
+		id = USA_france_build_forts
+		y = 7
+		x = 39
+		cost = 5
+		prerequisite = { focus = USA_france_military_bases }
+	}
+
+	focus = {
+		id = USA_france_arm_europe_opposition
+		y = 7
+		x = 41
+		cost = 5
+		prerequisite = { focus = USA_france_arm_greece }
+	}
+
+	focus = {
+		id = USA_france_troops_iron_curtain
+		y = 8
+		x = 40
+		cost = 5
+		prerequisite = { focus = USA_france_build_forts }
+		prerequisite = { focus = USA_france_arm_europe_opposition }
+	}
+
+	###West German Branch
+
+	focus = {
+		id = USA_back_west_germany
+		y = 4
+		x = 44
+		cost = 5
+		prerequisite = { focus = USA_european_fp }
+		mutually_exclusive = { focus = USA_back_britain focus = USA_back_france }
+	}
+
+	focus = {
+		id = USA_west_germany_detente
+		y = 5
+		x = 44
+		cost = 5
+		prerequisite = { focus = USA_back_west_germany }
+	}
+
+	focus = {
+		id = USA_west_germany_approach_east_germany
+		y = 6
+		x = 43
+		cost = 5
+		prerequisite = { focus = USA_west_germany_detente }
+	}
+
+	focus = {
+		id = USA_west_germany_approach_soviet_union
+		y = 6
+		x = 45
+		cost = 5
+		prerequisite = { focus = USA_west_germany_detente }
+	}
+
+	focus = {
+		id = USA_west_germany_berlin_speech
+		y = 7
+		x = 43
+		cost = 5
+		prerequisite = { focus = USA_west_germany_approach_east_germany }
+	}
+
+	focus = {
+		id = USA_west_germany_meeting_with_pugo
+		y = 7
+		x = 45
+		cost = 5
+		prerequisite = { focus = USA_west_germany_approach_soviet_union }
+	}
+
+	focus = {
+		id = USA_west_germany_cold_war_thaw
+		y = 8
+		x = 44
+		cost = 5
+		prerequisite = { focus = USA_west_germany_berlin_speech }
+		prerequisite = { focus = USA_west_germany_meeting_with_pugo }
+	}
+
+	##Asia
+
+	focus = {
+		id = USA_asian_fp
+		y = 3
+		x = 57
+		cost = 5
+		prerequisite = { focus = USA_bradley_doctrine }
+	}
+
+	###Western Asia
+
+	focus = {
+		id = USA_west_asian_fp
+		y = 4
+		x = 49
+		cost = 5
+		prerequisite = { focus = USA_asian_fp }
+	}
+
+	####Side with India Branch
+
+	focus = {
+		id = USA_side_with_india
+		y = 5
+		x = 48
+		cost = 5
+		prerequisite = { focus = USA_west_asian_fp }
+		mutually_exclusive = { focus = USA_side_with_pakistan }
+	}
+
+	focus = {
+		id = USA_infiltrate_the_naxalites
+		y = 6
+		x = 47
+		cost = 5
+		prerequisite = { focus = USA_side_with_india }
+	}
+
+	focus = {
+		id = USA_joint_business_ventures
+		y = 7
+		x = 47
+		cost = 5
+		prerequisite = { focus = USA_infiltrate_the_naxalites }
+	}
+
+	focus = {
+		id = USA_encourage_foreign_exchange
+		y = 8
+		x = 47
+		cost = 5
+		prerequisite = { focus = USA_joint_business_ventures }
+	}
+
+	#####Middle Branch
+
+	focus = {
+		id = USA_subcontinent_military_exercises
+		y = 6
+		x = 49
+		cost = 5
+		prerequisite = { focus = USA_side_with_india focus = USA_side_with_pakistan }
+	}
+
+	focus = {
+		id = USA_sell_some_guns
+		y = 7
+		x = 49
+		cost = 5
+		prerequisite = { focus = USA_subcontinent_military_exercises }
+	}
+
+	focus = {
+		id = USA_appeal_to_sri_lanka
+		y = 8
+		x = 49
+		cost = 5
+		prerequisite = { focus = USA_sell_some_guns }
+	}
+
+	focus = {
+		id = USA_alliance_request
+		y = 9
+		x = 49
+		cost = 5
+		prerequisite = { focus = USA_encourage_foreign_exchange focus = USA_fund_the_taliban }
+		prerequisite = { focus = USA_appeal_to_sri_lanka }
+	}
+
+	####Side with Pakistan Branch
+
+	focus = {
+		id = USA_side_with_pakistan
+		y = 5
+		x = 50
+		cost = 5
+		prerequisite = { focus = USA_west_asian_fp }
+		mutually_exclusive = { focus = USA_side_with_india }
+	}
+
+	focus = {
+		id = USA_recognize_kashmir_ownership
+		y = 6
+		x = 51
+		cost = 5
+		prerequisite = { focus = USA_side_with_pakistan }
+	}
+
+	focus = {
+		id = USA_weaken_separatist_regimes
+		y = 7
+		x = 51
+		cost = 5
+		prerequisite = { focus = USA_recognize_kashmir_ownership }
+	}
+
+	focus = {
+		id = USA_fund_the_taliban
+		y = 8
+		x = 51
+		cost = 5
+		prerequisite = { focus = USA_weaken_separatist_regimes }
+	}
+
+	###Eastern Asia
+
+	focus = {
+		id = USA_east_asian_fp
+		y = 4
+		x = 64
+		cost = 5
+		prerequisite = { focus = USA_asian_fp }
+	}
+
+	####China
+
+	focus = {
+		id = USA_china_focus
+		y = 5
+		x = 56
+		cost = 5
+		prerequisite = { focus = USA_east_asian_fp }
+	}
+
+	#####Recognize the People's Republic Branch
+
+	focus = {
+		id = USA_side_with_PRC
+		y = 6
+		x = 54
+		cost = 5
+		prerequisite = { focus = USA_china_focus }
+		mutually_exclusive = { focus = USA_reaffirm_CHI }
+	}
+
+	focus = {
+		id = USA_bradley_visits_china
+		y = 7
+		x = 53
+		cost = 5
+		prerequisite = { focus = USA_side_with_PRC }
+	}
+
+	focus = {
+		id = USA_open_up_trade
+		y = 7
+		x = 55
+		cost = 5
+		prerequisite = { focus = USA_side_with_PRC }
+	}
+
+	focus = {
+		id = USA_downplay_tibet_support
+		y = 8
+		x = 53
+		cost = 5
+		prerequisite = { focus = USA_bradley_visits_china }
+	}
+
+	focus = {
+		id = USA_support_market_reforms
+		y = 8
+		x = 55
+		cost = 5
+		prerequisite = { focus = USA_open_up_trade }
+	}
+
+	focus = {
+		id = USA_demote_CHI_embassies
+		y = 9
+		x = 53
+		cost = 5
+		prerequisite = { focus = USA_downplay_tibet_support }
+	}
+
+	focus = {
+		id = USA_confucius_institutes
+		y = 9
+		x = 55
+		cost = 5
+		prerequisite = { focus = USA_support_market_reforms }
+	}
+
+	focus = {
+		id = USA_transfer_unsc_pm_status
+		y = 10
+		x = 54
+		cost = 5
+		prerequisite = { focus = USA_demote_CHI_embassies }
+		prerequisite = { focus = USA_confucius_institutes }
+	}
+
+	#####Reaffirm Ties to the Exiled Republic Branch
+
+	focus = {
+		id = USA_reaffirm_CHI
+		y = 6
+		x = 58
+		cost = 5
+		prerequisite = { focus = USA_china_focus }
+		mutually_exclusive = { focus = USA_side_with_PRC }
+	}
+
+	focus = {
+		id = USA_support_territorial_claims
+		y = 7
+		x = 57
+		cost = 5
+		prerequisite = { focus = USA_reaffirm_CHI }
+	}
+
+	focus = {
+		id = USA_spy_on_radicals
+		y = 7
+		x = 59
+		cost = 5
+		prerequisite = { focus = USA_reaffirm_CHI }
+	}
+
+	focus = {
+		id = USA_move_pacific_fleet
+		y = 8
+		x = 57
+		cost = 5
+		prerequisite = { focus = USA_support_territorial_claims }
+	}
+
+	focus = {
+		id = USA_arm_hong_kong_dissidents
+		y = 8
+		x = 59
+		cost = 5
+		prerequisite = { focus = USA_spy_on_radicals }
+	}
+
+	focus = {
+		id = USA_joint_naval_exercises
+		y = 9
+		x = 57
+		cost = 5
+		prerequisite = { focus = USA_move_pacific_fleet }
+	}
+
+	focus = {
+		id = USA_destabilize_turkestan
+		y = 9
+		x = 59
+		cost = 5
+		prerequisite = { focus = USA_arm_hong_kong_dissidents }
+	}
+
+	focus = {
+		id = USA_pacific_guardian
+		y = 10
+		x = 58
+		cost = 5
+		prerequisite = { focus = USA_joint_naval_exercises }
+		prerequisite = { focus = USA_destabilize_turkestan }
+	}
+
+	####Korea
+
+	focus = {
+		id = USA_korea_focus
+		y = 5
+		x = 64
+		cost = 5
+		prerequisite = { focus = USA_east_asian_fp }
+	}
+
+	#####Detente with the Kims Branch
+
+	focus = {
+		id = USA_approach_kims
+		y = 6
+		x = 62
+		cost = 5
+		prerequisite = { focus = USA_korea_focus }
+		mutually_exclusive = { focus = USA_support_korean_opposition }
+	}
+
+	focus = {
+		id = USA_nuclear_deal
+		y = 7
+		x = 61
+		cost = 5
+		prerequisite = { focus = USA_approach_kims }
+	}
+
+	focus = {
+		id = USA_outsource_animation
+		y = 7
+		x = 63
+		cost = 5
+		prerequisite = { focus = USA_approach_kims }
+	}
+
+	focus = {
+		id = USA_treaty_of_seattle
+		y = 8
+		x = 61
+		cost = 5
+		prerequisite = { focus = USA_nuclear_deal }
+	}
+
+	focus = {
+		id = USA_state_restaurants
+		y = 8
+		x = 63
+		cost = 5
+		prerequisite = { focus = USA_outsource_animation }
+	}
+
+	focus = {
+		id = USA_korean_detente
+		y = 9
+		x = 61
+		cost = 5
+		prerequisite = { focus = USA_treaty_of_seattle }
+	}
+
+	focus = {
+		id = USA_kpop_music
+		y = 9
+		x = 63
+		cost = 5
+		prerequisite = { focus = USA_state_restaurants }
+	}
+
+	focus = {
+		id = USA_recognize_dprk
+		y = 10
+		x = 62
+		cost = 5
+		prerequisite = { focus = USA_korean_detente }
+		prerequisite = { focus = USA_kpop_music }
+	}
+
+	#####Oppose the Kims Branch
+
+	focus = {
+		id = USA_support_korean_opposition
+		y = 6
+		x = 66
+		cost = 5
+		prerequisite = { focus = USA_korea_focus }
+		mutually_exclusive = { focus = USA_approach_kims }
+	}
+
+	focus = {
+		id = USA_meet_democratic_exiles
+		y = 7
+		x = 65
+		cost = 5
+		prerequisite = { focus = USA_support_korean_opposition }
+	}
+
+	focus = {
+		id = USA_denounce_persecution
+		y = 7
+		x = 67
+		cost = 5
+		prerequisite = { focus = USA_support_korean_opposition }
+	}
+
+	focus = {
+		id = USA_meet_yi_dynasty
+		y = 8
+		x = 65
+		cost = 5
+		prerequisite = { focus = USA_meet_democratic_exiles }
+	}
+
+	focus = {
+		id = USA_secretly_send_bibles
+		y = 8
+		x = 67
+		cost = 5
+		prerequisite = { focus = USA_denounce_persecution }
+	}
+
+	focus = {
+		id = USA_set_up_goe_embassy
+		y = 9
+		x = 65
+		cost = 5
+		prerequisite = { focus = USA_meet_yi_dynasty }
+	}
+
+	focus = {
+		id = USA_secretly_send_money
+		y = 9
+		x = 67
+		cost = 5
+		prerequisite = { focus = USA_secretly_send_bibles }
+	}
+
+	focus = {
+		id = USA_sabotage_nuclear_program
+		y = 10
+		x = 66
+		cost = 5
+		prerequisite = { focus = USA_set_up_goe_embassy }
+		prerequisite = { focus = USA_secretly_send_money }
+	}
+
+	####Japan
+
+	focus = {
+		id = USA_japan_focus
+		y = 5
+		x = 72
+		cost = 5
+		prerequisite = { focus = USA_east_asian_fp }
+	}
+
+	#####Support the Reformers Branch
+
+	focus = {
+		id = USA_support_LDP_reformers
+		y = 6
+		x = 70
+		cost = 5
+		prerequisite = { focus = USA_japan_focus }
+		mutually_exclusive = { focus = USA_support_LDP_right }
+	}
+
+	focus = {
+		id = USA_encourage_liberalism
+		y = 7
+		x = 69
+		cost = 5
+		prerequisite = { focus = USA_support_LDP_reformers }
+	}
+
+	focus = {
+		id = USA_new_trade_deals
+		y = 7
+		x = 71
+		cost = 5
+		prerequisite = { focus = USA_support_LDP_reformers }
+	}
+
+	focus = {
+		id = USA_meet_the_emperor
+		y = 8
+		x = 69
+		cost = 5
+		prerequisite = { focus = USA_encourage_liberalism }
+	}
+
+	focus = {
+		id = USA_new_reactors
+		y = 8
+		x = 71
+		cost = 5
+		prerequisite = { focus = USA_new_trade_deals }
+	}
+
+	focus = {
+		id = USA_encourage_detente
+		y = 9
+		x = 69
+		cost = 5
+		prerequisite = { focus = USA_meet_the_emperor }
+	}
+
+	focus = {
+		id = USA_joint_espionage
+		y = 9
+		x = 71
+		cost = 5
+		prerequisite = { focus = USA_new_reactors }
+	}
+
+	focus = {
+		id = USA_a_new_japan
+		y = 10
+		x = 70
+		cost = 5
+		prerequisite = { focus = USA_encourage_detente }
+		prerequisite = { focus = USA_joint_espionage }
+	}
+
+	#####Support the Status Quo Branch
+
+	focus = {
+		id = USA_support_LDP_right
+		y = 6
+		x = 74
+		cost = 5
+		prerequisite = { focus = USA_japan_focus }
+		mutually_exclusive = { focus = USA_support_LDP_reformers }
+	}
+
+	focus = {
+		id = USA_quiet_militarism
+		y = 7
+		x = 73
+		cost = 5
+		prerequisite = { focus = USA_support_LDP_right }
+	}
+
+	focus = {
+		id = USA_spy_on_red_yakuza
+		y = 7
+		x = 75
+		cost = 5
+		prerequisite = { focus = USA_support_LDP_right }
+	}
+
+	focus = {
+		id = USA_encourage_neoimperialism
+		y = 8
+		x = 73
+		cost = 5
+		prerequisite = { focus = USA_quiet_militarism }
+	}
+
+	focus = {
+		id = USA_spy_on_death_cult
+		y = 8
+		x = 75
+		cost = 5
+		prerequisite = { focus = USA_spy_on_red_yakuza }
+	}
+
+	focus = {
+		id = USA_look_the_other_way
+		y = 9
+		x = 73
+		cost = 5
+		prerequisite = { focus = USA_encourage_neoimperialism }
+	}
+
+	focus = {
+		id = USA_spy_on_students
+		y = 9
+		x = 75
+		cost = 5
+		prerequisite = { focus = USA_spy_on_death_cult }
+	}
+
+	focus = {
+		id = USA_ready_to_fight
+		y = 10
+		x = 74
+		cost = 5
+		prerequisite = { focus = USA_look_the_other_way }
+		prerequisite = { focus = USA_spy_on_students }
+	}
+
+	###South Asia
+
+	focus = {
+		id = USA_south_asian_fp
+		y = 11
+		x = 64
+		cost = 5
+		prerequisite = { focus = USA_transfer_unsc_pm_status focus = USA_pacific_guardian }
+		prerequisite = { focus = USA_recognize_dprk focus = USA_sabotage_nuclear_program }
+		prerequisite = { focus = USA_a_new_japan focus = USA_ready_to_fight }
+	}
+
+	####Indochina Branch
+
+	focus = {
+		id = USA_detente_with_indochina
+		y = 12
+		x = 62
+		cost = 5
+		prerequisite = { focus = USA_south_asian_fp }
+		mutually_exclusive = { focus = USA_side_with_malays }
+	}
+
+	####Malay Branch
+
+	focus = {
+		id = USA_side_with_malays
+		y = 12
+		x = 66
+		cost = 5
+		prerequisite = { focus = USA_south_asian_fp }
+		mutually_exclusive = { focus = USA_detente_with_indochina }
+	}
+
+	##Latin America
+
+	focus = {
+		id = USA_latin_american_fp
+		y = 3
+		x = 73
+		cost = 5
+		prerequisite = { focus = USA_bradley_doctrine }
+	}
+
+	###Mexico
+	####Remain in the North Branch
+	####Pull Out from the North Branch
+	###Peru
+	####Maintain the Intervention Branch
+	####Abandon the Intervention Branch
+	###Brazil
+	####Support the Military Reformists Branch
+	####Support the Military Hardliners Branch
+	####Support the Liberal Opposition Branch
+	####Support the Integralists Branch
+	####Support the Monarchists Branch
+	####Proclaim Neutrality in Civil War Branch
+	##Africa
+
+	focus = {
+		id = USA_african_fp
+		y = 3
+		x = 75
+		cost = 5
+		prerequisite = { focus = USA_bradley_doctrine }
+	}
+}

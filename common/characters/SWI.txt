@@ -1,0 +1,151 @@
+characters = {
+	SWI_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	SWI_gavriel_pinson = {
+		name = "Gavriel Pinson"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/SWI_Gavriel_Pinson.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWI_GAVRIEL_PINSON_DESC
+		}
+	}
+	SWI_josef_zisyadis = {
+		name = "Josef Zisyadis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/SWI_Josef_Zisyadis.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWI_JOSEF_ZISYADIS_DESC
+		}
+	}
+	SWI_federal_council_grune = {
+		name = "Federal Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/SWI_Federal_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWI_FEDERAL_COUNCIL_DESC
+		}
+	}
+	SWI_federal_council_sps = {
+		name = "Federal Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/SWI_Federal_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWI_FEDERAL_COUNCIL_DESC
+		}
+	}
+	SWI_federal_council_fdp = {
+		name = "Federal Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/SWI_Federal_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWI_FEDERAL_COUNCIL_DESC
+		}
+	}
+	SWI_federal_council_cvp = {
+		name = "Federal Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/SWI_Federal_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWI_FEDERAL_COUNCIL_DESC
+		}
+	}
+	SWI_federal_council_svp = {
+		name = "Federal Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/SWI_Federal_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWI_FEDERAL_COUNCIL_DESC
+		}
+	}
+	SWI_eric_weber = {
+		name = "Eric Weber"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/SWI_Eric_Weber.dds"
+			}
+		}
+		country_leader = {
+			ideology = republican_autocracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWI_ERIC_WEBER_DESC
+		}
+	}
+	SWI_dominic_luthard = {
+		name = "Dominic Luthard"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/SWI_Dominic_Luthard.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SWI_DOMINIC_LUTHARD_DESC
+		}
+	}
+}

@@ -1,0 +1,151 @@
+characters = {
+	MAL_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	MAL_chin_peng = {
+		name = "Chin Peng"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAL/MAL_Chin_Peng.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MAL_CHIN_PENG_DESC
+		}
+	}
+	MAL_syed_husin_ali = {
+		name = "Syed Husin Ali"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAL/MAL_Syed_Husin_Ali.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MAL_SYED_HUSIN_ALI_DESC
+		}
+	}
+	MAL_mohd_nasir_hashim = {
+		name = "Mohd Nasir Hashim"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAL/MAL_Mohd_Nasir_Hashim.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MAL_MOHD_NASIR_HASHIM_DESC
+		}
+	}
+	MAL_chen_man_hin = {
+		name = "Chen Man Hin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAL/MAL_Chen_Man_Hin.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MAL_CHEN_MAN_HIN_DESC
+		}
+	}
+	MAL_wan_azizah_wan_ismail = {
+		name = "Wan Azizah Wan Ismail"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAL/MAL_Wan_Azizah_Wan_Ismail.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MAL_WAN_AZIZAH_WAN_ISMAIL_DESC
+		}
+	}
+	MAL_m_kayveas = {
+		name = "M. Kayveas"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAL/MAL_M_Kayveas.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MAL_M_KAYVEAS_DESC
+		}
+	}
+	MAL_mahathir_mohamad = {
+		name = "Mahathir Mohamad"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAL/MAL_Mahathir_Mohamad.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MAL_MAHATHIR_MOHAMAD_DESC
+		}
+	}
+	MAL_sultan_sirajuddin = {
+		name = "Sultan Sirajuddin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAL/MAL_Sultan_Sirajuddin.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MAL_SULTAN_SIRAJUDDIN_DESC
+		}
+	}
+	MAL_ashaari_mohammad = {
+		name = "Ashaari Mohammad"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAL/MAL_Ashaari_Mohammad.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MAL_ASHAARI_MOHAMMAD_DESC
+		}
+	}
+}

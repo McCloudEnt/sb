@@ -1,0 +1,12 @@
+focus_tree = {
+	id = west_germany_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = WGR
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

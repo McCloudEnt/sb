@@ -1,0 +1,151 @@
+characters = {
+	BHU_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	BHU_tek_nath_rizal = {
+		name = "Tek Nath Rizal"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BHU/BHU_Tek_Nath_Rizal.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BHU_TEK_NATH_RIZAL_DESC
+		}
+	}
+	BHU_lily_wangchuk = {
+		name = "Lily Wangchuk"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BHU/BHU_Lily_Wangchuk.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BHU_LILY_WANGCHUK_DESC
+		}
+	}
+	BHU_r_p_subba = {
+		name = "R. P. Subba"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BHU/BHU_R_P_Subba.dds"
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BHU_R_P_SUBBA_DESC
+		}
+	}
+	BHU_lotay_tshering = {
+		name = "Lotay Tshering"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BHU/BHU_Lotay_Tshering.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BHU_LOTAY_TSHERING_DESC
+		}
+	}
+	BHU_tshering_tobgay = {
+		name = "Tshering Tobgay"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BHU/BHU_Tshering_Tobgay.dds"
+			}
+		}
+		country_leader = {
+			ideology = new_deal_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BHU_TSHERING_TOBGAY_DESC
+		}
+	}
+	BHU_dorji_wangdi = {
+		name = "Dorji Wangdi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BHU/BHU_Dorji_Wangdi.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BHU_DORJI_WANGDI_DESC
+		}
+	}
+	BHU_jigme_thinley = {
+		name = "Jigme Thinley"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BHU/BHU_Jigme_Thinley.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BHU_JIGME_THINLEY_DESC
+		}
+	}
+	BHU_king_jigme_singye = {
+		name = "King Jigme Singye"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BHU/BHU_King_Jigme_Singye.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BHU_KING_JIGME_SINGYE_DESC
+		}
+	}
+	BHU_kipchu_namgyal = {
+		name = "Kipchu Namgyal"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BHU/BHU_Kipchu_Namgyal.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BHU_KIPCHU_NAMGYAL_DESC
+		}
+	}
+}

@@ -1,0 +1,151 @@
+characters = {
+	AST_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	AST_peter_symon = {
+		name = "Peter Symon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/AST_Peter_Symon.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AST_PETER_SYMON_DESC
+		}
+	}
+	AST_john_percy = {
+		name = "John Percy"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/AST_John_Percy.dds"
+			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AST_JOHN_PERCY_DESC
+		}
+	}
+	AST_richard_di_natale = {
+		name = "Richard Di Natale"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/AST_Richard_Di_Natale.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AST_RICHARD_DI_NATALE_DESC
+		}
+	}
+	AST_kevin_rudd = {
+		name = "Kevin Rudd"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/AST_Kevin_Rudd.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AST_KEVIN_RUDD_DESC
+		}
+	}
+	AST_malcolm_turnbull = {
+		name = "Malcolm Turnbull"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/AST_Malcolm_Turnbull.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AST_MALCOLM_TURNBULL_DESC
+		}
+	}
+	AST_tony_abbott = {
+		name = "Tony Abbott"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/AST_Tony_Abbott.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AST_TONY_ABBOTT_DESC
+		}
+	}
+	AST_pauline_hanson = {
+		name = "Pauline Hanson"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/AST_Pauline_Hanson.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AST_PAULINE_HANSON_DESC
+		}
+	}
+	AST_philip_michael_jeffery = {
+		name = "Philip Michael Jeffery"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/AST_Philip_Michael_Jeffery.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AST_PHILIP_MICHAEL_JEFFERY_DESC
+		}
+	}
+	AST_james_saleam = {
+		name = "James Saleam"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/AST_James_Saleam.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = AST_JAMES_SALEAM_DESC
+		}
+	}
+}

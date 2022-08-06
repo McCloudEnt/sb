@@ -1,0 +1,110 @@
+ideas = {
+	national_campaign = { 
+		law = yes
+		
+		support_the_conservative_party = {
+			cost = 300
+			removal_cost = -1
+			level = 5
+			
+			picture = generic_spy_intel
+			
+			available = {
+				OR = {
+					has_government = conservative_democracy
+					has_government = liberal_democracy
+					has_government = social_democracy
+					has_government = revisionist_socialism
+				}
+				conservative_democracy < 0.35
+			}
+			
+			
+			modifier = {
+				conservative_democracy_drift = 0.02
+			}
+			
+			cancel_if_invalid = yes
+			
+		}
+		
+		support_the_liberal_party = {
+			cost = 300
+			removal_cost = -1
+			level = 3
+			
+			available = {
+				OR = {
+					has_government = conservative_democracy
+					has_government = liberal_democracy
+					has_government = social_democracy
+					has_government = revisionist_socialism
+				}
+				liberal_democracy < 0.35
+			}
+			
+			
+			modifier = {
+				liberal_democracy_drift = 0.02
+			}
+			
+			picture = generic_spy_intel
+			
+			cancel_if_invalid = yes
+			
+		}
+		
+		support_the_social_democratic_party = {
+			cost = 300
+			removal_cost = -1
+			level = 2
+			
+			available = {
+				OR = {
+					has_government = conservative_democracy
+					has_government = liberal_democracy
+					has_government = social_democracy
+					has_government = revisionist_socialism
+				}
+				social_democracy < 0.35
+			}
+			
+			
+			modifier = {
+				social_democracy_drift = 0.02
+			}
+			
+			picture = generic_spy_intel
+			
+			cancel_if_invalid = yes
+			
+		}
+		
+		support_the_moderate_socialist_party = {
+			cost = 300
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				OR = {
+					has_government = conservative_democracy
+					has_government = liberal_democracy
+					has_government = social_democracy
+					has_government = revisionist_socialism
+				}
+				revisionist_socialism < 0.35
+			}
+			
+			
+			modifier = {
+				revisionist_socialism_drift = 0.02
+			}
+			
+			picture = generic_spy_intel
+			
+			cancel_if_invalid = yes
+			
+		}
+		
+	}
+}

@@ -1,0 +1,151 @@
+characters = {
+	BEL_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	BEL_raoul_hedebouw = {
+		name = "Raoul Hedebouw"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEL/BEL_Raoul_Hedebouw.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BEL_RAOUL_HEDEBOUW_DESC
+		}
+	}
+	BEL_national_committee = {
+		name = "National Committee"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Collective/European_Collective_Leadership.dds"
+			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BEL_NATIONAL_COMMITTEE_DESC
+		}
+	}
+	BEL_new_policy_committee = {
+		name = "New Policy Committee"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Collective/European_Collective_Leadership.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BEL_NEW_POLICY_COMMITTEE_DESC
+		}
+	}
+	BEL_johan_vande_lanotte = {
+		name = "Johan Vande Lanotte"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEL/BEL_Johan_Vande_Lanotte.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_corporatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BEL_JOHAN_VANDE_LANOTTE_DESC
+		}
+	}
+	BEL_guy_verhofstadt = {
+		name = "Guy Verhofstadt"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEL/BEL_Guy_Verhofstadt.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BEL_GUY_VERHOFSTADT_DESC
+		}
+	}
+	BEL_joelle_milquet = {
+		name = "Joëlle Milquet"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEL/BEL_Joelle_Milquet.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BEL_JOELLE_MILQUET_DESC
+		}
+	}
+	BEL_hans_van_de_cauter = {
+		name = "Hans Van De Cauter"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEL/BEL_Hans_Van_De_Cauter.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BEL_HANS_VAN_DE_CAUTER_DESC
+		}
+	}
+	BEL_frank_vanhecke = {
+		name = "Frank Vanhecke"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEL/BEL_Frank_Vanhecke.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BEL_FRANK_VANHECKE_DESC
+		}
+	}
+	BEL_daniel_feret = {
+		name = "Daniel Féret"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEL/BEL_Daniel_Feret.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethno_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = BEL_DANIEL_FERET_DESC
+		}
+	}
+}

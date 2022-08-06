@@ -1,0 +1,36 @@
+﻿capital = 439
+
+set_politics = {	
+	ruling_party = classical_authoritarianism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democracy = 15
+	liberal_democracy = 22
+	conservative_democracy = 9
+	classical_authoritarianism = 54
+}
+
+add_ideas = {
+	idea_one_party_dictatorship
+	idea_federation
+	idea_lower_house_bicameralism
+	idea_s_i_judiciary
+	idea_swm_voting
+	idea_moderate_secularism
+	idea_restricted_freedoms
+}
+
+recruit_character = RAJ_anarchy
+recruit_character = RAJ_lakshmi_sahgal
+recruit_character = RAJ_katakam_sudarshan
+recruit_character = RAJ_prakash_karat
+recruit_character = RAJ_sonia_gandhi
+recruit_character = RAJ_rajiv_gandhi
+recruit_character = RAJ_amit_shah
+recruit_character = RAJ_sanjay_gandhi
+recruit_character = RAJ_arjan_singh
+recruit_character = RAJ_lal_krishna_advani

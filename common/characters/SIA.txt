@@ -1,0 +1,151 @@
+characters = {
+	SIA_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	SIA_surachai_danwattananusorn = {
+		name = "Surachai Danwattananusorn"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIA/SIA_Surachai_Danwattananusorn.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIA_SURACHAI_DANWATTANANUSORN_DESC
+		}
+	}
+	SIA_yingluck_shinawatra = {
+		name = "Yingluck Shinawatra"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIA/SIA_Yingluck_Shinawatra.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIA_YINGLUCK_SHINAWATRA_DESC
+		}
+	}
+	SIA_thanathorn_juangroongruangkit = {
+		name = "Thanathorn Juangroongruangkit"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIA/SIA_Thanathorn_Juangroongruangkit.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIA_THANATHORN_JUANGROONGRUANGKIT_DESC
+		}
+	}
+	SIA_sondhi_limthongkul = {
+		name = "Sondhi Limthongkul"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIA/SIA_Sondhi_Limthongkul.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIA_SONDHI_LIMTHONGKUL_DESC
+		}
+	}
+	SIA_suwit_khunkitti = {
+		name = "Suwit Khunkitti"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIA/SIA_Suwit_Khunkitti.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIA_SUWIT_KHUNKITTI_DESC
+		}
+	}
+	SIA_abhisit_vejjajiva = {
+		name = "Abhisit Vejjajiva"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIA/SIA_Abhisit_Vejjajiva.dds"
+			}
+		}
+		country_leader = {
+			ideology = traditional_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIA_ABHISIT_VEJJAJIVA_DESC
+		}
+	}
+	SIA_sonthi_boonyaratglin = {
+		name = "Sonthi Boonyaratglin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIA/SIA_Sonthi_Boonyaratglin.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIA_SONTHI_BOONYARATGLIN_DESC
+		}
+	}
+	SIA_king_rama_ix = {
+		name = "King Rama IX"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIA/SIA_King_Rama_IX.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIA_KING_RAMA_IX_DESC
+		}
+	}
+	SIA_ajahn_maha_bua = {
+		name = "Ajahn Maha Bua"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIA/SIA_Ajahn_Maha_Bua.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIA_AJAHN_MAHA_BUA_DESC
+		}
+	}
+}

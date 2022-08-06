@@ -1,0 +1,151 @@
+characters = {
+	SIG_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	SIG_chia_thye_poh = {
+		name = "Chia Thye Poh"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIG/SIG_Chia_Thye_Poh.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_bolshevism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIG_CHIA_THYE_POH_DESC
+		}
+	}
+	SIG_chia_ti_lik = {
+		name = "Chia Ti Lik"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIG/SIG_Chia_Ti_Lik.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIG_CHIA_TI_LIK_DESC
+		}
+	}
+	SIG_seow_khee_leng = {
+		name = "Seow Khee Leng"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIG/SIG_Seow_Khee_Leng.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarianism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIG_SEOW_KHEE_LENG_DESC
+		}
+	}
+	SIG_sylvia_lim = {
+		name = "Sylvia Lim"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIG/SIG_Sylvia_Lim.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIG_SYLVIA_LIM_DESC
+		}
+	}
+	SIG_chee_soon_juan = {
+		name = "Chee Soon Juan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIG/SIG_Chee_Soon_Juan.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIG_CHEE_SOON_JUAN_DESC
+		}
+	}
+	SIG_lim_boon_heng = {
+		name = "Lim Boon Heng"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIG/SIG_Lim_Boon_Heng.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIG_LIM_BOON_HENG_DESC
+		}
+	}
+	SIG_abu_mohamed = {
+		name = "Abu Mohamed"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIG/SIG_Abu_Mohamed.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIG_ABU_MOHAMED_DESC
+		}
+	}
+	SIG_ng_yat_chung = {
+		name = "Ng Yat Chung"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIG/SIG_Ng_Yat_Chung.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIG_NG_YAT_CHUNG_DESC
+		}
+	}
+	SIG_ayah_pin = {
+		name = "Ayah Pin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIG/SIG_Ayah_Pin.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SIG_AYAH_PIN_DESC
+		}
+	}
+}

@@ -1,0 +1,38 @@
+﻿capital = 182
+
+set_politics = {	
+	ruling_party = social_democracy
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_leninism = 6
+	revisionist_socialism = 3
+	social_democracy = 45
+	liberal_democracy = 41
+	conservative_democracy = 3
+	classical_authoritarianism = 2
+}
+
+add_ideas = {
+	idea_constitutional_monarchy
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_mixed_system
+	idea_pluralism
+	idea_limited_freedoms
+}
+
+recruit_character = CRE_anarchy
+recruit_character = CRE_aleka_papariga
+recruit_character = CRE_leonidas_kyrkos
+recruit_character = CRE_dimitris_tzanakopoulos
+recruit_character = CRE_katerina_sakellaropoulou
+recruit_character = CRE_neoklis_sarris
+recruit_character = CRE_antonis_samaras
+recruit_character = CRE_georgios_karatzaferis
+recruit_character = CRE_king_constantine_ii
+recruit_character = CRE_ilias_kasidiaris

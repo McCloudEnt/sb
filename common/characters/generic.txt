@@ -1,0 +1,56 @@
+characters = {
+	generic_vacant_position = {
+		name = generic_vacant_position
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/idea_unknown.dds"
+				large = "gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader = {
+			desc = generic_vacant_position_desc
+			ideology = ethno_nationalism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = generic_vacant_position_desc
+			ideology = absolute_monarchy
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = generic_vacant_position_desc
+			ideology = right_wing_military_dictatorship
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = generic_vacant_position_desc
+			ideology = neoconservatism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = generic_vacant_position_desc
+			ideology = new_deal_liberalism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = generic_vacant_position_desc
+			ideology = third_way
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = generic_vacant_position_desc
+			ideology = religious_communism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = generic_vacant_position_desc
+			ideology = democratic_socialism
+			expire = "2065.1.1"
+		}
+		country_leader = {
+			desc = generic_vacant_position_desc
+			ideology = reformed_bolshevism
+			expire = "2065.1.1"
+		}
+	}
+}

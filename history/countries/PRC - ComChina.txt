@@ -1,0 +1,39 @@
+﻿capital = 608
+
+set_politics = {	
+	ruling_party = revisionist_socialism
+	last_election = "2005.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	revisionist_socialism = 52
+	marxism_leninism = 12
+	despotism = 8
+	libertarian_socialism = 2
+	social_democracy = 5
+	liberal_democracy = 8
+	classical_authoritarianism = 13
+}
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_indirect_voting
+	idea_state_atheism
+	idea_restricted_freedoms
+}
+
+recruit_character = PRC_anarchy
+recruit_character = PRC_bo_xilai
+recruit_character = PRC_jiang_zemin
+recruit_character = PRC_chen_zhu
+recruit_character = PRC_yan_junqi
+recruit_character = PRC_ding_zhongli
+recruit_character = PRC_xu_wenli
+recruit_character = PRC_zhou_tienong
+recruit_character = PRC_xi_jinping
+recruit_character = PRC_zhao_weishan

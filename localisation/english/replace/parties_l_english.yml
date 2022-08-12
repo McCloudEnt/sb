@@ -104,8 +104,8 @@
  national_conservatism:0 "National Conservatism"
  national_conservatism_desc:0 "National Conservatism combines nationalism and conservatism under one ideology. Typically seen as to the right of more mainstream strands of conservatism, national conservatism advocates for a government with tough stances on crime, immigration, social issues, and typically an isolationist foreign policy alongside the promotion of traditional values. Although national conservatism is rather small, it may become a viable and major ideology if more moderate ideologies start alienating the voters."
  ##Classical Authoritarianism
- authoritarian_monarchy:0 "Stratocracy"
- authoritarian_monarchy_desc:0 "Stratocracies are different from military dictatorships in that power isn't under exclusive control of the upper echelons of the military, but instead allows any member of the military, sometimes even civilians who used to serve in the military, to participate in the government. As such, a stratocracy is oftentimes surprisingly democratic for a military government."
+ authoritarian_monarchy:0 "Constitutional Convention"
+ authoritarian_monarchy_desc:0 "A Constitutional Convention is a body assembled for the purpose of drafting or revising a constitution. In this instance, a constitutional convention is a form of provisional government set up in preparation for the drafting of a constitution. This can either consist of the new ruling class whether civilian or military, average citizens, or elected officials."
  right_wing_oligarchy:0 "Right-Wing Oligarchy"
  right_wing_oligarchy_desc:0 "A Right-Wing Oligarchy is the rule of a small group of people aligned to the ideals of the right. This form of government comes to be when a particularly authoritarian right-wing party gets into power whether by the ballot or by force. Unlike a military dictatorship, oligarchies are generally civilian-run in nature."
  left_wing_oligarchy:0 "Left-Wing Oligarchy"

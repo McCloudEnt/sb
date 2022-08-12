@@ -1,5 +1,121 @@
 #reload countrycolors
 
+DAK = {
+	color = rgb { 109 178 101 }
+	color_ui = rgb { 109 178 101 }
+}
+KNS = {
+	color = rgb { 151 167 93 }
+	color_ui = rgb { 151 167 93 }
+}
+NEA = {
+	color = rgb { 255 194 178 }
+	color_ui = rgb { 255 194 178 }
+}
+JEF = {
+	color = rgb { 153 217 174 }
+	color_ui = rgb { 153 217 174 }
+}
+HUD = {
+	color = rgb { 255 173 119 }
+	color_ui = rgb { 255 173 119 }
+}
+GRL = {
+	color = rgb { 215 234 154 }
+	color_ui = rgb { 215 234 154 }
+}
+CRL = {
+	color = rgb { 255 226 170 }
+	color_ui = rgb { 255 226 170 }
+}
+NEV = {
+	color = rgb { 183 71 82 }
+	color_ui = rgb { 183 71 82 }
+}
+NWJ = {
+	color = rgb { 151 105 140 }
+	color_ui = rgb { 151 105 140 }
+}
+GRG = {
+	color = rgb { 255 230 140 }
+	color_ui = rgb { 255 230 140 }
+}
+FLO = {
+	color = rgb { 153 132 234 }
+	color_ui = rgb { 153 132 234 }
+}
+DES = {
+	color = rgb { 153 217 234 }
+	color_ui = rgb { 153 217 234 }
+}
+NAF = {
+	color = rgb { 163 51 51 }
+	color_ui = rgb { 163 51 51 }
+}
+USR = {
+	color = rgb { 193 137 137 }
+	color_ui = rgb { 193 137 137 }
+}
+RIO = {
+	color = rgb { 147 127 0 }
+	color_ui = rgb { 147 127 0 }
+}
+SON = {
+	color = rgb { 164 85 123 }
+	color_ui = rgb { 164 85 123 }
+}
+AKS = {
+	color = rgb { 96 96 96 }
+	color_ui = rgb { 96 96 96 }
+}
+CAS = {
+	color = rgb { 164 181 123 }
+	color_ui = rgb { 164 181 123 }
+}
+PCA = {
+	color = rgb { 163 31 47 }
+	color_ui = rgb { 163 31 47 }
+}
+TEN = {
+	color = rgb { 64 64 64 }
+	color_ui = rgb { 64 64 64 }
+}
+ALA = {
+	color = rgb { 0 19 127 }
+	color_ui = rgb { 0 19 127 }
+}
+ARZ = {
+	color = rgb { 226 210 65 }
+	color_ui = rgb { 226 210 65 }
+}
+MSI = {
+	color = rgb { 216 180 160 }
+	color_ui = rgb { 216 180 160 }
+}
+MWA = {
+	color = rgb { 120 183 237 }
+	color_ui = rgb { 137 160 255 }
+}
+LOA = {
+	color = rgb { 195 195 195 }
+	color_ui = rgb { 195 195 195 }
+}
+AZT = {
+	color = rgb { 245 131 136 }
+	color_ui = rgb { 245 131 136 }
+}
+FSA = {
+	color = rgb { 201 237 92 }
+	color_ui = rgb { 201 237 92 }
+}
+CLR = {
+	color = rgb { 70 183 237 }
+	color_ui = rgb { 187 160 255 }
+}
+USB = {
+	color = rgb { 70 133 237 }
+	color_ui = rgb { 137 160 255 }
+}
 ZAP = {
 	color = RGB { 179  0  0 }
 	color_ui = rgb { 179  0  0 }

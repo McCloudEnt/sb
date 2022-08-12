@@ -115,8 +115,8 @@
  left_wing_military_dictatorship:0 "Left-Wing Military Dictatorship"
  left_wing_military_dictatorship_desc:0 "A Left-Wing Military Dictatorship happens when a powerful military or military leader proceeds to overthrow a democratic or left-wing government, whether by the backing of a bigger power or on their own accord. Military dictatorships can either ne entirely stratocratic, or have limited civilian institutions under heavy military supervision."
  ##Despotism
- republican_autocracy:0 "Republican Autocracy"
- republican_autocracy_desc:0 "A Republican Autocracy is a form of dictatorship that is ruled by an all-powerful individual with little to no checks on their power, even having a theoretically complete say in who should be their successor which can be a close friend, a well-respected subordinate, or even a family member in some cases. What differentiates an autocratic dictator from that of an absolute monarch is that a dictator styles themselves as a republican head-of-state, typically using the term president, though it's not unheard of for a dictator to use a unique title for themselves."
+ republican_autocracy:0 "Anocracy"
+ republican_autocracy_desc:0 "An Anocracy is a form of government that is loosely defined as being a dictatorship under the pretense of democracy. As these regimes tend to be susceptible to armed conflict and unexpected leadership changes, the regime tends to be despotic in a measure to preserve the status quo."
  right_wing_despotism:0 "Right-Wing Despotism"
  right_wing_despotism_desc:0 "A nation under Right-Wing Despotism is typically one that idealizes traditonalism, law and order, nationalism, and opposition to communism. Whether civilian or martial, a nation under despotism revolves around a single republican leader or a highly powerful head-of-government who can run the country as they see fit. These leaders will do anything to ensure either themselves or a favoured successor will retain power in the long-term."
  left_wing_despotism:0 "Left-Wing Despotism"

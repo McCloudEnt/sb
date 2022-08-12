@@ -1,4 +1,4 @@
-﻿capital = 1093
+﻿capital = 384
 
 set_politics = {	
 	ruling_party = anarchy

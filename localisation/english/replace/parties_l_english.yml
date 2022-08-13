@@ -182,6 +182,38 @@
  USA_LIN_liberal_democracy_party:0 "Republicans"
  USA_LIN_liberal_democracy_party_long:0 "Republican Party"
  
+ ##Breakaways
+ NEG_marxism_leninism_party:0 "NEDWP"
+ NEG_marxism_leninism_party_long:0 "New England Democratic Workers' Party"
+ NEG_revisionist_socialism_party:0 "NESP"
+ NEG_revisionist_socialism_party_long:0 "New England Socialist Party"
+ NEG_libertarian_socialism_party:0 "RSF"
+ NEG_libertarian_socialism_party_long:0 "Religious Society of Friends"
+ NEG_social_democracy_party:0 "DPP"
+ NEG_social_democracy_party_long:0 "Democratic People's Party"
+ NEG_liberal_democracy_party:0 "NEWP"
+ NEG_liberal_democracy_party_long:0 "New England Whig Party"
+ NEG_conservative_democracy_party:0 "NENP"
+ NEG_conservative_democracy_party_long:0 "New England National Party"
+ NEG_classical_authoritarianism_party:0 "Constitutional Convention"
+ NEG_classical_authoritarianism_party_long:0 "New England Constitutional Convention"
+ NEG_despotism_party:0 "MMM"
+ NEG_despotism_party_long:0 "Minutemen Militia"
+ NEG_ultranationalism_party:0 "PSRP"
+ NEG_ultranationalism_party_long:0 "Providence Society for Religious Purity"
+ 
+ NEG_REP_classical_authoritarianism_party:0 "COP"
+ NEG_REP_classical_authoritarianism_party_long:0 "Civic Order Party"
+ 
+ NEG_FED_classical_authoritarianism_party:0 "NEFP"
+ NEG_FED_classical_authoritarianism_party_long:0 "New England Federalist Party"
+ 
+ NEG_DOM_despotism_party:0 "Governor-General"
+ NEG_DOM_despotism_party_long:0 "Governor-General of New England"
+ 
+ NEG_MON_despotism_party:0 "RPNE"
+ NEG_MON_despotism_party_long:0 "New England Royalist Party"
+ 
  #SOV
  SOV_marxism_leninism_party:0 "CPSU - Hardline"
  SOV_marxism_leninism_party_long:0 "Hardliner Faction of the Communist Party of the Soviet Union"

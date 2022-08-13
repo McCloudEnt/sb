@@ -1,4 +1,4 @@
-﻿capital = 361
+﻿capital = 357
 
 set_politics = {	
 	ruling_party = classical_authoritarianism

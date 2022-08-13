@@ -1,4 +1,4 @@
-﻿capital = 362
+﻿capital = 371
 
 set_politics = {	
 	ruling_party = ultranationalism

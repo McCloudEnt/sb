@@ -37,8 +37,8 @@ NWJ = {
 	color_ui = rgb { 151 105 140 }
 }
 GRG = {
-	color = rgb { 255 230 140 }
-	color_ui = rgb { 255 230 140 }
+	color = rgb { 255 190 140 }
+	color_ui = rgb { 255 190 140 }
 }
 FLO = {
 	color = rgb { 153 132 234 }
@@ -73,8 +73,8 @@ CAS = {
 	color_ui = rgb { 164 181 123 }
 }
 PCA = {
-	color = rgb { 163 31 47 }
-	color_ui = rgb { 163 31 47 }
+	color = rgb { 183 18 52 }
+	color_ui = rgb { 183 18 52 }
 }
 TEN = {
 	color = rgb { 64 64 64 }
@@ -873,8 +873,8 @@ TEX = {
 	color_ui = rgb { 0 0 204 }
 }
 CSA = {
-    color = rgb { 180 0 0 }
-	color_ui = rgb { 180 0 0 }
+    color = rgb { 180 180 180 }
+	color_ui = rgb { 180 180 180 }
 }
 GRN = {
     color = rgb { 180 210 255 }
@@ -1053,8 +1053,8 @@ SAM = {
 	color_ui = rgb { 0 0 160 }
 }
 CAL = {
-    color = rgb { 183 18 52 }
-	color_ui = rgb { 183 18 52 }
+    color = rgb { 250 167 108 }
+	color_ui = rgb { 250 167 108 }
 }
 BSQ = {
     color = rgb { 99  14  87 }

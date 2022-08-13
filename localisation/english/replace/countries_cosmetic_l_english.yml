@@ -2,6 +2,41 @@
  #USA
  USA_BER_revisionist_socialism:0 "American Federation"
  USA_BER_revisionist_socialism_DEF:0 "The American Federation"
+ 
+ ##Breakaway
+ NEG_REP_classical_authoritarianism:0 "Republic of New England"
+ NEG_REP_classical_authoritarianism_DEF:0 "The Republic of New England"
+ 
+ NEG_FED_social_democracy:0 "United States of New England"
+ NEG_FED_social_democracy_DEF:0 "The United States of New England"
+ NEG_FED_liberal_democracy:0 "United States of New England"
+ NEG_FED_liberal_democracy_DEF:0 "The United States of New England"
+ NEG_FED_conservative_democracy:0 "United States of New England"
+ NEG_FED_conservative_democracy_DEF:0 "The United States of New England"
+ NEG_FED_classical_authoritarianism:0 "United States of New England"
+ NEG_FED_classical_authoritarianism_DEF:0 "The United States of New England"
+ 
+ NEG_DOM_social_democracy:0 "Dominion of New England"
+ NEG_DOM_social_democracy_DEF:0 "The Dominion of New England"
+ NEG_DOM_liberal_democracy:0 "Dominion of New England"
+ NEG_DOM_liberal_democracy_DEF:0 "The Dominion of New England"
+ NEG_DOM_conservative_democracy:0 "Dominion of New England"
+ NEG_DOM_conservative_democracy_DEF:0 "The Dominion of New England"
+ NEG_DOM_classical_authoritarianism:0 "Dominion of New England"
+ NEG_DOM_classical_authoritarianism_DEF:0 "The Dominion of New England"
+ NEG_DOM_despotism:0 "Dominion of New England"
+ NEG_DOM_despotism_DEF:0 "The Dominion of New England"
+ 
+ NEG_MON_social_democracy:0 "Kingdom of New England"
+ NEG_MON_social_democracy_DEF:0 "The Kingdom of New England"
+ NEG_MON_liberal_democracy:0 "Kingdom of New England"
+ NEG_MON_liberal_democracy_DEF:0 "The Kingdom of New England"
+ NEG_MON_conservative_democracy:0 "Kingdom of New England"
+ NEG_MON_conservative_democracy_DEF:0 "The Kingdom of New England"
+ NEG_MON_classical_authoritarianism:0 "Kingdom of New England"
+ NEG_MON_classical_authoritarianism_DEF:0 "The Kingdom of New England"
+ NEG_MON_despotism:0 "Kingdom of New England"
+ NEG_MON_despotism_DEF:0 "The Kingdom of New England"
 
  #CAN
  CAN_USA_anarchy:0 "Canadian Wasteland"

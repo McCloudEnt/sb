@@ -1,4 +1,4 @@
-﻿capital = 795
+﻿capital = 1147
 
 set_politics = {	
 	ruling_party = despotism

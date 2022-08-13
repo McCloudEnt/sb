@@ -14,19 +14,10 @@ state={
 		buildings = {
 			infrastructure = 8
 			air_base = 10
-			industrial_complex = 15
+			industrial_complex = 12
 			arms_factory = 1
-			dockyard = 1
-			3878 = {
-				naval_base = 6
-
-			}
-
 		}
 		add_core_of = USA
-		victory_points = {
-			3878 60 
-		}
 		victory_points = {
 			11654 15 
 		}
@@ -37,7 +28,7 @@ state={
 			3747 7 
 		}
 		victory_points = {
-			9693 5 
+			9693 16 
 		}
 		victory_points = {
 			11650 3 
@@ -49,10 +40,10 @@ state={
 	}
 
 	provinces={
-		598 706 734 859 1436 3602 3702 3733 3747 3806 3878 3894 6707 6717 6778 6795 6911 6916 9664 9673 9693 9708 9721 9754 9774 10381 11650 11654 11660 11662 11665 11680 11722 13623 
+		598 706 734 1436 3602 3702 3733 3747 3806 6707 6717 6778 6795 6916 9664 9673 9693 9708 9721 9754 9774 10381 11650 11654 11660 11662 11665 11680 11722 13623 
 	}
-	manpower=18976000
+	manpower=10967722
 	buildings_max_level_factor=1.000
-	state_category=state_level_20
+	state_category=state_level_13
 	local_supplies=0.0 
 }

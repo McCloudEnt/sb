@@ -1,0 +1,41 @@
+
+state={
+	id=1146
+	name="STATE_1146"
+	resources={
+		oil=40.000
+		steel=15.000
+		rubber=15
+	}
+	history={
+		owner = USA
+		controller = USA
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			dockyard = 2
+			arms_factory = 2
+			air_base = 8
+			9814 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			9814 50 
+		}
+		victory_points = {
+			13670 10 
+		}
+	}
+
+	provinces={
+		9814 13670 
+	}
+	manpower=4156342
+	buildings_max_level_factor=1.000
+	state_category=state_level_21
+}

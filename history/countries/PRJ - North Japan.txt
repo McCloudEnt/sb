@@ -32,5 +32,5 @@ recruit_character = PRJ_ohata_akihiro
 recruit_character = PRJ_murata_renho
 recruit_character = PRJ_yamaguchi_natsuo
 recruit_character = PRJ_hashimoto_toru
-recruit_character = PRJ_akihito
+recruit_character = PRJ_fumihito
 recruit_character = PRJ_yamada_kazunari

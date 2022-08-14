@@ -41,5 +41,5 @@ recruit_character = JAP_mizuho_fukushima
 recruit_character = JAP_katsuya_okada
 recruit_character = JAP_junichiro_koizumi
 recruit_character = JAP_shinzo_abe
-recruit_character = JAP_takihito
+recruit_character = JAP_masahito
 recruit_character = JAP_shintaro_ishihara

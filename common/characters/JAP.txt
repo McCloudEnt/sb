@@ -118,11 +118,11 @@ characters = {
 			desc = JAP_SHINZO_ABE_DESC
 		}
 	}
-	JAP_takihito = {
-		name = "Emperor Takihito"
+	JAP_masahito = {
+		name = "Emperor Masahito"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/JAP/JAP_Takihito.dds"
+				large = "gfx/leaders/JAP/JAP_Masahito.dds"
 			}
 		}
 		country_leader = {
@@ -130,7 +130,7 @@ characters = {
 			expire = "2065.1.1.12"
 			traits = {}
 			id = -1
-			desc = JAP_TAKIHITO_DESC
+			desc = JAP_MASAHITO_DESC
 		}
 	}
 	JAP_shintaro_ishihara = {

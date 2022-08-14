@@ -118,11 +118,11 @@ characters = {
 			desc = PRJ_HASHIMOTO_TORU_DESC
 		}
 	}
-	PRJ_akihito = {
-		name = "Emperor Akihito"
+	PRJ_fumihito = {
+		name = "Emperor Fumihito"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PRJ/PRJ_Akihito.dds"
+				large = "gfx/leaders/PRJ/PRJ_Fumihito.dds"
 			}
 		}
 		country_leader = {
@@ -130,7 +130,7 @@ characters = {
 			expire = "2065.1.1.12"
 			traits = {}
 			id = -1
-			desc = PRJ_AKIHITO_DESC
+			desc = PRJ_FUMIHITO_DESC
 		}
 	}
 	PRJ_yamada_kazunari = {

@@ -208,12 +208,6 @@
  NEG_FED_classical_authoritarianism_party:0 "NEFP"
  NEG_FED_classical_authoritarianism_party_long:0 "New England Federalist Party"
  
- NEG_DOM_despotism_party:0 "Governor-General"
- NEG_DOM_despotism_party_long:0 "Governor-General of New England"
- 
- NEG_MON_despotism_party:0 "RPNE"
- NEG_MON_despotism_party_long:0 "New England Royalist Party"
- 
  #SOV
  SOV_marxism_leninism_party:0 "CPSU - Hardline"
  SOV_marxism_leninism_party_long:0 "Hardliner Faction of the Communist Party of the Soviet Union"
@@ -233,9 +227,6 @@
  SOV_despotism_party_long:0 "State Committee on the State of Emergency"
  SOV_ultranationalism_party:0 "NBP"
  SOV_ultranationalism_party_long:0 "National Bolshevik Party"
- 
- SOV_romanov_party:0 "Romanov"
- SOV_romanov_party_long:0 "House of Romanov"
  
  #PRC
  PRC_marxism_leninism_party:0 "CPC - Maoist"
@@ -322,53 +313,6 @@
  FRA_PUG_despotism_party:0 "CEMA"
  FRA_PUG_despotism_party_long:0 "Chief of Staff of the Armies"
  
- FRA_LEG_marxism_leninism_party:0 "PH"
- FRA_LEG_marxism_leninism_party_long:0 "Hebertist Party"
- FRA_LEG_revisionist_socialism_party:0 "Enragés"
- FRA_LEG_revisionist_socialism_party_long:0 "Enraged Ones"
- FRA_LEG_libertarian_socialism_party:0 "PM"
- FRA_LEG_libertarian_socialism_party_long:0 "Party of the Mountain"
- FRA_LEG_social_democracy_party:0 "SADHC"
- FRA_LEG_social_democracy_party_long:0 "Society of the Friends of the Rights of Man and of the Citizen"
- FRA_LEG_liberal_democracy_party:0 "SJALE"
- FRA_LEG_liberal_democracy_party_long:0 "Society of Jacobins, Friends of Freedom and Equality"
- FRA_LEG_conservative_democracy_party:0 "SAC"
- FRA_LEG_conservative_democracy_party_long:0 "Society of the Friends of the Constitution"
- FRA_LEG_classical_authoritarianism_party:0 "ACM"
- FRA_LEG_classical_authoritarianism_party_long:0 "Friends of the Monarchist Constitution"
- FRA_LEG_despotism_party:0 "Bourbon-Anjou"
- FRA_LEG_despotism_party_long:0 "House of Bourbon-Anjou"
- FRA_LEG_ultranationalism_party:0 "CC"
- FRA_LEG_ultranationalism_party_long:0 "Clichy Club"
- 
- FRA_ORL_social_democracy_party:0 "PRD"
- FRA_ORL_social_democracy_party_long:0 "Radical Democratic Party"
- FRA_ORL_liberal_democracy_party:0 "PLF"
- FRA_ORL_liberal_democracy_party_long:0 "French Liberal Party"
- FRA_ORL_conservative_democracy_party:0 "UNF"
- FRA_ORL_conservative_democracy_party_long:0 "French National Union"
- FRA_ORL_classical_authoritarianism_party:0 "RRN"
- FRA_ORL_classical_authoritarianism_party_long:0 "National Royalist Rally"
- FRA_ORL_despotism_party:0 "Orléans"
- FRA_ORL_despotism_party_long:0 "House of Orleans"
- FRA_ORL_ultranationalism_party:0 "AF"
- FRA_ORL_ultranationalism_party_long:0 "French Action"
- 
- FRA_BON_revisionist_socialism_party:0 "POI"
- FRA_BON_revisionist_socialism_party_long:0 "Imperial Workers' Party"
- FRA_BON_social_democracy_party:0 "PISD"
- FRA_BON_social_democracy_party_long:0 "Imperial-Socialist-Democratic Party"
- FRA_BON_liberal_democracy_party:0 "PLB"
- FRA_BON_liberal_democracy_party_long:0 "Bonapartist Liberal Party"
- FRA_BON_conservative_democracy_party:0 "PDB"
- FRA_BON_conservative_democracy_party_long:0 "Bonapartist Democratic Party"
- FRA_BON_classical_authoritarianism_party:0 "PSF"
- FRA_BON_classical_authoritarianism_party_long:0 "French Social Party"
- FRA_BON_despotism_party:0 "Bonaparte"
- FRA_BON_despotism_party_long:0 "House of Bonaparte"
- FRA_BON_ultranationalism_party:0 "CCB"
- FRA_BON_ultranationalism_party_long:0 "Bonapartist Central Committee"
- 
  #WGR
  WGR_marxism_leninism_party:0 "DKP"
  WGR_marxism_leninism_party_long:0 "German Communist Party"
@@ -388,13 +332,6 @@
  WGR_despotism_party_long:0 "Provisional Realm Government Faction of the All-German Party"
  WGR_ultranationalism_party:0 "GDP - NSDAP"
  WGR_ultranationalism_party_long:0 "National Socialist Faction of the All-German Party"
- 
- WGR_HOH_despotism_party:0 "Hohenzollern"
- WGR_HOH_despotism_party_long:0 "House of Hohenzollern"
- WGR_WIT_despotism_party:0 "Wittelsbach"
- WGR_WIT_despotism_party_long:0 "House of Wittelsbach"
- WGR_HAN_despotism_party:0 "Hannover"
- WGR_HAN_despotism_party_long:0 "House of Hanover"
  
  #DDR
  DDR_marxism_leninism_party:0 "SED"
@@ -758,22 +695,6 @@
  SPR_REP_ultranationalism_party:0 "FE-JONS"
  SPR_REP_ultranationalism_party_long:0 "Spanish Phalanx of the Committees for the National-Syndicalist Offensive"
  
- #BSQ
- BSQ_CAR_revisionist_socialism_party:0 "PC - Secular"
- BSQ_CAR_revisionist_socialism_party_long:0 "Secular Faction of the Carlist Party"
- BSQ_CAR_libertarian_socialism_party:0 "PC - Religious"
- BSQ_CAR_libertarian_socialism_party_long:0 "Religious Faction of the Carlist Party"
- BSQ_CAR_social_democracy_party:0 "PDF"
- BSQ_CAR_social_democracy_party_long:0 "Federal Democratic Party"
- BSQ_CAR_liberal_democracy_party:0 "PDR"
- BSQ_CAR_liberal_democracy_party_long:0 "Radical Democratic Party"
- BSQ_CAR_conservative_democracy_party:0 "CT - Liberal"
- BSQ_CAR_conservative_democracy_party_long:0 "Liberal Faction of the Traditionalist Communion"
- BSQ_CAR_despotism_party:0 "CT - Moderate"
- BSQ_CAR_despotism_party_long:0 "Moderate Faction of the Traditionalist Communion"
- BSQ_CAR_ultranationalism_party:0 "CT - Radical"
- SPR_CAR_ultranationalism_party_long:0 "Radical Faction of the Traditionalist Communion"
- 
  #POR
  POR_marxism_leninism_party:0 "PCP"
  POR_marxism_leninism_party_long:0 "Portuguese Communist Party"
@@ -793,11 +714,6 @@
  POR_despotism_party_long:0 "National Renovator Party"
  POR_ultranationalism_party:0 "MNS"
  POR_ultranationalism_party_long:0 "National Syndicalist Movement"
- 
- POR_MON_classical_authoritarianism_party:0 "PPM"
- POR_MON_classical_authoritarianism_party_long:0 "People's Monarchist Party"
- POR_MON_despotism_party:0 "Braganza"
- POR_MON_despotism_party_long:0 "House of Braganza"
  
  #ITA
  ITA_marxism_leninism_party:0 "PCI - Old Guard"

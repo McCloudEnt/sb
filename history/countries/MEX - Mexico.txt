@@ -1,12 +1,37 @@
 ﻿capital = 277
 
 set_politics = {	
-	ruling_party = anarchy
+	ruling_party = classical_authoritarianism
 	last_election = "2005.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    anarchy = 100
+	libertarian_socialism = 3
+	social_democracy = 17
+	liberal_democracy = 2
+	conservative_democracy = 26
+	classical_authoritarianism = 52
 }
+
+add_ideas = {
+	idea_aristocratic_republic
+	idea_federation
+	idea_upper_house_bicameralism
+	idea_s_i_judiciary
+	idea_mixed_system
+	idea_laicity
+	idea_restricted_freedoms
+}
+
+recruit_character = MEX_anarchy
+recruit_character = MEX_pavel_blanco_cabrera
+recruit_character = MEX_cuauhtemoc_amezcua_dromundo
+recruit_character = MEX_alberto_anaya
+recruit_character = MEX_cuauhtemoc_cardenas
+recruit_character = MEX_elba_esther_gordillo
+recruit_character = MEX_vicente_fox
+recruit_character = MEX_roberto_madrazo
+recruit_character = MEX_gerardo_clemente_vega
+recruit_character = MEX_juan_carlos_lopez_lee

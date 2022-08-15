@@ -1,0 +1,151 @@
+characters = {
+	MEX_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	MEX_pavel_blanco_cabrera = {
+		name = "Pável Blanco Cabrera"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/MEX_Pavel_Blanco_Cabrera.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MEX_PAVEL_BLANCO_CABRERA_DESC
+		}
+	}
+	MEX_cuauhtemoc_amezcua_dromundo = {
+		name = "Cuauhtémoc Amezcua Dromundo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/MEX_Cuauhtemoc_Amezcua_Dromundo.dds"
+			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MEX_CUAUHTEMOC_AMEZCUA_DROMUNDO_DESC
+		}
+	}
+	MEX_alberto_anaya = {
+		name = "Alberto Anaya"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/MEX_Alberto_Anaya.dds"
+			}
+		}
+		country_leader = {
+			ideology = syndicalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MEX_ALBERTO_ANAYA_DESC
+		}
+	}
+	MEX_cuauhtemoc_cardenas = {
+		name = "Cuauhtémoc Cárdenas"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/MEX_Cuauhtemoc_Cardenas.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MEX_CUAUHTEMOC_CARDENAS_DESC
+		}
+	}
+	MEX_elba_esther_gordillo = {
+		name = "Elba Esther Gordillo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/MEX_Elba_Esther_Gordillo.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MEX_ELBA_ESTHER_GORDILLO_DESC
+		}
+	}
+	MEX_vicente_fox = {
+		name = "Vicente Fox"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/MEX_Vicente_Fox.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MEX_VICENTE_FOX_DESC
+		}
+	}
+	MEX_roberto_madrazo = {
+		name = "Roberto Madrazo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/MEX_Roberto_Madrazo.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MEX_ROBERTO_MADRAZO_DESC
+		}
+	}
+	MEX_gerardo_clemente_vega = {
+		name = "Gerardo Clemente Vega"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/MEX_Gerardo_Clemente_Vega.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MEX_GERARDO_CLEMENTE_VEGA_DESC
+		}
+	}
+	MEX_juan_carlos_lopez_lee = {
+		name = "Juan Carlos Lopez Lee"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/MEX_Juan_Carlos_Lopez_Lee.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_position
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = MEX_JUAN_CARLOS_LOPEZ_LEE_DESC
+		}
+	}
+}

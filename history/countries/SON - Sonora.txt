@@ -1,5 +1,7 @@
 ﻿capital = 483
 
+set_cosmetic_tag = USA_BLUE
+
 set_politics = {	
 	ruling_party = classical_authoritarianism
 	last_election = "2005.1.1"

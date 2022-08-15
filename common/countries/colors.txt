@@ -1,5 +1,9 @@
 #reload countrycolors
 
+YUG = {
+	color = rgb { 72 73 126 }
+	color_ui = rgb { 94 95 164 }
+}
 DAK = {
 	color = rgb { 109 178 101 }
 	color_ui = rgb { 109 178 101 }

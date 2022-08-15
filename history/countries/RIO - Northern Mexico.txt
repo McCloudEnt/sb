@@ -1,4 +1,6 @@
-﻿capital = 498
+﻿capital = 479
+
+set_cosmetic_tag = USA_BLUE
 
 set_politics = {	
 	ruling_party = classical_authoritarianism

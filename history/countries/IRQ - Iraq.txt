@@ -1,12 +1,35 @@
 ﻿capital = 291
 
 set_politics = {	
-	ruling_party = anarchy
+	ruling_party = revisionist_socialism
 	last_election = "2005.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    anarchy = 100
+    marxism_leninism = 16
+    revisionist_socialism = 64
+    libertarian_socialism = 20
 }
+
+add_ideas = {
+	idea_socialist_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_voting_consultation
+	idea_state_atheism
+	idea_restricted_freedoms
+}
+
+recruit_character = IRQ_anarchy
+recruit_character = IRQ_hamid_majid_mousa
+recruit_character = IRQ_raid_jahid_fahmi
+recruit_character = IRQ_hachem_al_tikriti
+recruit_character = IRQ_naseer_al_chaderchi
+recruit_character = IRQ_ahmed_chalabi
+recruit_character = IRQ_nouri_al_maliki
+recruit_character = IRQ_muqtada_al_sadr
+recruit_character = IRQ_sharif_ali_bin_al_hussein
+recruit_character = IRQ_no_leadership

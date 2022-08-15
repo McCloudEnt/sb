@@ -1,0 +1,210 @@
+characters = {
+	IRQ_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	IRQ_hamid_majid_mousa = {
+		name = "Hamid Majid Mousa"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/IRQ_Hamid_Majid_Mousa.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRQ_HAMID_MAJID_MOUSA_DESC
+		}
+	}
+	IRQ_raid_jahid_fahmi = {
+		name = "Raid Jahid Fahmi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/IRQ_Raid_Jahid_Fahmi.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRQ_RAID_JAHID_FAHMI_DESC
+		}
+	}
+	IRQ_dhafer_al_ani = {
+		name = "Dhafer al-Ani"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/IRQ_Dhafer_al_Ani.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRQ_DHAFER_AL_ANI_DESC
+		}
+	}
+	IRQ_izzat_ibrahim_al_douri = {
+		name = "Izzat Ibrahim al-Douri"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/IRQ_Izzat_Ibrahim_al_Douri.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_nationalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRQ_IZZAT_IBRAHIM_AL_DOURI_DESC
+		}
+	}
+	IRQ_hachem_al_tikriti = {
+		name = "Hachem al-Tikriti"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/IRQ_Hachem_al_Tikriti.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_communism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRQ_HACHEM_AL_TIKRITI_DESC
+		}
+	}
+	IRQ_naseer_al_chaderchi = {
+		name = "Naseer al-Chaderchi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/IRQ_Naseer_al_Chaderchi.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRQ_NASEER_AL_CHADERCHI_DESC
+		}
+	}
+	IRQ_ahmed_chalabi = {
+		name = "Ahmed Chalabi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/IRQ_Ahmed_Chalabi.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRQ_AHMED_CHALABI_DESC
+		}
+	}
+	IRQ_nouri_al_maliki = {
+		name = "Nouri al-Maliki"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/IRQ_Nouri_al_Maliki.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRQ_NOURI_AL_MALIKI_DESC
+		}
+	}
+	IRQ_muqtada_al_sadr = {
+		name = "Muqtada al-Sadr"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/IRQ_Muqtada_al_Sadr.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRQ_MUQTADA_AL_SADR_DESC
+		}
+	}
+	IRQ_sharif_ali_bin_al_hussein = {
+		name = "Sharif Ali bin al-Hussein"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/IRQ_Sharif_Ali_bin_al_Hussein.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRQ_SHARIF_ALI_BIN_AL_HUSSEIN_DESC
+		}
+	}
+	IRQ_no_leadership = {
+		name = "No Leadership"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1"
+			id = -1
+			desc = IRQ_NO_LEADERSHIP
+		}
+	}
+	IRQ_saddam_hussein = {
+		name = "Saddam Hussein"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/IRQ_Saddam_Hussein.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRQ_SADDAM_HUSSEIN_DESC
+		}
+	}
+	IRQ_abou_udday_al_baghdadi = {
+		name = "Abou Udday al-Baghdadi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/IRQ_Abou_Udday_al_Baghdadi.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocratic
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = IRQ_ABOU_UDDAY_AL_BAGHDADI_DESC
+		}
+	}
+}

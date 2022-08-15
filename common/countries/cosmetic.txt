@@ -314,3 +314,13 @@ CAN_USA = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 20 133 237 }
 }
+
+RIO_USA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 20 133 237 }
+}
+
+SON_USA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 20 133 237 }
+}

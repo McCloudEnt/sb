@@ -370,8 +370,11 @@
  CAN_classical_authoritarianism_party_long:0 "Integration Party of Canada"
  CAN_despotism_party:0 "FAC-ALC"
  CAN_despotism_party_long:0 "Freedom Alliance of Canada"
- CAN_ultranationalism_party:0 "CNP-PNC"
- CAN_ultranationalism_party_long:0 "Canadian Nationalist Party"
+ CAN_ultranationalism_party:0 "BQN"
+ CAN_ultranationalism_party_long:0 "Bloc Québécois Nationale"
+ 
+ CAN_BER_ultranationalism_party:0 "CNP-PNC"
+ CAN_BER_ultranationalism_party_long:0 "Canadian Nationalist Party"
  
  CAN_ENG_marxism_leninism_party:0 "CPC-PCC (ML)"
  CAN_ENG_marxism_leninism_party_long:0 "Communist Party of Canada (Marxist-Leninist)"

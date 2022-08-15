@@ -133,6 +133,21 @@ characters = {
 			desc = CAN_STOCKWELL_DAY_DESC
 		}
 	}
+	CAN_justin_trudeau = {
+		name = "Justin Trudeau"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAN/CAN_Justin_Trudeau.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = CAN_JUSTIN_TRUDEAU_DESC
+		}
+	}
 	CAN_maxime_bernier = {
 		name = "Maxime Bernier"
 		portraits = {

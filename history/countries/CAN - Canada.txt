@@ -36,4 +36,4 @@ recruit_character = CAN_michael_ignatieff
 recruit_character = CAN_peter_mackay
 recruit_character = CAN_stephen_harper
 recruit_character = CAN_stockwell_day
-recruit_character = CAN_maxime_bernier
+recruit_character = CAN_justin_trudeau

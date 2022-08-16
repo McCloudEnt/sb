@@ -1,0 +1,151 @@
+characters = {
+	RIO_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	RIO_politburo = {
+		name = "Politburo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Collective/European_Collective_Leadership.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = RIO_POLITBURO_DESC
+		}
+	}
+	RIO_central_committee = {
+		name = "Central Committee"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Collective/European_Collective_Leadership.dds"
+			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = RIO_CENTRAL_COMMITTEE_DESC
+		}
+	}
+	RIO_collective_leadership = {
+		name = "Collective Leadership"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Collective/European_Collective_Leadership.dds"
+			}
+		}
+		country_leader = {
+			ideology = syndicalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = RIO_COLLECTIVE_LEADERSHIP_DESC
+		}
+	}
+	RIO_ruben_moreira_valdez = {
+		name = "Rubén Moreira Valdez"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIO/RIO_Ruben_Moreira_Valdez.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = RIO_RUBEN_MOREIRA_VALDEZ_DESC
+		}
+	}
+	RIO_enrique_martinez_y_martinez = {
+		name = "Enrique Martínez y Martínez"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIO/RIO_Enrique_Martinez_y_Martinez.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = RIO_ENRIQUE_MARTINEZ_Y_MARTINEZ_DESC
+		}
+	}
+	RIO_jorge_torres_lopez = {
+		name = "Jorge Torres López"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIO/RIO_Jorge_Torres_Lopez.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = RIO_JORGE_TORRES_LOPEZ_DESC
+		}
+	}
+	RIO_humberto_moreira = {
+		name = "Humberto Moreira"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIO/RIO_Humberto_Moreira.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = RIO_HUMBERTO_MOREIRA_DESC
+		}
+	}
+	RIO_james_mattis = {
+		name = "James Mattis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIO/RIO_James_Mattis.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = RIO_JAMES_MATTIS_DESC
+		}
+	}
+	RIO_jose_angel_gutierrez = {
+		name = "José Ángel Gutiérrez"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIO/RIO_Jose_Angel_Gutierrez.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_position
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = RIO_JOSE_ANGEL_GUTIERREZ_DESC
+		}
+	}
+}

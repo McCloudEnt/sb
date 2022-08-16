@@ -10,5 +10,26 @@ set_politics = {
 }
 
 set_popularities = {
-    anarchy = 100
+	classical_authoritarianism = 100
 }
+
+add_ideas = {
+	idea_aristocratic_republic
+	idea_federation
+	idea_upper_house_bicameralism
+	idea_s_i_judiciary
+	idea_swm_voting
+	idea_moderate_secularism
+	idea_restricted_freedoms
+}
+
+recruit_character = RIO_anarchy
+recruit_character = RIO_politburo
+recruit_character = RIO_central_committee
+recruit_character = RIO_collective_leadership
+recruit_character = RIO_ruben_moreira_valdez
+recruit_character = RIO_enrique_martinez_y_martinez
+recruit_character = RIO_jorge_torres_lopez
+recruit_character = RIO_humberto_moreira
+recruit_character = RIO_james_mattis
+recruit_character = RIO_jose_angel_gutierrez

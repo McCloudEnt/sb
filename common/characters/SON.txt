@@ -1,0 +1,151 @@
+characters = {
+	SON_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	SON_politburo = {
+		name = "Politburo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Collective/European_Collective_Leadership.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SON_POLITBURO_DESC
+		}
+	}
+	SON_central_committee = {
+		name = "Central Committee"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Collective/European_Collective_Leadership.dds"
+			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SON_CENTRAL_COMMITTEE_DESC
+		}
+	}
+	SON_marco_antonio_blasquez_salinas = {
+		name = "Marco Antonio Blásquez Salinas"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SON/SON_Marco_Antonio_Blasquez_Salinas.dds"
+			}
+		}
+		country_leader = {
+			ideology = syndicalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SON_MARCO_ANTONIO_BLASQUEZ_SALINAS_DESC
+		}
+	}
+	SON_jaime_bonilla_valdez = {
+		name = "Jaime Bonilla Valdez"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SON/SON_Jaime_Bonilla_Valdez.dds"
+			}
+		}
+		country_leader = {
+			ideology = third_way
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SON_JAIME_BONILLA_VALDEZ_DESC
+		}
+	}
+	SON_roberto_de_la_madrid = {
+		name = "Roberto de la Madrid"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SON/SON_Roberto_de_la_Madrid.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SON_ROBERTO_DE_LA_MADRID_DESC
+		}
+	}
+	SON_jesus_gerardo_cortez_mendoza = {
+		name = "Jesús Gerardo Cortez Mendoza"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SON/SON_Jesus_Gerardo_Cortez_Mendoza.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SON_JESUS_GERARDO_CORTEZ_MENDOZA_DESC
+		}
+	}
+	SON_francisco_blake_mora = {
+		name = "Francisco Blake Mora"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SON/SON_Francisco_Blake_Mora.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SON_FRANCISCO_BLAKE_MORA_DESC
+		}
+	}
+	SON_oliver_north = {
+		name = "Oliver North"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SON/SON_Oliver_North.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SON_OLIVER_NORTH_DESC
+		}
+	}
+	SON_salvador_abascal_carranza = {
+		name = "Salvador Abascal Carranza"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SON/SON_Salvador_Abascal_Carranza.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = SON_SALVADOR_ABASCAL_CARRANZA_DESC
+		}
+	}
+}

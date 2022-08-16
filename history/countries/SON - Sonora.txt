@@ -10,5 +10,26 @@ set_politics = {
 }
 
 set_popularities = {
-    anarchy = 100
+	classical_authoritarianism = 100
 }
+
+add_ideas = {
+	idea_aristocratic_republic
+	idea_federation
+	idea_upper_house_bicameralism
+	idea_s_i_judiciary
+	idea_swm_voting
+	idea_moderate_secularism
+	idea_restricted_freedoms
+}
+
+recruit_character = SON_anarchy
+recruit_character = SON_politburo
+recruit_character = SON_central_committee
+recruit_character = SON_marco_antonio_blasquez_salinas
+recruit_character = SON_jaime_bonilla_valdez
+recruit_character = SON_roberto_de_la_madrid
+recruit_character = SON_jesus_gerardo_cortez_mendoza
+recruit_character = SON_francisco_blake_mora
+recruit_character = SON_oliver_north
+recruit_character = SON_salvador_abascal_carranza

@@ -268,6 +268,9 @@
  ENG_ultranationalism_party:0 "NF"
  ENG_ultranationalism_party_long:0 "National Front"
  
+ ENG_PM_despotism_party:0 "Jones"
+ ENG_PM_despotism_party_long:0 "House of Jones"
+ 
  #FRA
  FRA_marxism_leninism_party:0 "PCF"
  FRA_marxism_leninism_party_long:0 "Communist Party of France"

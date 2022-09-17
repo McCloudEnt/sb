@@ -592,25 +592,25 @@
  
  BEL_MON_despotism_party:0 "CNB-NCB-NKB"
  BEL_MON_despotism_party_long:0 "National Congress of Belgium"
- BEL_MON1_despotism_party:0 "Saxe-Coburg & Gotha"
+ BEL_MON1_despotism_party:0 "Saxe-Coburg & Gotha" #Baudouin
  BEL_MON1_despotism_party_long:0 "House of Saxe-Coburg & Gotha"
- BEL_MON2_despotism_party:0 "Orange-Nassau"
+ BEL_MON2_despotism_party:0 "Orange-Nassau" #Jean
  BEL_MON2_despotism_party_long:0 "House of Orange-Nassau"
- BEL_MON3_despotism_party:0 "Nassau-Weilburg"
+ BEL_MON3_despotism_party:0 "Nassau-Weilburg" #Felix
  BEL_MON3_despotism_party_long:0 "House of Nassau-Weilburg"
- BEL_MON4_despotism_party:0 "Bourbon-Anjou"
+ BEL_MON4_despotism_party:0 "Bourbon-Anjou" #Louis
  BEL_MON4_despotism_party_long:0 "House of Bourbon-Anjou"
- BEL_MON5_despotism_party:0 "Orleans-Braganza"
+ BEL_MON5_despotism_party:0 "Orleans-Braganza" #Pierre-Louis
  BEL_MON5_despotism_party_long:0 "House of Orleans-Braganza"
- BEL_MON6_despotism_party:0 "Habsburg-Lorraine"
+ BEL_MON6_despotism_party:0 "Habsburg-Lorraine" #Edouard
  BEL_MON6_despotism_party_long:0 "House of Habsburg-Lorraine"
- BEL_MON7_despotism_party:0 "Beauharnais"
+ BEL_MON7_despotism_party:0 "Beauharnais" #Nicolas
  BEL_MON7_despotism_party_long:0 "House of Beauharnais"
- BEL_MON8_despotism_party:0 "Bernadotte"
+ BEL_MON8_despotism_party:0 "Bernadotte" #Charles-Philippe
  BEL_MON8_despotism_party_long:0 "House of Bernadotte"
- BEL_MON9_despotism_party:0 "Glücksburg"
+ BEL_MON9_despotism_party:0 "Glücksburg" #Joachim
  BEL_MON9_despotism_party_long:0 "House of Schleswig-Holstein-Sonderburg-Glücksburg"
- BEL_MON10_despotism_party:0 "Liechtenstein"
+ BEL_MON10_despotism_party:0 "Liechtenstein" #Maximilien
  BEL_MON10_despotism_party_long:0 "House of Liechtenstein"
  
  #LUX

@@ -1,0 +1,143 @@
+characters = {
+	YUC_anarchy = {
+		name = "No State"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Anarchy/Anarchy.dds"
+			}
+		}
+		country_leader = {
+			desc = ANARCHY_DESC
+			ideology = collapsed_state
+			expire = "2065.1.1"
+			id = -1
+		}
+	}
+	YUC_yazmin_gaspar_gongora = {
+		name = "Yazmin Gaspar Góngora"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUC/YUC_Yazmin_Gaspar_Gongora.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUC_YAZMIN_GASPAR_GONGORA_DESC
+		}
+	}
+	YUC_joaquin_diaz_mena = {
+		name = "Joaquín Díaz Mena"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUC/YUC_Joaquin_Diaz_Mena.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUC_JOAQUIN_DIAZ_MENA_DESC
+		}
+	}
+	YUC_eric_villanueva_mukul = {
+		name = "Eric Villanueva Mukul"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUC/YUC_Eric_Villanueva_Mukul.dds"
+			}
+		}
+		country_leader = {
+			ideology = syndicalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUC_ERIC_VILLANUEVA_MUKUL_DESC
+		}
+	}
+	YUC_eduardo_sobrino_sierra = {
+		name = "Eduardo Sobrino Sierra"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUC/YUC_Eduardo_Sobrino_Sierra.dds"
+			}
+		}
+		country_leader = {
+			ideology = nordic_model
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUC_EDUARDO_SOBRINO_SIERRA_DESC
+		}
+	}
+	YUC_particio_patron_laviada = {
+		name = "Patricio Patrón Laviada"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUC/YUC_Patricio_Patron_Laviada.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUC_PATRICIO_PATRON_LAVIADA_DESC
+		}
+	}
+	YUC_ana_rosa_payan = {
+		name = "Ana Rosa Payan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUC/YUC_Ana_Rosa_Payan.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_democracy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUC_ANA_ROSA_PAYAN_DESC
+		}
+	}
+	YUC_ivonne_ortega_pacheco = {
+		name = "Ivonne Ortega Pacheco"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUC/YUC_Ivonne_Ortega_Pacheco.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_oligarchy
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUC_IVONNE_ORTEGA_PACHECO_DESC
+		}
+	}
+	YUC_dick_cheney = {
+		name = "Dick Cheney"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUC/YUC_Dick_Cheney.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUC_DICK_CHENEY_USYC_DESC
+		}
+		country_leader = {
+			ideology = neoimperialism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = YUC_DICK_CHENEY_FPY_DESC
+		}
+	}
+}

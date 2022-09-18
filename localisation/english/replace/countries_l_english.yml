@@ -1624,8 +1624,8 @@
  MEX_anarchy_DEF:0 "The Mexican Wasteland"
  MEX_marxism_leninism:0 "United Mexican Socialist States"
  MEX_marxism_leninism_DEF:0 "The United Mexican Socialist States"
- MEX_revisionist_socialism:0 "People’s Mexican States"
- MEX_revisionist_socialism_DEF:0 "The People’s Mexican States"
+ MEX_revisionist_socialism:0 "People's Mexican States"
+ MEX_revisionist_socialism_DEF:0 "The People's Mexican States"
  MEX_libertarian_socialism:0 "Revolutionary Mexican States"
  MEX_libertarian_socialism_DEF:0 "The Revolutionary Mexican States"
  MEX_social_democracy:0 "United Mexican States"
@@ -1647,8 +1647,8 @@
  SON_anarchy_DEF:0 "The Bajasonoran Wasteland"
  SON_marxism_leninism:0 "Democratic Republic of Baja California and Sonora"
  SON_marxism_leninism_DEF:0 "The Democratic Republic of Baja California and Sonora"
- SON_revisionist_socialism:0 "People’s Republic of Baja California and Sonora"
- SON_revisionist_socialism_DEF:0 "The People’s Republic of Baja California and Sonora"
+ SON_revisionist_socialism:0 "People's Republic of Baja California and Sonora"
+ SON_revisionist_socialism_DEF:0 "The People's Republic of Baja California and Sonora"
  SON_libertarian_socialism:0 "Socialist Republic of Baja California and Sonora"
  SON_libertarian_socialism_DEF:0 "The Socialist Republic of Baja California and Sonora"
  SON_social_democracy:0 "Republic of Baja California and Sonora"
@@ -1670,8 +1670,8 @@
  RIO_anarchy_DEF:0 "The Rio Grandese Wasteland"
  RIO_marxism_leninism:0 "Democratic Republic of the Rio Grande"
  RIO_marxism_leninism_DEF:0 "The Democratic Republic of the Rio Grande"
- RIO_revisionist_socialism:0 "People’s Republic of the Rio Grande"
- RIO_revisionist_socialism_DEF:0 "The People’s Republic of the Rio Grande"
+ RIO_revisionist_socialism:0 "People's Republic of the Rio Grande"
+ RIO_revisionist_socialism_DEF:0 "The People's Republic of the Rio Grande"
  RIO_libertarian_socialism:0 "Socialist Republic of the Rio Grande"
  RIO_libertarian_socialism_DEF:0 "The Socialist Republic of the Rio Grande"
  RIO_social_democracy:0 "Republic of the Rio Grande"
@@ -1688,24 +1688,54 @@
  RIO_ultranationalism_DEF:0 "The State of Aztlan"
  RIO_ADJ:0 "Riograndese"
  
- YUC_anarchy:0 ""
- YUC_anarchy_DEF:0 ""
- YUC_marxism_leninism:0 ""
- YUC_marxism_leninism_DEF:0 ""
- YUC_revisionist_socialism:0 ""
- YUC_revisionist_socialism_DEF:0 ""
- YUC_libertarian_socialism:0 ""
- YUC_libertarian_socialism_DEF:0 ""
- YUC_social_democracy:0 ""
- YUC_social_democracy_DEF:0 ""
- YUC_liberal_democracy:0 ""
- YUC_liberal_democracy_DEF:0 ""
- YUC_conservative_democracy:0 ""
- YUC_conservative_democracy_DEF:0 ""
- YUC_classical_authoritarianism:0 ""
- YUC_classical_authoritarianism_DEF:0 ""
- YUC_despotism:0 ""
- YUC_despotism_DEF:0 ""
- YUC_ultranationalism:0 ""
- YUC_ultranationalism_DEF:0 ""/=
- YUC_ADJ:0 ""
+ #YUC
+ YUC_anarchy:0 "Yucatecan Wasteland"
+ YUC_anarchy_DEF:0 "The Yucatecan Wasteland"
+ YUC_marxism_leninism:0 "Yucatecan Democratic Republic"
+ YUC_marxism_leninism_DEF:0 "The Yucatecan Democratic Republic"
+ YUC_revisionist_socialism:0 "People's Republic of Yucatan"
+ YUC_revisionist_socialism_DEF:0 "The People's Republic of Yucatan"
+ YUC_libertarian_socialism:0 "Yucatecan Confederacy"
+ YUC_libertarian_socialism_DEF:0 "The Yucatecan Confederacy"
+ YUC_social_democracy:0 "Republic of Yucatan"
+ YUC_social_democracy_DEF:0 "The Republic of Yucatan"
+ YUC_liberal_democracy:0 "Republic of Yucatan"
+ YUC_liberal_democracy_DEF:0 "The Republic of Yucatan"
+ YUC_conservative_democracy:0 "Republic of Yucatan"
+ YUC_conservative_democracy_DEF:0 "The Republic of Yucatan"
+ YUC_classical_authoritarianism:0 "Republic of Yucatan"
+ YUC_classical_authoritarianism_DEF:0 "The Republic of Yucatan"
+ YUC_despotism:0 "Federated Republic of Yucatan"
+ YUC_despotism_DEF:0 "The Federated Republic of Yucatan"
+ YUC_ultranationalism:0 "Commonwealth of Yucatan"
+ YUC_ultranationalism_DEF:0 "The Commonwealth of Yucatan"
+ YUC_ADJ:0 "Yucatecan"
+ 
+ #SOV Breakaways
+ ##UKR
+ 
+ ##BLR
+ 
+ ##LIT
+ 
+ ##LAT
+ 
+ ##EST
+ 
+ ##MOL
+ 
+ ##GEO
+ 
+ ##ARM
+ 
+ ##AZR
+ 
+ ##KAZ
+ 
+ ##UZB
+ 
+ ##KYR
+ 
+ ##TAJ
+ 
+ ##TMS

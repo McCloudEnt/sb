@@ -1,12 +1,38 @@
 ﻿capital = 474
 
 set_politics = {	
-	ruling_party = anarchy
+	ruling_party = liberal_democracy
 	last_election = "2005.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    anarchy = 100
+	marxism_leninism = 4
+	revisionist_socialism = 5
+	libertarian_socialism = 2
+	social_democracy = 15
+	liberal_democracy = 30
+	conservative_democracy = 24
+	classical_authoritarianism = 20
 }
+
+add_ideas = {
+	idea_presidential_republic
+	idea_unitary
+	idea_unicameralism
+	idea_s_i_judiciary
+	idea_swm_voting
+	idea_moderate_secularism
+	idea_maximum_freedoms
+}
+
+recruit_character = YUC_anarchy
+recruit_character = YUC_yazmin_gaspar_gongora
+recruit_character = YUC_joaquin_diaz_mena
+recruit_character = YUC_eric_villanueva_mukul
+recruit_character = YUC_eduardo_sobrino_sierra
+recruit_character = YUC_particio_patron_laviada
+recruit_character = YUC_ana_rosa_payan
+recruit_character = YUC_ivonne_ortega_pacheco
+recruit_character = YUC_dick_cheney

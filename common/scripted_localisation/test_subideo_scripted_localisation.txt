@@ -1,4 +1,84 @@
 defined_text = {
+	name = GUIHOSNAME
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = mon_queen_margaret
+				has_country_flag = mon_king_david
+				has_country_flag = mon_konigin_beatrix
+				has_country_flag = mon_groussherzog_henri
+				has_country_flag = mon_re_victor_emmanuel_iv
+				has_country_flag = mon_konge_harald_v
+				has_country_flag = mon_konung_carl_xvi_gustaf
+				has_country_flag = mon_dronning_margrethe_ii
+				has_country_flag = mon_principu_albertu_ii
+				has_country_flag = mon_prinz_hans_adam_ii
+				has_country_flag = mon_coprinceps_dandorra
+				has_country_flag = mon_rey_juan_carlos_i
+				has_country_flag = mon_roi_baudouin
+				has_country_flag = mon_roi_jean
+				has_country_flag = mon_roi_felix
+				has_country_flag = mon_roi_louis
+				has_country_flag = mon_roi_pierre_louis
+				has_country_flag = mon_roi_edouard
+				has_country_flag = mon_roi_nicolas
+				has_country_flag = mon_roi_charles_philippe
+				has_country_flag = mon_roi_joachim
+				has_country_flag = mon_roi_maximilien
+				has_country_flag = mon_vasilias_constantinos_ii
+				has_country_flag = mon_pacha_mohammed_zahir_shah
+				has_country_flag = mon_maharajdhiraja_birendra
+				has_country_flag = mon_druk_gyalpo_jigme_singye
+				has_country_flag = mon_druk_gyalpo_jigme_khesar
+				has_country_flag = mon_pra_mahaa_gasat_rama_ix
+				has_country_flag = mon_yang_dipertuan_agong_sirajuddin
+				has_country_flag = mon_tenno_fumihito
+				has_country_flag = mon_tenno_masahito
+			}
+		}
+		localization_key = GUIHOSNAME
+	}
+}
+defined_text = {
+	name = GetFigurehead
+	text = {
+		trigger = {
+			has_country_flag = mon_queen_margaret
+		}
+		localization_key = "Queen Margaret"
+	}
+}
+defined_text = {
+	name = GetHOSTrait
+	text = {
+		trigger = {
+			has_idea = hos_popular_figurehead
+		}
+		localization_key = popular_modifier
+	}
+}
+defined_text = {
+	name = GetHOSTitle
+	text = {
+		trigger = {
+			AND = {
+				tag = ENG
+				has_country_flag = mon_queen_margaret
+			}
+		}
+		localization_key = PM_OR_QUEEN
+	}
+}
+defined_text = {
+	name = GetHOSDesc
+	text = {
+		trigger = {
+			has_country_flag = mon_queen_margaret
+		}
+		localization_key = ENG_QUEEN_MARGARET_DESC
+	}
+}
+defined_text = {
 	name = get_subideology
 	#Anarchy
 	text = {

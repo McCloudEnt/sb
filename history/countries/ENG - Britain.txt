@@ -21,7 +21,11 @@ add_ideas = {
 	idea_swm_voting
 	idea_pluralism
 	idea_maximum_freedoms
+	hos_popular_figurehead
 }
+
+set_country_flag = has_symbolic_figurehead
+set_country_flag = mon_queen_margaret
 
 recruit_character = ENG_anarchy
 recruit_character = ENG_robert_griffiths

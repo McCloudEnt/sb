@@ -1,0 +1,40 @@
+guiTypes = {
+	containerWindowType =  {
+		name = "view_figurehead_gui"
+		position = { x = 10 y = 44 }
+		size = { width = 170 height = 260 }
+		orientation = upper_left
+		
+		iconType = {
+			name = "Queen_Margaret" #Feel free to change the name, but change it in head_of_state.txt as well.
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_portrait_queen_margaret"
+		}
+		
+		buttonType = {
+			name = "figurehead_frame"
+			quadTextureSprite ="GFX_pol_leader_frame"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "GUIHEADNAME"
+		}
+		
+		buttonType = {
+			name = "figurehead_button"
+			quadTextureSprite ="GFX_HOS_button"
+			position = { x = 150 y = 230 }
+			pdx_tooltip = "HOG_OR_HOS"
+		}
+		
+		instantTextboxType = {
+			name = "figurehead_name"
+			position = { x = 8 y = 226 }
+			font = "hoi_18mbs"
+			text = "[GetFigurehead]"
+			pdx_tooltip = "GUIHEADNAME"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}	
+	}
+}

@@ -1,0 +1,14 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_HOS_button"
+		texturefile = "gfx/interface/HOS_button.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_queen_margaret"
+		texturefile = "gfx//leaders//ENG//ENG_Queen_Margaret.dds"
+		legacy_lazy_load = no
+	}
+}

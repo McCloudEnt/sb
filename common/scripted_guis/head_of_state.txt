@@ -1,0 +1,50 @@
+scripted_gui = {
+    view_figurehead = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "view_figurehead_gui"
+		
+		ai_check = {
+			always = no
+		}
+		
+		triggers = {
+			figurehead_frame_visible = {
+				has_country_flag = figurehead_view
+			}
+			
+			figurehead_button_visible = {
+				has_country_flag = has_symbolic_figurehead
+			}
+			
+			figurehead_name_visible = {
+				has_country_flag = figurehead_view
+			}
+			
+			Queen_Margaret_visible = {
+				AND = {
+					has_country_flag = figurehead_view
+					has_country_flag = mon_queen_margaret
+				}
+			}
+		}
+		
+		visible = {
+			has_country_flag = has_symbolic_figurehead
+		}
+		
+		effects = {
+			figurehead_button_click = {
+				if = {
+					limit = {
+						has_country_flag = figurehead_view
+					}
+					clr_country_flag = figurehead_view
+					else = {
+						set_country_flag = figurehead_view
+					}
+				}
+			}
+		}
+	}
+}

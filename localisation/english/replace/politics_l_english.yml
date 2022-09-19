@@ -1,4 +1,12 @@
 ﻿l_english:
+ HOG_OR_HOS:0 "[GetHOSTitle]"
+ GUIHOSNAME:0 "§Y[ROOT.GetFigurehead]§!\n\n[THIS.GetHOSTrait]"
+ GUIHEADNAME:0 "[GUIHOSNAME]"
+ 
+ PM_OR_QUEEN:0 "Click to switch between §CPrime Minister§! and §GQueen§! view"
+ 
+ popular_modifier:0 "Modifier:\n§HPopular Figurehead§!\n§GStability +10%§!"
+
  #POLITICS_SUBGOAL_HEADER:0 "$NAME$ ($COLOR$$PROGRESS|%0$§!):"
  FUNNY_SUBID_TEXT:0 "[THIS.get_subideology]"
  FUNNY_SUBID_TEXT_DESC:0 "[THIS.get_subideology_desc]"

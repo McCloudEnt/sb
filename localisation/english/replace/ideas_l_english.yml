@@ -2748,3 +2748,7 @@
  usa_soc_dianne_feinstein:0 "Dianne Feinstein"
  usa_soc_erik_prince:0 "Erik Prince"
  usa_soc_jesse_ventura:0 "Jesse Ventura"
+ hos_popular_figurehead:0 "Popular Figurehead"
+ hos_mediocre:0 "Mediocre Figurehead"
+ hos_unpopular_figurehead:0 "Unpopular Figurehead"
+ hos_tyranical_overseer:0 "Tyranical Foreigner"

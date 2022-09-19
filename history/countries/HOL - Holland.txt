@@ -24,7 +24,11 @@ add_ideas = {
 	idea_fp_voting
 	idea_moderate_secularism
 	idea_maximum_freedoms
+	hos_popular_figurehead
 }
+
+set_country_flag = has_symbolic_figurehead
+set_country_flag = mon_prinses_beatrix
 
 recruit_character = HOL_anarchy
 recruit_character = HOL_ina_brouwer

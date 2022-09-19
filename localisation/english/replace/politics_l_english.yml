@@ -3,7 +3,12 @@
  GUIHOSNAME:0 "§Y[ROOT.GetFigurehead]§!\n\n[THIS.GetHOSTrait]\n--------------\n [THIS.GetHOSDesc]"
  GUIHEADNAME:0 "[GUIHOSNAME]"
  
- PM_OR_Q:0 "Click to switch between §CPrime Minister§! and §GQueen§! view"
+ PM_OR_QUEEN:0 "Click to switch between §CPrime Minister§! and §GQueen§! view"
+ PM_OR_KING:0 "Click to switch between §CPrime Minister§! and §GKing§! view"
+ PM_OR_PRINCESS:0 "Click to switch between §CPrime Minister§! and §GPrincess§! view"
+ PM_OR_PRINCE:0 "Click to switch between §CPrime Minister§! and §GPrince§! view"
+ PM_OR_COPRINCES:0 "Click to switch between §CPrime Minister§! and §GCo-Princes§! view"
+ PM_OR_GRANDDUKE:0 "Click to switch between §CPrime Minister§! and §GGrand Duke§! view"
  
  popular_modifier:0 "Modifier:\n§HPopular Figurehead§!\n§GStability +10%§!"
 

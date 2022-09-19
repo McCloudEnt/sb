@@ -11,6 +11,18 @@ guiTypes = {
 			spriteType = "GFX_portrait_queen_margaret"
 		}
 		
+		iconType = {
+			name = "Princess_Beatrix" #Feel free to change the name, but change it in head_of_state.txt as well.
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_portrait_prinses_beatrix"
+		}
+		
+		iconType = {
+			name = "Grand_Duke_Henri" #Feel free to change the name, but change it in head_of_state.txt as well.
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_portrait_groussherzog_henri"
+		}
+		
 		buttonType = {
 			name = "figurehead_frame"
 			quadTextureSprite ="GFX_pol_leader_frame"

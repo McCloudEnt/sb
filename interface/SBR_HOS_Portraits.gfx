@@ -11,4 +11,16 @@ spriteTypes = {
 		texturefile = "gfx//leaders//ENG//ENG_Queen_Margaret.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_prinses_beatrix"
+		texturefile = "gfx//leaders//HOL//HOL_Princess_Beatrix.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_groussherzog_henri"
+		texturefile = "gfx//leaders//LUX//LUX_Grand_Duke_Henri.dds"
+		legacy_lazy_load = no
+	}
 }

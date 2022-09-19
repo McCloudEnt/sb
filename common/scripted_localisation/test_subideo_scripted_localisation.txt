@@ -5,7 +5,7 @@ defined_text = {
 			OR = {
 				has_country_flag = mon_queen_margaret
 				has_country_flag = mon_king_david
-				has_country_flag = mon_konigin_beatrix
+				has_country_flag = mon_prinses_beatrix
 				has_country_flag = mon_groussherzog_henri
 				has_country_flag = mon_re_vittorio_emanuele_iv
 				has_country_flag = mon_konge_harald_v
@@ -47,6 +47,18 @@ defined_text = {
 		}
 		localization_key = "Queen Margaret"
 	}
+	text = {
+		trigger = {
+			has_country_flag = mon_prinses_beatrix
+		}
+		localization_key = "Princess Beatrix"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_groussherzog_henri
+		}
+		localization_key = "Grand Duke Henri"
+	}
 }
 defined_text = {
 	name = GetHOSTrait
@@ -61,12 +73,51 @@ defined_text = {
 	name = GetHOSTitle
 	text = {
 		trigger = {
-			AND = {
-				tag = ENG
-				has_country_flag = mon_queen_margaret
+			OR = {
+				AND = {
+					tag = ENG
+					has_country_flag = mon_queen_margaret
+				}
+				AND = {
+					tag = DEN
+					has_country_flag = mon_dronning_margrethe_ii
+				}
 			}
 		}
 		localization_key = PM_OR_QUEEN
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = HOL
+				has_country_flag = mon_prinses_beatrix
+			}
+		}
+		localization_key = PM_OR_PRINCESS
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = LUX
+				has_country_flag = mon_groussherzog_henri
+			}
+		}
+		localization_key = PM_OR_GRANDDUKE
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = LIC
+					has_country_flag = mon_furst_hans_adam_ii
+				}
+				AND = {
+					tag = MOC
+					has_country_flag = mon_principu_albertu_ii
+				}
+			}
+		}
+		localization_key = PM_OR_PRINCE
 	}
 }
 defined_text = {
@@ -85,9 +136,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_flag = mon_konigin_beatrix
+			has_country_flag = mon_prinses_beatrix
 		}
-		localization_key = "Beatrix, Queen of the Netherlands"
+		localization_key = "Beatrix, Princess of the Netherlands"
 	}
 	text = {
 		trigger = {

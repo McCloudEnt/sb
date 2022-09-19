@@ -25,7 +25,11 @@ add_ideas = {
 	idea_fp_voting
 	idea_moderate_secularism
 	idea_maximum_freedoms
+	hos_popular_figurehead
 }
+
+set_country_flag = has_symbolic_figurehead
+set_country_flag = mon_groussherzog_henri
 
 recruit_character = LUX_anarchy
 recruit_character = LUX_ali_ruckert

@@ -41,6 +41,13 @@ scripted_gui = {
 					has_country_flag = mon_groussherzog_henri
 				}
 			}
+			
+			King_Victor_Emmanuel_IV_visible = {
+				AND = {
+					has_country_flag = figurehead_view
+					has_country_flag = mon_re_vittorio_emanuele_iv
+				}
+			}
 		}
 		
 		visible = {

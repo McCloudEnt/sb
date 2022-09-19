@@ -11,6 +11,8 @@
  PM_OR_GRANDDUKE:0 "Click to switch between §CPrime Minister§! and §GGrand Duke§! view"
  
  popular_modifier:0 "Modifier:\n§HPopular Figurehead§!\n§GStability +10%§!"
+ mediocre_modifier:0 "Modifier:\n§HMediocre Figurehead§!\n§GStability +5%§!"
+ unpopular_modifier:0 "Modifier:\n§HUnpopular Figurehead§!\n§RStability -10%§!"
 
  #POLITICS_SUBGOAL_HEADER:0 "$NAME$ ($COLOR$$PROGRESS|%0$§!):"
  FUNNY_SUBID_TEXT:0 "[THIS.get_subideology]"

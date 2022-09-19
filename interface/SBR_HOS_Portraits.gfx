@@ -23,4 +23,10 @@ spriteTypes = {
 		texturefile = "gfx//leaders//LUX//LUX_Grand_Duke_Henri.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_re_vittorio_emanuele_iv"
+		texturefile = "gfx//leaders//ITA//ITA_King_Victor_Emmanuel_IV.dds"
+		legacy_lazy_load = no
+	}
 }

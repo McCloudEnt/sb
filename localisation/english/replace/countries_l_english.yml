@@ -1712,7 +1712,30 @@
  YUC_ADJ:0 "Yucatecan"
  
  #SOV Breakaways
+ ##RUS
+ 
  ##UKR
+ UKR_anarchy:0 "Ukrainian Wasteland"
+ UKR_anarchy_DEF:0 "The Ukrainian Wasteland"
+ UKR_marxism_leninism:0 "Ukrainian Soviet Socialist Republic"
+ UKR_marxism_leninism_DEF:0 "The Ukrainian Soviet Socialist Republic"
+ UKR_revisionist_socialism:0 "Ukrainian Soviet People's Republic"
+ UKR_revisionist_socialism_DEF:0 "The Ukrainian Soviet People's Republic"
+ UKR_libertarian_socialism:0 "Ukrainian Soviet Republic"
+ UKR_libertarian_socialism_DEF:0 "The Ukrainian Soviet Republic"
+ UKR_social_democracy:0 "Republic of Ukraine"
+ UKR_social_democracy_DEF:0 "The Republic of Ukraine"
+ UKR_liberal_democracy:0 "Republic of Ukraine"
+ UKR_liberal_democracy_DEF:0 "The Republic of Ukraine"
+ UKR_conservative_democracy:0 "Republic of Ukraine"
+ UKR_conservative_democracy_DEF:0 "The Republic of Ukraine"
+ UKR_classical_authoritarianism:0 "Republic of Ukraine"
+ UKR_classical_authoritarianism_DEF:0 "The Republic of Ukraine"
+ UKR_despotism:0 "Ukrainian State"
+ UKR_despotism_DEF:0 "The Ukrainian State"
+ UKR_ultranationalism:0 "National Republic of Ukraine"
+ UKR_ultranationalism_DEF:0 "The National Republic of Ukraine"
+ UKR_ADJ:0 "Ukrainian"
  
  ##BLR
  

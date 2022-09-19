@@ -23,6 +23,12 @@ guiTypes = {
 			spriteType = "GFX_portrait_groussherzog_henri"
 		}
 		
+		iconType = {
+			name = "King_Victor_Emmanuel_IV" #Feel free to change the name, but change it in head_of_state.txt as well.
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_portrait_re_vittorio_emanuele_iv"
+		}
+		
 		buttonType = {
 			name = "figurehead_frame"
 			quadTextureSprite ="GFX_pol_leader_frame"

@@ -1922,3 +1922,62 @@
  YUC_despotism_party_long:0 "United States Yucatan Command"
  YUC_ultranationalism_party:0 "FPY"
  YUC_ultranationalism_party_long:0 "Filibusters' Party of Yucatan"
+ 
+ #SOV Breakaways
+ ##RUS
+ 
+ ##UKR
+ UKR_marxism_leninism_party:0 "KPU - Loyalist"
+ UKR_marxism_leninism_party_long:0 "Loyalist Faction of the Communist Party of Ukraine"
+ UKR_revisionist_socialism_party:0 "KPU - Nationalist"
+ UKR_revisionist_socialism_party_long:0 "Nationalist Faction of the Communist Party of Ukraine"
+ UKR_libertarian_socialism_party:0 "URP"
+ UKR_libertarian_socialism_party_long:0 "Ukrainian Workers' Party"
+ UKR_social_democracy_party:0 "SPU"
+ UKR_social_democracy_party_long:0 "Socialist Party of Ukraine"
+ UKR_liberal_democracy_party:0 "NRU"
+ UKR_liberal_democracy_party_long:0 "People's Movement of Ukraine"
+ UKR_conservative_democracy_party:0 "VUO 'B'"
+ UKR_conservative_democracy_party_long:0 "All-Ukrainian Union 'Fatherland'"
+ UKR_classical_authoritarianism_party:0 "PR"
+ UKR_classical_authoritarianism_party_long:0 "Party of Regions"
+ UKR_despotism_party:0 "OUN - Melnykite"
+ UKR_despotism_party_long:0 "Melnykite Faction of the Organization of Ukrainian Nationalists"
+ UKR_ultranationalism_party:0 "OUN - Banderite"
+ UKR_ultranationalism_party_long:0 "Banderite Faction of the Organization of Ukrainian Nationalists"
+ 
+ UKR_ARU_social_democracy_party:0 "USDP"
+ UKR_ARU_social_democracy_party_long:0 "Ukrainian Social Democratic Party"
+ UKR_ARU_classical_authoritarianim_party:0 "UNP"
+ UKR_ARU_classical_authoritarianim_party_long:0 "Ukrainian People's Party"
+ 
+ UKR_PRU_liberal_democracy_party:0 "APU"
+ UKR_PRU_liberal_democracy_party_long:0 "Agrarian Party of Ukraine"
+ UKR_PRU_conservative_democracy_party:0 "SNP"
+ UKR_PRU_conservative_democracy_party_long:0 "Slavic People's Party"
+ 
+ ##BLR
+ 
+ ##LIT
+ 
+ ##LAT
+ 
+ ##EST
+ 
+ ##MOL
+ 
+ ##GEO
+ 
+ ##ARM
+ 
+ ##AZR
+ 
+ ##KAZ
+ 
+ ##UZB
+ 
+ ##KYR
+ 
+ ##TAJ
+ 
+ ##TMS

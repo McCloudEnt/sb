@@ -59,6 +59,12 @@ defined_text = {
 		}
 		localization_key = "Grand Duke Henri"
 	}
+	text = {
+		trigger = {
+			has_country_flag = mon_re_vittorio_emanuele_iv
+		}
+		localization_key = "King Victor Emmanuel IV"
+	}
 }
 defined_text = {
 	name = GetHOSTrait
@@ -67,6 +73,18 @@ defined_text = {
 			has_idea = hos_popular_figurehead
 		}
 		localization_key = popular_modifier
+	}
+	text = {
+		trigger = {
+			has_idea = hos_mediocre
+		}
+		localization_key = mediocre_modifier
+	}
+	text = {
+		trigger = {
+			has_idea = hos_unpopular_figurehead
+		}
+		localization_key = unpopular_modifier
 	}
 }
 defined_text = {
@@ -118,6 +136,52 @@ defined_text = {
 			}
 		}
 		localization_key = PM_OR_PRINCE
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = ENG
+					has_country_flag = mon_king_david
+				}
+				AND = {
+					tag = ITA
+					has_country_flag = mon_re_vittorio_emanuele_iv
+				}
+				AND = {
+					tag = NOR
+					has_country_flag = mon_konge_harald_v
+				}
+				AND = {
+					tag = SWE
+					has_country_flag = mon_konung_carl_xvi_gustaf
+				}
+				AND = {
+					tag = SPR
+					has_country_flag = mon_rey_juan_carlos_i
+				}
+				AND = {
+					tag = CRE
+					has_country_flag = mon_vasilias_constantinos_ii
+				}
+				AND = {
+					tag = NEP
+					has_country_flag = mon_maharajdhiraja_birendra
+				}
+				AND = {
+					tag = BHU
+					OR = {
+						has_country_flag = mon_druk_gyalpo_jigme_khesar
+						has_country_flag = mon_druk_gyalpo_jigme_singye
+					}
+				}
+				AND = {
+					tag = SIA
+					has_country_flag = mon_pra_mahaa_gasat_rama_ix
+				}
+			}
+		}
+		localization_key = PM_OR_KING
 	}
 }
 defined_text = {

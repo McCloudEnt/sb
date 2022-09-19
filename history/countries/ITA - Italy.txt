@@ -26,7 +26,11 @@ add_ideas = {
 	idea_mixed_system
 	idea_lite_secularism
 	idea_maximum_freedoms
+	hos_mediocre
 }
+
+set_country_flag = has_symbolic_figurehead
+set_country_flag = mon_re_vittorio_emanuele_iv
 
 recruit_character = ITA_anarchy
 recruit_character = ITA_oliviero_diliberto

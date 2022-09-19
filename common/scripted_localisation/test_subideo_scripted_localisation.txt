@@ -7,12 +7,12 @@ defined_text = {
 				has_country_flag = mon_king_david
 				has_country_flag = mon_konigin_beatrix
 				has_country_flag = mon_groussherzog_henri
-				has_country_flag = mon_re_victor_emmanuel_iv
+				has_country_flag = mon_re_vittorio_emanuele_iv
 				has_country_flag = mon_konge_harald_v
 				has_country_flag = mon_konung_carl_xvi_gustaf
 				has_country_flag = mon_dronning_margrethe_ii
 				has_country_flag = mon_principu_albertu_ii
-				has_country_flag = mon_prinz_hans_adam_ii
+				has_country_flag = mon_furst_hans_adam_ii
 				has_country_flag = mon_coprinceps_dandorra
 				has_country_flag = mon_rey_juan_carlos_i
 				has_country_flag = mon_roi_baudouin
@@ -75,7 +75,187 @@ defined_text = {
 		trigger = {
 			has_country_flag = mon_queen_margaret
 		}
-		localization_key = ENG_QUEEN_MARGARET_DESC
+		localization_key = "Margaret, by the Grace of God, Queen, Defender of the Faith"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_king_david
+		}
+		localization_key = "David, by the Grace of God, King, Defender of the Faith"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_konigin_beatrix
+		}
+		localization_key = "Beatrix, Queen of the Netherlands"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_groussherzog_henri
+		}
+		localization_key = "Henri, Grand Duke of Luxembourg"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_re_vittorio_emanuele_iv
+		}
+		localization_key = "Victor Emmanuel IV, King of Italy"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_konge_harald_v
+		}
+		localization_key = "Harald V, Norway's King"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_konung_carl_xvi_gustaf
+		}
+		localization_key = "Carl XVI Gustaf, Sweden's King"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_dronning_margrethe_ii
+		}
+		localization_key = "Margrethe II, Denmark's Queen"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_principu_albertu_ii
+		}
+		localization_key = "Albert II, Prince of Monaco"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_furst_hans_adam_ii
+		}
+		localization_key = "Hans-Adam II, Prince of Liechtenstein"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_coprinceps_dandorra
+		}
+		localization_key = "Bishop of Urgell and the President of France, Co-Princes of Andorra"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_rey_juan_carlos_i
+		}
+		localization_key = "Juan Carlos I, King of Spain"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_roi_baudouin
+		}
+		localization_key = "Baudouin, King of the Belgians"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_roi_jean
+		}
+		localization_key = "Jean, King of the Belgians"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_roi_felix
+		}
+		localization_key = "Félix, King of the Belgians"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_roi_louis
+		}
+		localization_key = "Louis, King of the Belgians"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_roi_pierre_louis
+		}
+		localization_key = "Pierre-Louis, King of the Belgians"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_roi_edouard
+		}
+		localization_key = "Édouard, King of the Belgians"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_roi_nicolas
+		}
+		localization_key = "Nicolas, King of the Belgians"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_roi_charles_philippe
+		}
+		localization_key = "Charles-Philippe, King of the Belgians"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_roi_joachim
+		}
+		localization_key = "Joachim, King of the Belgians"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_roi_maximilien
+		}
+		localization_key = "Maximilien, King of the Belgians"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_vasilias_constantinos_ii
+		}
+		localization_key = "Constantine II, King of the Hellenes"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_pacha_mohammed_zahir_shah
+		}
+		localization_key = "Mohammed Zahir Shah, King of Afghanistan"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_maharajdhiraja_birendra
+		}
+		localization_key = "Birendra, King of Nepal"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_druk_gyalpo_jigme_singye
+		}
+		localization_key = "Jigme Singye, The Fourth Druk Gyalpo, The King of Bhutan"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_druk_gyalpo_jigme_khesar
+		}
+		localization_key = "Jigme Khesar, The Fifth Druk Gyalpo, The King of Bhutan"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_pra_mahaa_gasat_rama_ix
+		}
+		localization_key = "Bhumibol Adulyadej, Rama IX"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_yang_dipertuan_agong_sirajuddin
+		}
+		localization_key = "Sultan Tuanku Syed Sirajuddin ibni Almarhum Tuanku Syed Putra, The 12th Yang di-Pertuan Agong"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_tenno_fumihito
+		}
+		localization_key = "Fumihito, Emperor Akishino"
+	}
+	text = {
+		trigger = {
+			has_country_flag = mon_tenno_masahito
+		}
+		localization_key = "Masahito, Emperor Hitachi"
 	}
 }
 defined_text = {

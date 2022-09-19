@@ -1,9 +1,9 @@
 ﻿l_english:
  HOG_OR_HOS:0 "[GetHOSTitle]"
- GUIHOSNAME:0 "§Y[ROOT.GetFigurehead]§!\n\n[THIS.GetHOSTrait]"
+ GUIHOSNAME:0 "§Y[ROOT.GetFigurehead]§!\n\n[THIS.GetHOSTrait]\n--------------\n [THIS.GetHOSDesc]"
  GUIHEADNAME:0 "[GUIHOSNAME]"
  
- PM_OR_QUEEN:0 "Click to switch between §CPrime Minister§! and §GQueen§! view"
+ PM_OR_Q:0 "Click to switch between §CPrime Minister§! and §GQueen§! view"
  
  popular_modifier:0 "Modifier:\n§HPopular Figurehead§!\n§GStability +10%§!"
 

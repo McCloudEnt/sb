@@ -1177,8 +1177,8 @@
  ALB_ZOG_despotism_party_long:0 "House of Zogu"
  
  #POL
- POL_marxism_leninism_party:0 "PZPR"
- POL_marxism_leninism_party_long:0 "Polish United Workers' Party"
+ POL_marxism_leninism_party:0 "PZPR - Civilian"
+ POL_marxism_leninism_party_long:0 "Civilian Faction of the Polish United Workers' Party"
  POL_revisionist_socialism_party:0 "PPS"
  POL_revisionist_socialism_party_long:0 "Polish Socialist Party"
  POL_libertarian_socialism_party:0 "UP"
@@ -1189,12 +1189,15 @@
  POL_liberal_democracy_party_long:0 "Civic Platform of the Republic of Poland"
  POL_conservative_democracy_party:0 "KPN"
  POL_conservative_democracy_party_long:0 "Confederation of Independent Poland"
- POL_classical_authoritarianism_party:0 "PiS"
- POL_classical_authoritarianism_party_long:0 "Law and Justice"
+ POL_classical_authoritarianism_party:0 "PZPR - Junta"
+ POL_classical_authoritarianism_party_long:0 "Junta Faction of the Polish United Workers' Party"
  POL_despotism_party:0 "PRM"
  POL_despotism_party_long:0 "Polish Monarchist Movement"
  POL_ultranationalism_party:0 "NOP"
  POL_ultranationalism_party_long:0 "National Rebirth of Poland"
+ 
+ POL_NWO_classical_authoritarianism_party:0 "PiS"
+ POL_NWO_classical_authoritarianism_party_long:0 "Law and Justice"
  
  #CZS
  CZS_marxism_leninism_party:0 "KSČ - Radical"
@@ -1271,8 +1274,8 @@
  HUN_REF_revisionist_socialism_party_long:0 "Hungarian Socialist Party"
  
  #ROM
- ROM_marxism_leninism_party:0 "PMR"
- ROM_marxism_leninism_party_long:0 "Romanian Workers' Party"
+ ROM_marxism_leninism_party:0 "PMR - Orthodox"
+ ROM_marxism_leninism_party_long:0 "Orthodox Faction of the Romanian Workers' Party"
  ROM_revisionist_socialism_party:0 "PCR"
  ROM_revisionist_socialism_party_long:0 "Romanian Communist Party"
  ROM_libertarian_socialism_party:0 "FP"
@@ -1285,10 +1288,13 @@
  ROM_conservative_democracy_party_long:0 "Force of the Right"
  ROM_classical_authoritarianism_party:0 "PMP"
  ROM_classical_authoritarianism_party_long:0 "People's Movement Party"
- ROM_despotism_party:0 "PNR"
- ROM_despotism_party_long:0 "Romanian Nationhood Party"
+ ROM_despotism_party:0 "PMR - Autocratic"
+ ROM_despotism_party_long:0 "Autocratic Faction of the Romanian Workers' Party"
  ROM_ultranationalism_party:0 "AUR"
  ROM_ultranationalism_party_long:0 "Alliance for the Union of Romanians"
+ 
+ ROM_NIU_despotism_party:0 "PNR"
+ ROM_NIU_despotism_party_long:0 "Romanian Nationhood Party"
  
  #BUL
  BUL_marxism_leninism_party:0 "BKP"

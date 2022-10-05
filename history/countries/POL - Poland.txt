@@ -1,14 +1,15 @@
 ﻿capital = 10
 
 set_politics = {	
-	ruling_party = marxism_leninism
+	ruling_party = classical_authoritarianism
 	last_election = "2005.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	marxism_leninism = 100
+	marxism_leninism = 10
+	classical_authoritarianism = 90
 }
 
 add_ideas = {
@@ -22,12 +23,12 @@ add_ideas = {
 }
 
 recruit_character = POL_anarchy
-recruit_character = POL_wojciech_jaruzelski
+recruit_character = POL_jozef_oleksy
 recruit_character = POL_piotr_ikonowicz
 recruit_character = POL_waldemar_witkowski
 recruit_character = POL_aleksander_kwasniewski
 recruit_character = POL_donald_tusk
 recruit_character = POL_leszek_moczulski
-recruit_character = POL_lech_kaczynski
+recruit_character = POL_wojciech_jaruzelski
 recruit_character = POL_leszek_wierzchowski
 recruit_character = POL_adam_gmurczyk

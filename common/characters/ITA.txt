@@ -81,7 +81,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = classical_liberalism
+			ideology = social_liberalism
 			expire = "2065.1.1.12"
 			traits = {}
 			id = -1

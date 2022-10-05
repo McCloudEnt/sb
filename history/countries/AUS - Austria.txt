@@ -1,7 +1,7 @@
 ﻿capital = 4
 
 set_politics = {	
-	ruling_party = conservative_democracy
+	ruling_party = social_democracy
 	last_election = "2005.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -10,9 +10,9 @@ set_politics = {
 set_popularities = {
 	marxism_leninism = 1
 	libertarian_socialism = 9
-	social_democracy = 37
+	social_democracy = 42
 	liberal_democracy = 1
-	conservative_democracy = 42
+	conservative_democracy = 37
 	classical_authoritarianism = 10
 }
 

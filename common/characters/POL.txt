@@ -13,19 +13,19 @@ characters = {
 			id = -1
 		}
 	}
-	POL_wojciech_jaruzelski = {
-		name = "Wojciech Jaruzelski"
+	POL_jozef_oleksy = {
+		name = "Józef Oleksy"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/POL/POL_Wojciech_Jaruzelski.dds"
+				large = "gfx/leaders/POL/POL_Jozef_Oleksy.dds"
 			}
 		}
 		country_leader = {
-			ideology = stalinism
+			ideology = leninism
 			expire = "2065.1.1.12"
 			traits = {}
 			id = -1
-			desc = POL_WOJCIECH_JARUZELSKI_DESC
+			desc = POL_JOZEF_OLEKSY_DESC
 		}
 	}
 	POL_piotr_ikonowicz = {
@@ -116,6 +116,21 @@ characters = {
 			traits = {}
 			id = -1
 			desc = POL_LECH_KACZYNSKI_DESC
+		}
+	}
+	POL_wojciech_jaruzelski = {
+		name = "Wojciech Jaruzelski"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/POL_Wojciech_Jaruzelski.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_military_dictatorship
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = POL_WOJCIECH_JARUZELSKI_DESC
 		}
 	}
 	POL_leszek_wierzchowski = {

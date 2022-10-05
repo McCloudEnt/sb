@@ -27,6 +27,13 @@ characters = {
 			id = -1
 			desc = ROM_IULIAN_VLAD_DESC
 		}
+		country_leader = {
+			ideology = left_wing_despotism
+			expire = "2065.1.1.12"
+			traits = {}
+			id = -1
+			desc = ROM_IULIAN_VLAD_DESC
+		}
 	}
 	ROM_valentin_ceausescu = {
 		name = "Valentin Ceausescu"

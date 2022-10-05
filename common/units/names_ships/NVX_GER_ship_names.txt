@@ -82,7 +82,11 @@ GER_NAZI_LEADER = {
 #	for_countries = { GER }
 #
 #	can_use = { 
-#		has_government = ultranationalism
+#		OR = { 
+#		has_government = fascist 
+#		has_government = nationalist
+#		has_government = reactionary
+#	  }
 #	}
 #
 #	type = ship

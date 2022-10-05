@@ -38,7 +38,7 @@ SAF_DEMOCRACY_ACTIVIST = {
 	type = ship
 	prefix = "HMSAS "					
 	
-	can_use = { AND = { has_cosmetic_tag = SAF_DEM NOT = { has_government = ultranationalism } } }
+	can_use = { has_cosmetic_tag = SAF_ANC }
 
 	unique = {
 	"Nelson Mandela" "Desmond Tutu" "Amina Cachalia" "Jeremy Cronin" "Anton Fransch" "Venitia Govender" "Ashley Kriel" "Raj Patel" "Moses Mayekiso" "Donald Barkly Molteno" "Harry Schwarz" "Rick Turner" 

@@ -6,7 +6,7 @@ ENG_COUNTIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = marxism_leninism }
+		not = { has_cosmetic_tag = ENG_REP }
 	}
 
 	type = ship
@@ -36,7 +36,7 @@ ENG_CITIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = marxism_leninism }
+		not = { has_cosmetic_tag = ENG_REP }
 	}
 
 	type = ship
@@ -62,7 +62,7 @@ ENG_COLONIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = marxism_leninism }
+		not = { has_cosmetic_tag = ENG_REP }
 	}
 
 	type = ship
@@ -81,7 +81,7 @@ ENG_KINGS = {
 	for_countries = { ENG }
 
 	can_use = { 
-		NOT = { has_government = marxism_leninism }
+		NOT = { has_cosmetic_tag = ENG_REP }
 	}
 
 	type = ship
@@ -106,7 +106,7 @@ ENG_BATTLES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		NOT = { has_government = marxism_leninism }
+		NOT = { has_cosmetic_tag = ENG_REP }
 	}
 
 	type = ship
@@ -129,7 +129,7 @@ ENG_RIVERS = {
 	for_countries = { ENG }
 
 	can_use = { 
-		NOT = { has_government = marxism_leninism }
+		NOT = { has_cosmetic_tag = ENG_REP }
 	}
 
 	type = ship
@@ -151,7 +151,7 @@ ENG_MYTHOLOGY = {
 	for_countries = { ENG }
 
 	can_use = { 
-		NOT = { has_government = marxism_leninism }
+		NOT = { has_cosmetic_tag = ENG_REP }
 	}
 
 	type = ship
@@ -176,13 +176,13 @@ ENG_COUNTIES_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = marxism_leninism
+		has_cosmetic_tag = ENG_REP
 	}
 
 	type = ship
 	#ship_types = { ship_hull_heavy ship_hull_light ship_hull_cruiser ship_hull_submarine }
 
-	prefix = "WLNS "
+	prefix = "BNS "
 
 	unique = {
 		"Yorkshire" "Lincolnshire" "Devon" "Norfolk" "Northumberland" "Lancashire" "Somerset" "Hampshire" "Kent" "Essex" 
@@ -207,13 +207,13 @@ ENG_CITIES_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = marxism_leninism
+		has_cosmetic_tag = ENG_REP
 	}
 
 	type = ship
 	#ship_types = { ship_hull_heavy ship_hull_light ship_hull_cruiser ship_hull_submarine }
 
-	prefix = "WLNS "
+	prefix = "BNS "
 
 	unique = {
 		"London" "Birmingham" "Leeds" "Glasgow" "Sheffield" "Bradford" "Manchester" "Edinburgh" "Liverpool" "Bristol" 
@@ -234,13 +234,13 @@ ENG_ADMIRALS_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = marxism_leninism
+		has_cosmetic_tag = ENG_REP
 	}
 
 	type = ship
 	#ship_types = { ship_hull_heavy ship_hull_light ship_hull_cruiser ship_hull_submarine }
 
-	prefix = "WLNS "
+	prefix = "BNS "
 
 	unique = {
 		"Blake" "Deane" "Popham" "Monck" "Penn" "Montague" "Desborow" 
@@ -255,12 +255,12 @@ ENG_BATTLES_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = marxism_leninism
+		has_cosmetic_tag = ENG_REP
 	}
 
 	type = ship
 
-	prefix = "WLNS "
+	prefix = "BNS "
 	#ship_types = { ship_hull_heavy ship_hull_light ship_hull_cruiser ship_hull_submarine }
 
 	unique = {
@@ -280,13 +280,13 @@ ENG_RIVERS_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = marxism_leninism
+		has_cosmetic_tag = ENG_REP
 	}
 
 	type = ship
 	#ship_types = { ship_hull_heavy ship_hull_light ship_hull_cruiser ship_hull_submarine }
 
-	prefix = "WLNS "
+	prefix = "BNS "
 
 	unique = {
 		"Severn" "Thames" "Trent" "Great Ouse" "Wye" "Ure" "Tay" "Clyde" "Spey" "Nene" "Bann" "Tweed" 

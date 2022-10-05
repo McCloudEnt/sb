@@ -138,9 +138,9 @@ FRA_PRESIDENTS = {
 
 	for_countries = { FRA }
 
-	can_use = { 
-		NOT = { has_government = despotism }
-	}
+	#can_use = { 
+	#	NOT = { has_cosmetic_tag = FRA_MON }
+	#}
 
 	type = ship
 	#ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_carrier }
@@ -165,7 +165,7 @@ FRA_KINGS = {
 	for_countries = { FRA }
 
 	can_use = { 
-		NOT = { has_government = marxism_leninism }
+		NOT = { NVX_has_ideology_far_left = yes }
 	}
 
 	type = ship
@@ -189,11 +189,7 @@ FRA_VICHY_FRANCE = {
 	for_countries = { FRA }
 
 	can_use = { 
-		OR = { 
-		has_government = ultranationalism
-		has_government = despotism
-		has_government = classical_authoritarianism
-	  }
+		NVX_has_government_right_auth = yes
 	}
 
 	type = ship

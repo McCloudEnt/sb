@@ -7,7 +7,7 @@ AST_STATES = {
 	for_countries = { AST }
 
 	can_use = { 
-		not = { has_government = marxism_leninism }
+		not = { has_cosmetic_tag = AST_REP }
 	}
 
 	type = ship
@@ -28,7 +28,7 @@ AST_CITIES = {
 	for_countries = { AST }
 
 	can_use = { 
-		not = { has_government = marxism_leninism }
+		not = { has_cosmetic_tag = AST_REP }
 	}
 
 	type = ship
@@ -49,7 +49,7 @@ AST_TRIBES = {
 	for_countries = { AST }
 
 	can_use = { 
-		not = { has_government = marxism_leninism }
+		not = { has_cosmetic_tag = AST_REP }
 	}
 
 	type = ship
@@ -72,7 +72,7 @@ AST_ANIMALS = {
 	for_countries = { AST }
 
 	can_use = { 
-		not = { has_government = marxism_leninism }
+		not = { has_cosmetic_tag = AST_REP }
 	}
 
 	type = ship
@@ -109,13 +109,13 @@ AST_STATES = {
 	for_countries = { AST }
 
 	can_use = { 
-		has_government = marxism_leninism
+		has_cosmetic_tag = AST_REP
 	}
 
 	type = ship
 	#ship_types = { ship_hull_heavy ship_hull_light ship_hull_cruiser ship_hull_submarine ship_hull_carrier }
 
-	prefix = "RNS "							
+	prefix = "ANS "							
 	unique = {
 		"New South Wales" "Queensland" "South Australia" "Tasmania" "Victoria" "Western Australia" "Capital Territory" "Jervis Bay" 
 		"Northern Territory" "Ashmore Island" "Cartier Island" "Christmas Island" "Cocos Islands" "Coral Sea" "Heard Island" "McDonald Islands" 
@@ -130,13 +130,13 @@ AST_CITIES = {
 	for_countries = { AST }
 
 	can_use = { 
-		has_government = marxism_leninism
+		has_cosmetic_tag = AST_REP
 	}
 
 	type = ship
 	#ship_types = { ship_hull_heavy ship_hull_light ship_hull_cruiser ship_hull_submarine ship_hull_carrier }
 
-	prefix = "RNS "							
+	prefix = "ANS "							
 	unique = {
 		"Sydney" "Melbourne" "Brisbane" "Perth" "Adelaide" "Canberra" "Hobart" "Darwin" "Gold Coast" "Newcastle" "Sunshine Coast" "Wollongong" 
 		"Geelong" "Townsville" "Cairns" "Toowoomba" "Ballarat" "Bendigo" "Albury" "Mackay" "Rockhampton" "Launceston" "Bunbury" "Bundaberg" 
@@ -151,13 +151,13 @@ AST_TRIBES = {
 	for_countries = { AST }
 
 	can_use = { 
-		has_government = marxism_leninism
+		has_cosmetic_tag = AST_REP
 	}
 
 	type = ship
 	#ship_types = { ship_hull_heavy ship_hull_light ship_hull_cruiser ship_hull_submarine ship_hull_carrier }
 
-	prefix = "RNS "							
+	prefix = "ANS "							
 	unique = {
 		"Alyawarre" "Adnyamathanha" "Anmatjera" "Arunta" "Dieri" "Gunai" "Gurindji" "Guugu Yimithirr" "Jarrakan" "Kalkadoon" "Kaurna" "Kulin" 
 		"Kunibidji" "Luritja" "Maralinga Tjarutja" "Murrinh-Patha" "Murrawarri" "Ngarrindjeri" "Narungga" "Ngunnawal" "Nyungar" "Spinefex" 
@@ -174,13 +174,13 @@ AST_ANIMALS_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = { 
-		has_government = marxism_leninism
+		has_cosmetic_tag = AST_REP
 	}
 
 	type = ship
 	#ship_types = { ship_hull_heavy ship_hull_light ship_hull_cruiser ship_hull_submarine ship_hull_carrier }
 	
-	prefix = "RNS "							
+	prefix = "ANS "							
 	unique = {
 		"Koala"
 		"Crocodile"

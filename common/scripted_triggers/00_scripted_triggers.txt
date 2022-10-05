@@ -2,6 +2,54 @@ has_game_started = {
 	has_global_flag = game_start
 }
 
+is_unlikely_country_tag = {
+	has_country_flag = NVX_unlikely_country
+}
+
+has_same_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_same_ideology_tt
+		OR = {
+			AND = {
+				has_government = marxism_leninism
+				ROOT = { has_government = marxism_leninism }
+			}
+			AND = {
+				has_government = revisionist_socialism
+				ROOT = { has_government = revisionist_socialism }
+			}
+			AND = {
+				has_government = libertarian_socialism
+				ROOT = { has_government = libertarian_socialism }
+			}
+			AND = {
+				has_government = social_democracy
+				ROOT = { has_government = social_democracy }
+			}
+			AND = {
+				has_government = liberal_democracy
+				ROOT = { has_government = liberal_democracy }
+			}
+			AND = {
+				has_government = conservative_democracy
+				ROOT = { has_government = conservative_democracy }
+			}
+			AND = {
+				has_government = classical_authoritarianism
+				ROOT = { has_government = classical_authoritarianism }
+			}
+			AND = {
+				has_government = despotism
+				ROOT = { has_government = despotism }
+			}
+			AND = {
+				has_government = ultranationalism
+				ROOT = { has_government = ultranationalism }
+			}
+		}
+	}
+}
+
 NVX_has_government_democratic = {
 	OR = {
 		has_government = classical_authoritarianism
@@ -76,6 +124,12 @@ NVX_has_ideology_far_left = {
 	OR = {
 		has_government = libertarian_socialism
 		has_government = revisionist_socialism
+		has_government = marxism_leninism
+	}
+}
+
+NVX_has_ideology_far_far_left = {
+	OR = {
 		has_government = marxism_leninism
 	}
 }

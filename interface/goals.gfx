@@ -5,6 +5,10 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
+		name = "GFX_goal_generic_trade"
+		texturefile = "gfx/interface/goals/goal_generic_trade.dds"			
+	}
+	SpriteType = {
 		name = "GFX_goal_shine_test"
 		texturefile = "gfx/interface/goals/goal_generic_production.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"

@@ -24,7 +24,11 @@ add_ideas = {
 	idea_sp_voting
 	idea_moralism
 	idea_restricted_freedoms
+	hos_mediocre
 }
+
+set_country_flag = has_symbolic_figurehead
+set_country_flag = mon_rey_juan_carlos_i
 
 recruit_character = SPR_anarchy
 recruit_character = SPR_santiago_carillo

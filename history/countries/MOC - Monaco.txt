@@ -20,7 +20,11 @@ add_ideas = {
 	idea_fp_voting
 	idea_pluralism
 	idea_limited_freedoms
+	hos_mediocre
 }
+
+set_country_flag = has_symbolic_figurehead
+set_country_flag = mon_principu_albertu_ii
 
 recruit_character = MOC_anarchy
 recruit_character = MOC_collective_leadership

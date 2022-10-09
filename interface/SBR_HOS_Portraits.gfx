@@ -29,4 +29,52 @@ spriteTypes = {
 		texturefile = "gfx//leaders//ITA//ITA_King_Victor_Emmanuel_IV.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_konge_harald_v"
+		texturefile = "gfx//leaders//NOR//NOR_King_Harald_V.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_konung_carl_xvi_gustaf"
+		texturefile = "gfx//leaders//SWE//SWE_King_Carl_XVI_Gustaf.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_dronning_margrethe_ii"
+		texturefile = "gfx//leaders//DEN//DEN_Queen_Margrethe_II.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_principu_albertu_ii"
+		texturefile = "gfx//leaders//MOC//MOC_Prince_Albert_II.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_furst_hans_adam_ii"
+		texturefile = "gfx//leaders//LIC//LIC_Prince_Hans_Adam_II.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_coprinceps_dandorra"
+		texturefile = "gfx//leaders//AND//AND_Andorran_Co_Princes.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_rey_juan_carlos_i"
+		texturefile = "gfx//leaders//SPR//SPR_King_Juan_Carlos_I.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_vasilias_constantinos_ii"
+		texturefile = "gfx//leaders//CRE//CRE_King_Constantine_II.dds"
+		legacy_lazy_load = no
+	}
 }

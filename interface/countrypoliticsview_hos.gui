@@ -29,6 +29,54 @@ guiTypes = {
 			spriteType = "GFX_portrait_re_vittorio_emanuele_iv"
 		}
 		
+		iconType = {
+			name = "King_Harald_V" #Feel free to change the name, but change it in head_of_state.txt as well.
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_portrait_konge_harald_v"
+		}
+		
+		iconType = {
+			name = "King_Carl_XVI_Gustaf" #Feel free to change the name, but change it in head_of_state.txt as well.
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_portrait_konung_carl_xvi_gustaf"
+		}
+		
+		iconType = {
+			name = "Queen_Margrethe_II" #Feel free to change the name, but change it in head_of_state.txt as well.
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_portrait_dronning_margrethe_ii"
+		}
+		
+		iconType = {
+			name = "Prince_Albert_II" #Feel free to change the name, but change it in head_of_state.txt as well.
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_portrait_principu_albertu_ii"
+		}
+		
+		iconType = {
+			name = "Prince_Hans_Adam_II" #Feel free to change the name, but change it in head_of_state.txt as well.
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_portrait_furst_hans_adam_ii"
+		}
+		
+		iconType = {
+			name = "Andorran_Co_Princes" #Feel free to change the name, but change it in head_of_state.txt as well.
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_portrait_coprinceps_dandorra"
+		}
+		
+		iconType = {
+			name = "King_Juan_Carlos_I" #Feel free to change the name, but change it in head_of_state.txt as well.
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_portrait_rey_juan_carlos_i"
+		}
+		
+		iconType = {
+			name = "King_Constantine_II" #Feel free to change the name, but change it in head_of_state.txt as well.
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_portrait_vasilias_constantinos_ii"
+		}
+		
 		buttonType = {
 			name = "figurehead_frame"
 			quadTextureSprite ="GFX_pol_leader_frame"

@@ -1,7 +1,7 @@
 ﻿capital = 110
 
 set_politics = {	
-	ruling_party = conservative_democracy
+	ruling_party = social_democracy
 	last_election = "2005.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -10,9 +10,9 @@ set_politics = {
 set_popularities = {
 	revisionist_socialism = 9
 	libertarian_socialism = 2
-	social_democracy = 14
+	social_democracy = 40
 	liberal_democracy = 13
-	conservative_democracy = 40
+	conservative_democracy = 14
 	classical_authoritarianism = 22
 }
 
@@ -24,7 +24,11 @@ add_ideas = {
 	idea_fp_voting
 	idea_pluralism
 	idea_maximum_freedoms
+	hos_popular_figurehead
 }
+
+set_country_flag = has_symbolic_figurehead
+set_country_flag = mon_konge_harald_v
 
 recruit_character = NOR_anarchy
 recruit_character = NOR_jorun_gulbrandsen

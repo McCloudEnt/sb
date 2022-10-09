@@ -26,7 +26,11 @@ add_ideas = {
 	idea_sp_voting
 	idea_lite_secularism
 	idea_restricted_freedoms
+	hos_popular_figurehead
 }
+
+set_country_flag = has_symbolic_figurehead
+set_country_flag = mon_konung_carl_xvi_gustaf
 
 recruit_character = SWE_anarchy
 recruit_character = SWE_lars_ohly

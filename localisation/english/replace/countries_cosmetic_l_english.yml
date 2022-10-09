@@ -278,6 +278,10 @@
  SPR_REP_despotism:0 "Spanish Republic"
  SPR_REP_despotism_DEF:0 "The Spanish Republic"
  
+ #ROM
+ ROM_MON_despotism:0 "Kingdom of Romania"
+ ROM_MON_despotism_DEF:0 "The Kingdom of Romania"
+ 
  #NZL
  NZL_REP_libertarian_socialism:0 "Republic of New Zealand"
  NZL_REP_libertarian_socialism_DEF:0 "The Republic of New Zealand"

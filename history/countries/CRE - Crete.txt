@@ -24,7 +24,11 @@ add_ideas = {
 	idea_mixed_system
 	idea_pluralism
 	idea_limited_freedoms
+	hos_mediocre
 }
+
+set_country_flag = has_symbolic_figurehead
+set_country_flag = mon_vasilias_constantinos_ii
 
 recruit_character = CRE_anarchy
 recruit_character = CRE_aleka_papariga

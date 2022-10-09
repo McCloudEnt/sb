@@ -23,7 +23,11 @@ add_ideas = {
 	idea_mixed_system
 	idea_lite_secularism
 	idea_maximum_freedoms
+	hos_mediocre
 }
+
+set_country_flag = has_symbolic_figurehead
+set_country_flag = mon_coprinceps_dandorra
 
 recruit_character = AND_anarchy
 recruit_character = AND_collective_leadership

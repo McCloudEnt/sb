@@ -1,7 +1,7 @@
 ﻿capital = 37
 
 set_politics = {	
-	ruling_party = liberal_democracy
+	ruling_party = social_democracy
 	last_election = "2005.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -11,8 +11,8 @@ set_popularities = {
 	marxism_leninism = 2
 	revisionist_socialism = 3
 	libertarian_socialism = 6
-	social_democracy = 26
-	liberal_democracy = 38
+	social_democracy = 38
+	liberal_democracy = 26
 	conservative_democracy = 10
 	classical_authoritarianism = 13
 	ultranationalism = 2
@@ -26,7 +26,11 @@ add_ideas = {
 	idea_fp_voting
 	idea_pluralism
 	idea_maximum_freedoms
+	hos_popular_figurehead
 }
+
+set_country_flag = has_symbolic_figurehead
+set_country_flag = mon_dronning_margrethe_ii
 
 recruit_character = DEN_anarchy
 recruit_character = DEN_ole_sohn

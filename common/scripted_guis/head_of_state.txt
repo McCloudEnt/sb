@@ -48,6 +48,62 @@ scripted_gui = {
 					has_country_flag = mon_re_vittorio_emanuele_iv
 				}
 			}
+			
+			King_Harald_V_visible = {
+				AND = {
+					has_country_flag = figurehead_view
+					has_country_flag = mon_konge_harald_v
+				}
+			}
+			
+			King_Carl_XVI_Gustaf_visible = {
+				AND = {
+					has_country_flag = figurehead_view
+					has_country_flag = mon_konung_carl_xvi_gustaf
+				}
+			}
+			
+			Queen_Margrethe_II_visible = {
+				AND = {
+					has_country_flag = figurehead_view
+					has_country_flag = mon_dronning_margrethe_ii
+				}
+			}
+			
+			Prince_Albert_II_visible = {
+				AND = {
+					has_country_flag = figurehead_view
+					has_country_flag = mon_principu_albertu_ii
+				}
+			}
+			
+			Prince_Hans_Adam_II_visible = {
+				AND = {
+					has_country_flag = figurehead_view
+					has_country_flag = mon_furst_hans_adam_ii
+				}
+			}
+			
+			Andorran_Co_Princes_visible = {
+				AND = {
+					has_country_flag = figurehead_view
+					has_country_flag = mon_coprinceps_dandorra
+				}
+			}
+			
+			King_Juan_Carlos_I_visible = {
+				AND = {
+					has_country_flag = figurehead_view
+					has_country_flag = mon_rey_juan_carlos_i
+				}
+			}
+			
+			King_Constantine_II_visible = {
+				AND = {
+					has_country_flag = figurehead_view
+					has_country_flag = mon_vasilias_constantinos_ii
+				}
+			}
 		}
 		
 		visible = {

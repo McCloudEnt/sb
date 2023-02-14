@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = DEN
+		owner = WDE
 		add_core_of = DEN
 		add_core_of = WDE
 		victory_points = { 6364 7 } #Aarhus

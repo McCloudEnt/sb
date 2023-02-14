@@ -5,7 +5,7 @@ state={
 		3325 3374 
 	}
 	history = {
-		owner = WDE
+		owner = DEN
 		add_core_of = DEN
 		add_core_of = WDE
 		victory_points = { 3325 5 }

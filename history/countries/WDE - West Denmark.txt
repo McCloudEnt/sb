@@ -1,4 +1,4 @@
-﻿capital = 887
+﻿capital = 99
 
 set_politics = {	
 	ruling_party = marxism_leninism
